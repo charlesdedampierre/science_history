@@ -78,9 +78,11 @@ def get_proportionned_occupations(
 
 
 if __name__ == "__main__":
-    data = pd.read_csv("data/df_indi_occupations.csv", index_col=[0])
+    from functions.env import DATA_PATH, DB_SCIENCE_PATH
+
+    data = pd.read_csv(DATA_PATH + "/df_indi_occupations.csv", index_col=[0])
     df_annotation = pd.read_excel(
-        "data/ENS - True Science.xlsx", sheet_name="cleaning_top_occupations"
+        DATA_PATH + "/ENS - True Science.xlsx", sheet_name="cleaning_top_occupations"
     )
     df_annotation = df_annotation[df_annotation["erase"].isna()]
     df_annotation = df_annotation[df_annotation["count_occupation"] >= 10]
@@ -89,7 +91,7 @@ if __name__ == "__main__":
     )
 
     clean_dict = pd.read_excel(
-        "data/ENS - True Science.xlsx", sheet_name="co_occurence_occupation"
+        DATA_PATH + "/ENS - True Science.xlsx", sheet_name="co_occurence_occupation"
     )
     clean_dict = (
         clean_dict[["source", "target", "remove_occupation"]]
@@ -135,5 +137,5 @@ if __name__ == "__main__":
         lambda x: replace_occupation.get(x, x)
     )
 
-    conn = sqlite3.connect("database.db")
+    conn = sqlite3.connect(DB_SCIENCE_PATH)
     data.to_sql("df_cleaned_occupations", conn, if_exists="replace", index=False)

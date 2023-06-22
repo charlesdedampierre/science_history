@@ -1,13 +1,11 @@
 import pandas as pd
 import plotly.express as px
-import os
 import sqlite3
+from functions.env import DB_SCIENCE_PATH, IMAGES_PATH
 
-conn = sqlite3.connect("database.db")
 
-directory = "images"
-if not os.path.exists(directory):
-    os.makedirs(directory)
+conn = sqlite3.connect(DB_SCIENCE_PATH)
+
 
 if __name__ == "__main__":
     df = pd.read_sql("SELECT * FROM optimization", conn)
@@ -24,5 +22,5 @@ if __name__ == "__main__":
     fig = px.line(
         df_fig, x="n_neighbours", y="mean", color="category", template="simple_white"
     )
-    fig.write_image("images/optimization.png", scale=5)
+    fig.write_image(IMAGES_PATH + "/optimization.png", scale=5)
     fig.show()

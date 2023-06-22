@@ -3,14 +3,11 @@ import plotly.express as px
 import sqlite3
 import pandas as pd
 import os
-from src.feat_utils import gini
+from functions.feat_utils import gini
+from functions.env import FULL_DB_PATH, DB_SCIENCE_PATH, IMAGES_PATH
 
-from dotenv import load_dotenv
-
-load_dotenv()
-
-conn_full_db = sqlite3.connect(os.getenv("FULL_DB_PATH"))
-conn = sqlite3.connect("database.db")
+conn_full_db = sqlite3.connect(FULL_DB_PATH)
+conn = sqlite3.connect(DB_SCIENCE_PATH)
 
 
 if __name__ == "__main__":
@@ -63,4 +60,4 @@ if __name__ == "__main__":
         title="Gini Index",
     )
 
-    fig.write_image(f"images/gini_region.png", scale=5)
+    fig.write_image(IMAGES_PATH + "/gini_region.png", scale=5)

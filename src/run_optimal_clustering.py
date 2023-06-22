@@ -1,21 +1,15 @@
-import os
 import sqlite3
 from tqdm import tqdm
 import pandas as pd
 import numpy as np
 import polars as pl
-from src.feat_network import get_edge_node_table, filter_edge_table
-from src.feat_visualization import sygma_graph
-from src.feat_optimization import get_rand_index, get_mean
-
-conn = sqlite3.connect("database.db")
-
-directory = "graph"
-if not os.path.exists(directory):
-    os.makedirs(directory)
+from functions.feat_network import get_edge_node_table, filter_edge_table
+from functions.feat_visualization import sygma_graph
+from functions.feat_optimization import get_rand_index, get_mean
+from functions.env import DB_SCIENCE_PATH
 
 if __name__ == "__main__":
-    conn = sqlite3.connect("database.db")
+    conn = sqlite3.connect(DB_SCIENCE_PATH)
     data = pd.read_sql("SELECT * FROM individual_id_cleaned_occupations", conn)
     data.columns = ["source", "target"]
     data["weight"] = 1

@@ -1,22 +1,14 @@
 import sqlite3
 import pandas as pd
 import polars as pl
-import os
-from tqdm import tqdm
-from src.feat_network import get_edge_node_table, filter_edge_table
-from src.feat_visualization import sygma_graph
-from src.datamodel import OptimumParameter
+from functions.feat_network import get_edge_node_table, filter_edge_table
+from functions.feat_visualization import sygma_graph
+from functions.datamodel import OptimumParameter
 
-from dotenv import load_dotenv
+from functions.env import GRAPH_RESULTS, DB_SCIENCE_PATH, FULL_DB_PATH
 
-load_dotenv()
-
-directory = "graph/region"
-if not os.path.exists(directory):
-    os.makedirs(directory)
-
-conn_full_db = sqlite3.connect(os.getenv("FULL_DB_PATH"))
-conn = sqlite3.connect("database.db")
+conn_full_db = sqlite3.connect(FULL_DB_PATH)
+conn = sqlite3.connect(DB_SCIENCE_PATH)
 
 optimal_parameters = pd.read_sql("SELECT * FROM optimization", conn)
 optimal_parameters = optimal_parameters.sort_values("mean", ascending=False)
@@ -71,5 +63,5 @@ if __name__ == "__main__":
         edge_bins=10,
         node_bins=10,
         resolution=dict_op.resolution,
-        filepath=f"graph/region/non_europe.html",
+        filepath=GRAPH_RESULTS + "/region/non_europe.html",
     )

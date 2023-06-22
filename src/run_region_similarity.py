@@ -5,12 +5,9 @@ from sklearn.metrics import adjusted_rand_score
 
 import seaborn as sns
 import matplotlib.pyplot as plt
+from functions.env import DB_SCIENCE_PATH, IMAGES_PATH
 
-directory = "images"
-if not os.path.exists(directory):
-    os.makedirs(directory)
-
-conn = sqlite3.connect("database.db")
+conn = sqlite3.connect(DB_SCIENCE_PATH)
 
 if __name__ == "__main__":
     df = pd.read_sql("SELECT * FROM region_optimized_partition", conn)
@@ -60,4 +57,4 @@ if __name__ == "__main__":
     df_final = df_final.fillna(1)
 
     fig = sns.clustermap(df_final, cmap="Blues")
-    plt.savefig("images/region_ari_comparison.png", dpi=300)
+    plt.savefig(IMAGES_PATH + "/region_ari_comparison.png", dpi=300)
