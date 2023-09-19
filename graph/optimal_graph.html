@@ -16,7 +16,7 @@
   "version_major": 2,
   "version_minor": 0,
   "state": {
-    "0ba70c25307d4e68bed87e27a8afb2b7": {
+    "96afa53ab2e34223bb1ae06fa89a7e0d": {
       "model_name": "SigmaModel",
       "model_module": "ipysigma",
       "model_module_version": "^0.24.1",
@@ -1328,10 +1328,10 @@
         "start_layout_for_seconds": null,
         "sync_key": null,
         "sync_targets": [
-          "hover",
           "selection",
-          "layout",
-          "camera"
+          "hover",
+          "camera",
+          "layout"
         ],
         "ui_settings": {
           "hideInfoPanel": false,
@@ -1344,21 +1344,19 @@
             "default": null
           },
           "nodeLabelSize": {
-            "type": "continuous",
-            "range": [
-              7,
-              20
-            ],
-            "attribute": "node_size",
-            "default": 12
+            "type": "constant",
+            "default": 25
           },
           "nodeLabelColor": {
-            "type": "constant",
+            "type": "category",
+            "attribute": "community",
+            "palette": "Dark2",
             "default": "#000"
           },
           "nodeColor": {
             "type": "category",
             "attribute": "community",
+            "palette": "Dark2",
             "default": "#999"
           },
           "nodeColorSaturation": {
@@ -1433,7 +1431,7 @@
 }
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"version_major": 2, "version_minor": 0, "model_id": "0ba70c25307d4e68bed87e27a8afb2b7"}
+{"version_major": 2, "version_minor": 0, "model_id": "96afa53ab2e34223bb1ae06fa89a7e0d"}
 </script>
 
 </body>
