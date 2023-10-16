@@ -1,6 +1,7 @@
 import pandas as pd
-from .feat_utils import specificity, normalize_cosine
 import polars as pl
+
+from .feat_utils import normalize_cosine, specificity
 
 
 def get_edge_node_table(df: pl.DataFrame, sample=10000, seed=42):

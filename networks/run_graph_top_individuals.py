@@ -1,11 +1,15 @@
 import sqlite3
+import sys
+
 import pandas as pd
 import polars as pl
 
-from functions.feat_network import get_edge_node_table, filter_edge_table
-from functions.feat_visualization import sygma_graph
+sys.path.append("../")
+
 from functions.datamodel import OptimumParameter
-from functions.env import GRAPH_RESULTS, DB_SCIENCE_PATH
+from functions.env import DB_SCIENCE_PATH, GRAPH_RESULTS
+from functions.feat_network import filter_edge_table, get_edge_node_table
+from functions.feat_visualization import sygma_graph
 
 conn = sqlite3.connect(DB_SCIENCE_PATH)
 
@@ -18,6 +22,12 @@ dict_op = OptimumParameter(**dict_op)
 
 if __name__ == "__main__":
     df = pd.read_sql("SELECT * FROM individual_id_cleaned_occupations", conn)
+    df_score = pd.read_sql("SELECT * FROM individual_score", conn)
+    df_score = df_score.sort_values(by="score", ascending=False)
+    # get the 20% most known individuals
+    df_score = df_score.iloc[: int(0.1 * len(df_score))]
+    known_individuals = list(set(df_score["wikidata_id"]))
+    df = df[df["wikidata_id"].isin(known_individuals)]
     df.columns = ["source", "target"]
     df["weight"] = 1
 
@@ -39,7 +49,9 @@ if __name__ == "__main__":
         edge_bins=10,
         node_bins=10,
         resolution=dict_op.resolution,
-        filepath=GRAPH_RESULTS + "/optimal_graph.html",
+        filepath=GRAPH_RESULTS + "/optimal_graph_top_individuals.html",
     )
 
-    df_partition.to_sql("optimal_partition", conn, if_exists="replace", index=False)
+    df_partition.to_sql(
+        "partition_top_individuals", conn, if_exists="replace", index=False
+    )

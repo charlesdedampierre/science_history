@@ -16,7 +16,7 @@
   "version_major": 2,
   "version_minor": 0,
   "state": {
-    "680a8114f82c4e338f87c5694878275b": {
+    "c617403e682a4069901bd738d8d268b7": {
       "model_name": "SigmaModel",
       "model_module": "ipysigma",
       "model_module_version": "^0.24.1",
@@ -34,7 +34,7 @@
               "key": "zoologist",
               "attributes": {
                 "community": 0,
-                "node_size": 10
+                "node_size": 8
               }
             },
             {
@@ -45,13 +45,6 @@
               }
             },
             {
-              "key": "geologist",
-              "attributes": {
-                "community": 0,
-                "node_size": 7
-              }
-            },
-            {
               "key": "paleontologist",
               "attributes": {
                 "community": 0,
@@ -59,24 +52,17 @@
               }
             },
             {
+              "key": "geologist",
+              "attributes": {
+                "community": 0,
+                "node_size": 5
+              }
+            },
+            {
               "key": "anatomist",
               "attributes": {
                 "community": 0,
-                "node_size": 6
-              }
-            },
-            {
-              "key": "historian",
-              "attributes": {
-                "community": 1,
-                "node_size": 9
-              }
-            },
-            {
-              "key": "anthropologist",
-              "attributes": {
-                "community": 1,
-                "node_size": 6
+                "node_size": 5
               }
             },
             {
@@ -87,38 +73,52 @@
               }
             },
             {
-              "key": "physicist",
+              "key": "chemist",
               "attributes": {
-                "community": 2,
+                "community": 0,
                 "node_size": 8
               }
             },
             {
-              "key": "theologian",
+              "key": "physicist",
               "attributes": {
-                "community": 2,
-                "node_size": 5
+                "community": 1,
+                "node_size": 6
               }
             },
             {
-              "key": "mathematician",
-              "attributes": {
-                "community": 2,
-                "node_size": 10
-              }
-            },
-            {
-              "key": "philosopher",
+              "key": "anthropologist",
               "attributes": {
                 "community": 2,
                 "node_size": 6
               }
             },
             {
+              "key": "theologian",
+              "attributes": {
+                "community": 1,
+                "node_size": 4
+              }
+            },
+            {
+              "key": "philosopher",
+              "attributes": {
+                "community": 1,
+                "node_size": 8
+              }
+            },
+            {
+              "key": "mathematician",
+              "attributes": {
+                "community": 1,
+                "node_size": 10
+              }
+            },
+            {
               "key": "astronomer",
               "attributes": {
-                "community": 2,
-                "node_size": 9
+                "community": 1,
+                "node_size": 10
               }
             },
             {
@@ -129,72 +129,58 @@
               }
             },
             {
-              "key": "taxonomist",
+              "key": "musicologist",
               "attributes": {
-                "community": 0,
-                "node_size": 1
+                "community": 1,
+                "node_size": 4
+              }
+            },
+            {
+              "key": "historian",
+              "attributes": {
+                "community": 2,
+                "node_size": 9
               }
             },
             {
               "key": "sociologist",
               "attributes": {
-                "community": 1,
-                "node_size": 3
+                "community": 2,
+                "node_size": 2
               }
             },
             {
               "key": "economist",
               "attributes": {
-                "community": 1,
+                "community": 2,
                 "node_size": 7
               }
             },
             {
               "key": "political scientist",
               "attributes": {
-                "community": 1,
+                "community": 2,
                 "node_size": 3
-              }
-            },
-            {
-              "key": "archeologist",
-              "attributes": {
-                "community": 1,
-                "node_size": 8
               }
             },
             {
               "key": "linguist",
               "attributes": {
-                "community": 1,
-                "node_size": 5
+                "community": 2,
+                "node_size": 6
               }
             },
             {
-              "key": "musicologist",
+              "key": "archeologist",
               "attributes": {
                 "community": 2,
-                "node_size": 5
-              }
-            },
-            {
-              "key": "chemist",
-              "attributes": {
-                "community": 0,
-                "node_size": 8
+                "node_size": 7
               }
             },
             {
               "key": "meteorologist",
               "attributes": {
-                "community": 2,
-                "node_size": 4
-              }
-            },
-            {
-              "key": "pharmacologist",
-              "attributes": {
-                "community": 0,
+                "community": 1,
                 "node_size": 3
               }
             },
@@ -208,13 +194,6 @@
             {
               "key": "epidemiologist",
               "attributes": {
-                "community": 2,
-                "node_size": 2
-              }
-            },
-            {
-              "key": "ecologist",
-              "attributes": {
                 "community": 0,
                 "node_size": 1
               }
@@ -222,7 +201,7 @@
             {
               "key": "art theorist",
               "attributes": {
-                "community": 1,
+                "community": 2,
                 "node_size": 2
               }
             }
@@ -237,13 +216,6 @@
             },
             {
               "source": "zoologist",
-              "target": "geologist",
-              "attributes": {
-                "weight": 9
-              }
-            },
-            {
-              "source": "zoologist",
               "target": "paleontologist",
               "attributes": {
                 "weight": 9
@@ -251,79 +223,23 @@
             },
             {
               "source": "zoologist",
+              "target": "geologist",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "zoologist",
               "target": "anatomist",
-              "attributes": {
-                "weight": 8
-              }
-            },
-            {
-              "source": "zoologist",
-              "target": "historian",
-              "attributes": {
-                "weight": 7
-              }
-            },
-            {
-              "source": "zoologist",
-              "target": "anthropologist",
-              "attributes": {
-                "weight": 7
-              }
-            },
-            {
-              "source": "zoologist",
-              "target": "geographer",
               "attributes": {
                 "weight": 6
               }
             },
             {
               "source": "zoologist",
-              "target": "physicist",
+              "target": "geographer",
               "attributes": {
                 "weight": 5
-              }
-            },
-            {
-              "source": "zoologist",
-              "target": "taxonomist",
-              "attributes": {
-                "weight": 2
-              }
-            },
-            {
-              "source": "zoologist",
-              "target": "pharmacologist",
-              "attributes": {
-                "weight": 2
-              }
-            },
-            {
-              "source": "zoologist",
-              "target": "meteorologist",
-              "attributes": {
-                "weight": 3
-              }
-            },
-            {
-              "source": "zoologist",
-              "target": "geneticist",
-              "attributes": {
-                "weight": 2
-              }
-            },
-            {
-              "source": "zoologist",
-              "target": "economist",
-              "attributes": {
-                "weight": 3
-              }
-            },
-            {
-              "source": "zoologist",
-              "target": "ecologist",
-              "attributes": {
-                "weight": 2
               }
             },
             {
@@ -335,23 +251,37 @@
             },
             {
               "source": "zoologist",
-              "target": "archeologist",
+              "target": "physicist",
               "attributes": {
-                "weight": 5
+                "weight": 4
               }
             },
             {
-              "source": "botanist",
+              "source": "zoologist",
+              "target": "anthropologist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "zoologist",
               "target": "theologian",
               "attributes": {
                 "weight": 3
               }
             },
             {
-              "source": "botanist",
-              "target": "taxonomist",
+              "source": "zoologist",
+              "target": "archeologist",
               "attributes": {
-                "weight": 4
+                "weight": 2
+              }
+            },
+            {
+              "source": "botanist",
+              "target": "sociologist",
+              "attributes": {
+                "weight": 1
               }
             },
             {
@@ -363,23 +293,9 @@
             },
             {
               "source": "botanist",
-              "target": "pharmacologist",
-              "attributes": {
-                "weight": 3
-              }
-            },
-            {
-              "source": "botanist",
               "target": "paleontologist",
               "attributes": {
-                "weight": 9
-              }
-            },
-            {
-              "source": "botanist",
-              "target": "meteorologist",
-              "attributes": {
-                "weight": 3
+                "weight": 7
               }
             },
             {
@@ -387,76 +303,69 @@
               "target": "linguist",
               "attributes": {
                 "weight": 4
-              }
-            },
-            {
-              "source": "botanist",
-              "target": "historian",
-              "attributes": {
-                "weight": 7
               }
             },
             {
               "source": "botanist",
               "target": "geologist",
               "attributes": {
-                "weight": 9
+                "weight": 5
               }
             },
             {
               "source": "botanist",
               "target": "geographer",
               "attributes": {
-                "weight": 7
+                "weight": 6
               }
             },
             {
               "source": "botanist",
               "target": "geneticist",
               "attributes": {
-                "weight": 2
+                "weight": 3
+              }
+            },
+            {
+              "source": "botanist",
+              "target": "epidemiologist",
+              "attributes": {
+                "weight": 3
               }
             },
             {
               "source": "botanist",
               "target": "economist",
               "attributes": {
-                "weight": 4
-              }
-            },
-            {
-              "source": "botanist",
-              "target": "ecologist",
-              "attributes": {
-                "weight": 2
+                "weight": 3
               }
             },
             {
               "source": "botanist",
               "target": "chemist",
               "attributes": {
-                "weight": 8
+                "weight": 7
               }
             },
             {
               "source": "botanist",
-              "target": "anatomist",
+              "target": "historian",
               "attributes": {
                 "weight": 7
               }
             },
             {
               "source": "botanist",
-              "target": "archeologist",
+              "target": "philosopher",
               "attributes": {
                 "weight": 6
               }
             },
             {
               "source": "botanist",
-              "target": "art theorist",
+              "target": "mathematician",
               "attributes": {
-                "weight": 1
+                "weight": 5
               }
             },
             {
@@ -464,130 +373,95 @@
               "target": "anthropologist",
               "attributes": {
                 "weight": 5
+              }
+            },
+            {
+              "source": "botanist",
+              "target": "anatomist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "paleontologist",
+              "target": "anatomist",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "paleontologist",
+              "target": "geologist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "paleontologist",
+              "target": "archeologist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "paleontologist",
+              "target": "anthropologist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "geologist",
+              "target": "meteorologist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "geologist",
+              "target": "chemist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "geologist",
+              "target": "geographer",
+              "attributes": {
+                "weight": 4
               }
             },
             {
               "source": "geologist",
               "target": "physicist",
               "attributes": {
-                "weight": 6
-              }
-            },
-            {
-              "source": "geologist",
-              "target": "pharmacologist",
-              "attributes": {
-                "weight": 1
-              }
-            },
-            {
-              "source": "geologist",
-              "target": "paleontologist",
-              "attributes": {
-                "weight": 10
-              }
-            },
-            {
-              "source": "geologist",
-              "target": "meteorologist",
-              "attributes": {
-                "weight": 4
-              }
-            },
-            {
-              "source": "geologist",
-              "target": "chemist",
-              "attributes": {
-                "weight": 7
-              }
-            },
-            {
-              "source": "geologist",
-              "target": "geographer",
-              "attributes": {
-                "weight": 7
-              }
-            },
-            {
-              "source": "geologist",
-              "target": "archeologist",
-              "attributes": {
-                "weight": 5
+                "weight": 3
               }
             },
             {
               "source": "geologist",
               "target": "historian",
-              "attributes": {
-                "weight": 4
-              }
-            },
-            {
-              "source": "geologist",
-              "target": "ecologist",
-              "attributes": {
-                "weight": 1
-              }
-            },
-            {
-              "source": "geologist",
-              "target": "anthropologist",
-              "attributes": {
-                "weight": 4
-              }
-            },
-            {
-              "source": "geologist",
-              "target": "anatomist",
-              "attributes": {
-                "weight": 3
-              }
-            },
-            {
-              "source": "paleontologist",
-              "target": "pharmacologist",
-              "attributes": {
-                "weight": 1
-              }
-            },
-            {
-              "source": "paleontologist",
-              "target": "archeologist",
-              "attributes": {
-                "weight": 5
-              }
-            },
-            {
-              "source": "paleontologist",
-              "target": "anatomist",
-              "attributes": {
-                "weight": 4
-              }
-            },
-            {
-              "source": "paleontologist",
-              "target": "anthropologist",
-              "attributes": {
-                "weight": 4
-              }
-            },
-            {
-              "source": "paleontologist",
-              "target": "historian",
-              "attributes": {
-                "weight": 3
-              }
-            },
-            {
-              "source": "paleontologist",
-              "target": "geographer",
               "attributes": {
                 "weight": 2
               }
             },
             {
-              "source": "anatomist",
-              "target": "pharmacologist",
+              "source": "geologist",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "geologist",
+              "target": "archeologist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "geologist",
+              "target": "anatomist",
               "attributes": {
                 "weight": 1
               }
@@ -601,247 +475,142 @@
             },
             {
               "source": "anatomist",
-              "target": "anthropologist",
+              "target": "philosopher",
               "attributes": {
-                "weight": 4
+                "weight": 3
               }
             },
             {
               "source": "anatomist",
               "target": "physicist",
               "attributes": {
-                "weight": 4
+                "weight": 2
               }
             },
             {
               "source": "anatomist",
-              "target": "philosopher",
+              "target": "archeologist",
               "attributes": {
-                "weight": 4
+                "weight": 1
               }
             },
             {
-              "source": "historian",
-              "target": "theologian",
-              "attributes": {
-                "weight": 5
-              }
-            },
-            {
-              "source": "historian",
+              "source": "geographer",
               "target": "sociologist",
               "attributes": {
-                "weight": 5
+                "weight": 1
               }
             },
             {
-              "source": "historian",
-              "target": "political scientist",
+              "source": "geographer",
+              "target": "physicist",
               "attributes": {
-                "weight": 2
+                "weight": 7
               }
             },
             {
-              "source": "historian",
+              "source": "geographer",
               "target": "philosopher",
               "attributes": {
-                "weight": 8
+                "weight": 9
               }
             },
             {
-              "source": "historian",
+              "source": "geographer",
               "target": "musicologist",
               "attributes": {
-                "weight": 5
+                "weight": 1
               }
             },
             {
-              "source": "historian",
+              "source": "geographer",
+              "target": "meteorologist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "geographer",
               "target": "mathematician",
               "attributes": {
                 "weight": 9
               }
             },
             {
-              "source": "historian",
-              "target": "logician",
-              "attributes": {
-                "weight": 1
-              }
-            },
-            {
-              "source": "historian",
-              "target": "linguist",
+              "source": "geographer",
+              "target": "historian",
               "attributes": {
                 "weight": 10
               }
             },
             {
-              "source": "historian",
-              "target": "archeologist",
+              "source": "geographer",
+              "target": "astronomer",
               "attributes": {
-                "weight": 10
+                "weight": 9
               }
             },
             {
-              "source": "historian",
+              "source": "geographer",
               "target": "anthropologist",
               "attributes": {
-                "weight": 10
+                "weight": 5
               }
             },
             {
-              "source": "historian",
-              "target": "geographer",
-              "attributes": {
-                "weight": 10
-              }
-            },
-            {
-              "source": "historian",
-              "target": "economist",
+              "source": "chemist",
+              "target": "physicist",
               "attributes": {
                 "weight": 8
               }
             },
             {
-              "source": "historian",
-              "target": "astronomer",
+              "source": "chemist",
+              "target": "musicologist",
               "attributes": {
-                "weight": 7
+                "weight": 1
               }
             },
             {
-              "source": "historian",
-              "target": "art theorist",
+              "source": "chemist",
+              "target": "linguist",
               "attributes": {
                 "weight": 4
               }
             },
             {
-              "source": "anthropologist",
-              "target": "sociologist",
+              "source": "chemist",
+              "target": "geneticist",
               "attributes": {
                 "weight": 2
               }
             },
             {
-              "source": "anthropologist",
-              "target": "linguist",
+              "source": "chemist",
+              "target": "astronomer",
               "attributes": {
-                "weight": 8
+                "weight": 6
               }
             },
             {
-              "source": "anthropologist",
-              "target": "art theorist",
-              "attributes": {
-                "weight": 1
-              }
-            },
-            {
-              "source": "anthropologist",
-              "target": "archeologist",
-              "attributes": {
-                "weight": 10
-              }
-            },
-            {
-              "source": "anthropologist",
-              "target": "geographer",
-              "attributes": {
-                "weight": 5
-              }
-            },
-            {
-              "source": "anthropologist",
-              "target": "philosopher",
-              "attributes": {
-                "weight": 5
-              }
-            },
-            {
-              "source": "geographer",
-              "target": "theologian",
-              "attributes": {
-                "weight": 3
-              }
-            },
-            {
-              "source": "geographer",
-              "target": "sociologist",
-              "attributes": {
-                "weight": 2
-              }
-            },
-            {
-              "source": "geographer",
-              "target": "political scientist",
-              "attributes": {
-                "weight": 1
-              }
-            },
-            {
-              "source": "geographer",
-              "target": "meteorologist",
-              "attributes": {
-                "weight": 3
-              }
-            },
-            {
-              "source": "geographer",
+              "source": "chemist",
               "target": "mathematician",
               "attributes": {
-                "weight": 9
-              }
-            },
-            {
-              "source": "geographer",
-              "target": "linguist",
-              "attributes": {
-                "weight": 6
-              }
-            },
-            {
-              "source": "geographer",
-              "target": "astronomer",
-              "attributes": {
-                "weight": 9
-              }
-            },
-            {
-              "source": "geographer",
-              "target": "philosopher",
-              "attributes": {
-                "weight": 6
-              }
-            },
-            {
-              "source": "geographer",
-              "target": "economist",
-              "attributes": {
-                "weight": 3
-              }
-            },
-            {
-              "source": "geographer",
-              "target": "ecologist",
-              "attributes": {
-                "weight": 1
-              }
-            },
-            {
-              "source": "geographer",
-              "target": "archeologist",
-              "attributes": {
-                "weight": 4
+                "weight": 5
               }
             },
             {
               "source": "physicist",
               "target": "theologian",
               "attributes": {
-                "weight": 5
+                "weight": 2
+              }
+            },
+            {
+              "source": "physicist",
+              "target": "political scientist",
+              "attributes": {
+                "weight": 1
               }
             },
             {
@@ -860,287 +629,371 @@
             },
             {
               "source": "physicist",
-              "target": "chemist",
+              "target": "philosopher",
               "attributes": {
                 "weight": 9
               }
             },
             {
               "source": "physicist",
-              "target": "philosopher",
+              "target": "historian",
               "attributes": {
-                "weight": 8
-              }
-            },
-            {
-              "source": "physicist",
-              "target": "meteorologist",
-              "attributes": {
-                "weight": 5
+                "weight": 6
               }
             },
             {
               "source": "physicist",
               "target": "musicologist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "physicist",
+              "target": "meteorologist",
               "attributes": {
                 "weight": 4
               }
             },
             {
               "source": "physicist",
-              "target": "logician",
-              "attributes": {
-                "weight": 1
-              }
-            },
-            {
-              "source": "physicist",
-              "target": "epidemiologist",
-              "attributes": {
-                "weight": 2
-              }
-            },
-            {
-              "source": "physicist",
-              "target": "ecologist",
-              "attributes": {
-                "weight": 1
-              }
-            },
-            {
-              "source": "theologian",
-              "target": "mathematician",
-              "attributes": {
-                "weight": 8
-              }
-            },
-            {
-              "source": "theologian",
-              "target": "philosopher",
-              "attributes": {
-                "weight": 8
-              }
-            },
-            {
-              "source": "theologian",
-              "target": "astronomer",
-              "attributes": {
-                "weight": 6
-              }
-            },
-            {
-              "source": "theologian",
-              "target": "logician",
-              "attributes": {
-                "weight": 3
-              }
-            },
-            {
-              "source": "theologian",
-              "target": "political scientist",
-              "attributes": {
-                "weight": 1
-              }
-            },
-            {
-              "source": "theologian",
-              "target": "musicologist",
-              "attributes": {
-                "weight": 3
-              }
-            },
-            {
-              "source": "mathematician",
-              "target": "sociologist",
-              "attributes": {
-                "weight": 2
-              }
-            },
-            {
-              "source": "mathematician",
-              "target": "philosopher",
-              "attributes": {
-                "weight": 10
-              }
-            },
-            {
-              "source": "mathematician",
-              "target": "musicologist",
-              "attributes": {
-                "weight": 6
-              }
-            },
-            {
-              "source": "mathematician",
-              "target": "meteorologist",
-              "attributes": {
-                "weight": 5
-              }
-            },
-            {
-              "source": "mathematician",
-              "target": "astronomer",
-              "attributes": {
-                "weight": 10
-              }
-            },
-            {
-              "source": "mathematician",
-              "target": "linguist",
-              "attributes": {
-                "weight": 6
-              }
-            },
-            {
-              "source": "mathematician",
-              "target": "logician",
-              "attributes": {
-                "weight": 3
-              }
-            },
-            {
-              "source": "mathematician",
-              "target": "epidemiologist",
-              "attributes": {
-                "weight": 1
-              }
-            },
-            {
-              "source": "mathematician",
               "target": "economist",
               "attributes": {
                 "weight": 4
               }
             },
             {
-              "source": "mathematician",
-              "target": "ecologist",
+              "source": "anthropologist",
+              "target": "sociologist",
               "attributes": {
                 "weight": 1
               }
             },
             {
-              "source": "mathematician",
-              "target": "chemist",
+              "source": "anthropologist",
+              "target": "linguist",
               "attributes": {
                 "weight": 5
               }
             },
             {
-              "source": "philosopher",
-              "target": "sociologist",
-              "attributes": {
-                "weight": 6
-              }
-            },
-            {
-              "source": "philosopher",
-              "target": "political scientist",
-              "attributes": {
-                "weight": 3
-              }
-            },
-            {
-              "source": "philosopher",
-              "target": "astronomer",
+              "source": "anthropologist",
+              "target": "historian",
               "attributes": {
                 "weight": 9
               }
             },
             {
-              "source": "philosopher",
-              "target": "economist",
-              "attributes": {
-                "weight": 8
-              }
-            },
-            {
-              "source": "philosopher",
-              "target": "musicologist",
-              "attributes": {
-                "weight": 7
-              }
-            },
-            {
-              "source": "philosopher",
-              "target": "logician",
-              "attributes": {
-                "weight": 3
-              }
-            },
-            {
-              "source": "philosopher",
-              "target": "linguist",
-              "attributes": {
-                "weight": 5
-              }
-            },
-            {
-              "source": "philosopher",
-              "target": "ecologist",
-              "attributes": {
-                "weight": 1
-              }
-            },
-            {
-              "source": "philosopher",
-              "target": "chemist",
-              "attributes": {
-                "weight": 3
-              }
-            },
-            {
-              "source": "philosopher",
-              "target": "art theorist",
+              "source": "anthropologist",
+              "target": "geneticist",
               "attributes": {
                 "weight": 2
               }
             },
             {
-              "source": "astronomer",
-              "target": "musicologist",
-              "attributes": {
-                "weight": 3
-              }
-            },
-            {
-              "source": "astronomer",
-              "target": "meteorologist",
-              "attributes": {
-                "weight": 6
-              }
-            },
-            {
-              "source": "astronomer",
-              "target": "linguist",
+              "source": "anthropologist",
+              "target": "economist",
               "attributes": {
                 "weight": 4
               }
             },
             {
-              "source": "sociologist",
-              "target": "economist",
-              "attributes": {
-                "weight": 7
-              }
-            },
-            {
-              "source": "sociologist",
-              "target": "political scientist",
-              "attributes": {
-                "weight": 2
-              }
-            },
-            {
-              "source": "sociologist",
+              "source": "anthropologist",
               "target": "archeologist",
               "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "anthropologist",
+              "target": "philosopher",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "theologian",
+              "target": "philosopher",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "theologian",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "theologian",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "theologian",
+              "target": "logician",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "theologian",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "theologian",
+              "target": "historian",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "sociologist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "political scientist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "historian",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "economist",
+              "attributes": {
+                "weight": 9
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "meteorologist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "linguist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "art theorist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "archeologist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "political scientist",
+              "attributes": {
                 "weight": 1
               }
             },
             {
-              "source": "sociologist",
+              "source": "mathematician",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "meteorologist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "historian",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "linguist",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "geneticist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "economist",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "political scientist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "meteorologist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "linguist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "historian",
+              "attributes": {
+                "weight": 9
+              }
+            },
+            {
+              "source": "logician",
+              "target": "linguist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "musicologist",
+              "target": "historian",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "historian",
+              "target": "sociologist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "historian",
+              "target": "political scientist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "historian",
+              "target": "linguist",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "historian",
+              "target": "archeologist",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "historian",
+              "target": "economist",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "historian",
               "target": "art theorist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "sociologist",
+              "target": "economist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "sociologist",
+              "target": "political scientist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "sociologist",
+              "target": "linguist",
               "attributes": {
                 "weight": 1
               }
@@ -1149,21 +1002,21 @@
               "source": "economist",
               "target": "political scientist",
               "attributes": {
-                "weight": 2
+                "weight": 4
               }
             },
             {
               "source": "economist",
-              "target": "linguist",
-              "attributes": {
-                "weight": 3
-              }
-            },
-            {
-              "source": "economist",
-              "target": "ecologist",
+              "target": "meteorologist",
               "attributes": {
                 "weight": 1
+              }
+            },
+            {
+              "source": "economist",
+              "target": "archeologist",
+              "attributes": {
+                "weight": 2
               }
             },
             {
@@ -1174,64 +1027,15 @@
               }
             },
             {
-              "source": "political scientist",
-              "target": "musicologist",
-              "attributes": {
-                "weight": 1
-              }
-            },
-            {
-              "source": "archeologist",
-              "target": "musicologist",
-              "attributes": {
-                "weight": 2
-              }
-            },
-            {
-              "source": "archeologist",
-              "target": "linguist",
-              "attributes": {
-                "weight": 8
-              }
-            },
-            {
-              "source": "archeologist",
-              "target": "art theorist",
-              "attributes": {
-                "weight": 2
-              }
-            },
-            {
               "source": "linguist",
-              "target": "musicologist",
-              "attributes": {
-                "weight": 3
-              }
-            },
-            {
-              "source": "linguist",
-              "target": "art theorist",
-              "attributes": {
-                "weight": 1
-              }
-            },
-            {
-              "source": "chemist",
-              "target": "pharmacologist",
+              "target": "archeologist",
               "attributes": {
                 "weight": 7
               }
             },
             {
-              "source": "chemist",
+              "source": "archeologist",
               "target": "meteorologist",
-              "attributes": {
-                "weight": 2
-              }
-            },
-            {
-              "source": "meteorologist",
-              "target": "pharmacologist",
               "attributes": {
                 "weight": 1
               }
@@ -1272,10 +1076,10 @@
         "start_layout_for_seconds": null,
         "sync_key": null,
         "sync_targets": [
-          "hover",
-          "selection",
           "camera",
-          "layout"
+          "layout",
+          "hover",
+          "selection"
         ],
         "ui_settings": {
           "hideInfoPanel": false,
@@ -1375,7 +1179,7 @@
 }
 </script>
 <script type="application/vnd.jupyter.widget-view+json">
-{"version_major": 2, "version_minor": 0, "model_id": "680a8114f82c4e338f87c5694878275b"}
+{"version_major": 2, "version_minor": 0, "model_id": "c617403e682a4069901bd738d8d268b7"}
 </script>
 
 </body>

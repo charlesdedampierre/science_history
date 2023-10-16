@@ -1,5 +1,7 @@
-import pandas as pd
 import sqlite3
+
+import pandas as pd
+
 from functions.env import DATA_PATH, DB_SCIENCE_PATH
 
 if __name__ == "__main__":

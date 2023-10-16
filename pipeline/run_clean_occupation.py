@@ -1,6 +1,7 @@
-import pandas as pd
-import typing as t
 import sqlite3
+import typing as t
+
+import pandas as pd
 
 pd.options.mode.chained_assignment = None
 

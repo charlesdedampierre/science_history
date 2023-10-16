@@ -1,10 +1,12 @@
-import numpy as np
-import plotly.express as px
-import sqlite3
-import pandas as pd
 import os
+import sqlite3
+
+import numpy as np
+import pandas as pd
+import plotly.express as px
+
+from functions.env import DB_SCIENCE_PATH, FULL_DB_PATH, IMAGES_PATH
 from functions.feat_utils import gini
-from functions.env import FULL_DB_PATH, DB_SCIENCE_PATH, IMAGES_PATH
 
 conn_full_db = sqlite3.connect(FULL_DB_PATH)
 conn = sqlite3.connect(DB_SCIENCE_PATH)

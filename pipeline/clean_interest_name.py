@@ -1,6 +1,8 @@
-from functions.env import DB_SCIENCE_PATH
 import sqlite3
+
 import pandas as pd
+
+from functions.env import DB_SCIENCE_PATH
 
 conn = sqlite3.connect(DB_SCIENCE_PATH)
 df = pd.read_sql("SELECT * FROM temporal_data", conn)

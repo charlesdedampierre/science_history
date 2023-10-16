@@ -1,6 +1,7 @@
-from sklearn.metrics import adjusted_rand_score
 import typing as t
+
 import numpy as np
+from sklearn.metrics import adjusted_rand_score
 
 
 def get_rand_index(clustering_results: t.List[t.List[int]]):

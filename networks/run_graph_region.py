@@ -1,12 +1,17 @@
+import sys
+
+sys.path.append("../")
+
 import sqlite3
+
 import pandas as pd
 import polars as pl
 from tqdm import tqdm
-from functions.feat_network import get_edge_node_table, filter_edge_table
-from functions.feat_visualization import sygma_graph
-from functions.datamodel import OptimumParameter
-from functions.env import FULL_DB_PATH, DB_SCIENCE_PATH
 
+from functions.datamodel import OptimumParameter
+from functions.env import DB_SCIENCE_PATH, FULL_DB_PATH
+from functions.feat_network import filter_edge_table, get_edge_node_table
+from functions.feat_visualization import sygma_graph
 
 conn_full_db = sqlite3.connect(FULL_DB_PATH)
 conn = sqlite3.connect(DB_SCIENCE_PATH)

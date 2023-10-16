@@ -1,12 +1,14 @@
 import sqlite3
-from tqdm import tqdm
-import pandas as pd
+
 import numpy as np
+import pandas as pd
 import polars as pl
-from functions.feat_network import get_edge_node_table, filter_edge_table
-from functions.feat_visualization import sygma_graph
-from functions.feat_optimization import get_rand_index, get_mean
+from tqdm import tqdm
+
 from functions.env import DB_SCIENCE_PATH
+from functions.feat_network import filter_edge_table, get_edge_node_table
+from functions.feat_optimization import get_mean, get_rand_index
+from functions.feat_visualization import sygma_graph
 
 if __name__ == "__main__":
     conn = sqlite3.connect(DB_SCIENCE_PATH)

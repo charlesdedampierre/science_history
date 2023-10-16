@@ -1,7 +1,8 @@
 import sqlite3
-import pandas as pd
-from functions.env import FULL_DB_PATH, DB_SCIENCE_PATH
 
+import pandas as pd
+
+from functions.env import DB_SCIENCE_PATH, FULL_DB_PATH
 
 conn_full_db = sqlite3.connect(FULL_DB_PATH)
 conn = sqlite3.connect(DB_SCIENCE_PATH)

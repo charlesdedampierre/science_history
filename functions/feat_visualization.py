@@ -1,8 +1,8 @@
-import pandas as pd
-import numpy as np
-import networkx as nx
-from ipysigma import Sigma
 import community.community_louvain as community
+import networkx as nx
+import numpy as np
+import pandas as pd
+from ipysigma import Sigma
 from sklearn.preprocessing import MinMaxScaler
 
 

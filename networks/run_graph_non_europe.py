@@ -1,11 +1,16 @@
+import sys
+
+sys.path.append("../")
+
 import sqlite3
+
 import pandas as pd
 import polars as pl
-from functions.feat_network import get_edge_node_table, filter_edge_table
-from functions.feat_visualization import sygma_graph
-from functions.datamodel import OptimumParameter
 
-from functions.env import GRAPH_RESULTS, DB_SCIENCE_PATH, FULL_DB_PATH
+from functions.datamodel import OptimumParameter
+from functions.env import DB_SCIENCE_PATH, FULL_DB_PATH, GRAPH_RESULTS
+from functions.feat_network import filter_edge_table, get_edge_node_table
+from functions.feat_visualization import sygma_graph
 
 conn_full_db = sqlite3.connect(FULL_DB_PATH)
 conn = sqlite3.connect(DB_SCIENCE_PATH)
@@ -65,3 +70,5 @@ if __name__ == "__main__":
         resolution=dict_op.resolution,
         filepath=GRAPH_RESULTS + "/region/non_europe_2.html",
     )
+
+    df_partition.to_sql("partition_non_europe", conn, if_exists="replace", index=False)

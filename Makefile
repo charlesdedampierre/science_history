@@ -26,3 +26,10 @@ region_similarity:
 
 region_gini:
 	python run_region_gini.py
+
+run_all_graph:
+	python networks/run_graph_100.py
+
+format:
+	black .
+	isort .

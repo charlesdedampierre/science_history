@@ -1,11 +1,15 @@
 import sqlite3
+import sys
+
 import pandas as pd
 import polars as pl
 
-from functions.feat_network import get_edge_node_table, filter_edge_table
-from functions.feat_visualization import sygma_graph
+sys.path.append("../")
+
 from functions.datamodel import OptimumParameter
-from functions.env import GRAPH_RESULTS, DB_SCIENCE_PATH
+from functions.env import DB_SCIENCE_PATH, GRAPH_RESULTS
+from functions.feat_network import filter_edge_table, get_edge_node_table
+from functions.feat_visualization import sygma_graph
 
 conn = sqlite3.connect(DB_SCIENCE_PATH)
 
@@ -15,15 +19,35 @@ optimal_parameters = optimal_parameters.sort_values("mean", ascending=False)
 dict_op = optimal_parameters.iloc[0].to_dict()
 dict_op = OptimumParameter(**dict_op)
 
+columns_to_keep = [
+    "re_arabic_world",
+    "re_central_europe",
+    "re_chinese_world",
+    "re_eastern_europe",
+    "re_france",
+    "re_german_world",
+    "re_greek_world",
+    "re_indian_world",
+    "re_italy",
+    "re_japan",
+    "re_low_countries",
+    "re_nordic_countries",
+    "re_persian_world",
+    "re_slav_world",
+    "re_spain",
+    "re_united_kingdom",
+]
+
 
 if __name__ == "__main__":
     df = pd.read_sql("SELECT * FROM individual_id_cleaned_occupations", conn)
-    df_score = pd.read_sql("SELECT * FROM individual_score", conn)
-    df_score = df_score.sort_values(by="score", ascending=False)
-    # get the 20% most known individuals
-    df_score = df_score.iloc[: int(0.1 * len(df_score))]
-    known_individuals = list(set(df_score["wikidata_id"]))
-    df = df[df["wikidata_id"].isin(known_individuals)]
+
+    df_temporal = pd.read_sql("SELECT * FROM temporal_data", conn)
+    df_temporal = df_temporal[df_temporal["region_code"].isin(columns_to_keep)]
+    list_ids = list(set(df_temporal["wikidata_id"]))
+    df = df[df["wikidata_id"].isin(list_ids)]
+    df = df.drop_duplicates()
+
     df.columns = ["source", "target"]
     df["weight"] = 1
 
@@ -45,7 +69,7 @@ if __name__ == "__main__":
         edge_bins=10,
         node_bins=10,
         resolution=dict_op.resolution,
-        filepath=GRAPH_RESULTS + "/optimal_graph_top_individuals.html",
+        filepath=GRAPH_RESULTS + "/optimal_graph.html",
     )
 
-    df_partition.to_sql("optimal_partition", conn, if_exists="replace", index=False)
+    df_partition.to_sql("partition_global", conn, if_exists="replace", index=False)

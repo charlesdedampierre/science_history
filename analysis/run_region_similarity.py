@@ -1,10 +1,11 @@
-import sqlite3
 import os
+import sqlite3
+
+import matplotlib.pyplot as plt
 import pandas as pd
+import seaborn as sns
 from sklearn.metrics import adjusted_rand_score
 
-import seaborn as sns
-import matplotlib.pyplot as plt
 from functions.env import DB_SCIENCE_PATH, IMAGES_PATH
 
 conn = sqlite3.connect(DB_SCIENCE_PATH)

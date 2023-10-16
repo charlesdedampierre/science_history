@@ -1,8 +1,9 @@
+import sqlite3
+
 import pandas as pd
 import plotly.express as px
-import sqlite3
-from functions.env import DB_SCIENCE_PATH, IMAGES_PATH
 
+from functions.env import DB_SCIENCE_PATH, IMAGES_PATH
 
 conn = sqlite3.connect(DB_SCIENCE_PATH)
 
