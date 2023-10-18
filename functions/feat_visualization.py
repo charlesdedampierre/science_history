@@ -84,4 +84,4 @@ def sygma_graph(
         node_label_size_range=(7, 20),
     )
 
-    return df_partition
+    return df_partition, g

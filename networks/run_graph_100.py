@@ -3,6 +3,8 @@ import sys
 sys.path.append("../")
 
 import sqlite3
+import random
+
 
 import pandas as pd
 import polars as pl
@@ -42,7 +44,6 @@ columns_to_keep = [
     "re_united_kingdom",
 ]
 
-
 if __name__ == "__main__":
     df_occupation = pd.read_sql("SELECT * FROM individual_id_cleaned_occupations", conn)
 
@@ -58,6 +59,37 @@ if __name__ == "__main__":
     df_regions = df_final[["wikidata_id", "region_code"]].drop_duplicates()
     df_regions = df_regions[df_regions["region_code"].isin(columns_to_keep)]
 
+    df_occupation_min = (
+        df_final[["wikidata_id", "meta_occupation"]]
+        .drop_duplicates()
+        .reset_index(drop=True)
+    )
+
+    random_individuals = []
+
+    for occupation in df_occupation_min.meta_occupation.unique():
+        # for occupation in list(set(df_occupation_min.meta_occupation)):
+        df_select = df_occupation_min[
+            df_occupation_min["meta_occupation"] == occupation
+        ]
+
+        my_list = df_select.wikidata_id.unique()
+        my_list = list(df_select.wikidata_id)
+
+        if len(my_list) <= 20:
+            selected_elements = my_list
+        else:
+            selected_elements = pd.DataFrame(my_list)
+            selected_elements = list(
+                pd.DataFrame(selected_elements).sample(20, random_state=42)[0].values
+            )
+
+        # selected_elements = random.sample(my_list, 20)
+
+        random_individuals.append(selected_elements)
+
+    random_individuals = [item for sublist in random_individuals for item in sublist]
+
     final = []
 
     for region in columns_to_keep:
@@ -72,9 +104,12 @@ if __name__ == "__main__":
 
     df_fin = pd.concat([x for x in final])
 
-    individuals_filters = list(set(df_fin["wikidata_id"]))
+    individuals_filters = list(df_fin["wikidata_id"])
+    final_individuals = individuals_filters + random_individuals
+    final_individuals = pd.DataFrame(final_individuals).drop_duplicates()
+    final_individuals = list(final_individuals[0].values)
 
-    df = df_occupation[df_occupation["wikidata_id"].isin(individuals_filters)]
+    df = df_occupation[df_occupation["wikidata_id"].isin(final_individuals)]
     df.columns = ["source", "target"]
     df["weight"] = 1
 
@@ -89,7 +124,7 @@ if __name__ == "__main__":
         min_count_link=0,
     )
 
-    df_partition = sygma_graph(
+    df_partition, g = sygma_graph(
         df_edge_filter,
         df_nodes,
         edge_bins=10,
