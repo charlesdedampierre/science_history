@@ -6,3 +6,4 @@ class OptimumParameter(BaseModel):
     edge_rule: str
     resolution: int
     mean: float
+    min_count_link: int

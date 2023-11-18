@@ -1,0 +1,4964 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IPyWidget export</title>
+</head>
+<body>
+
+
+<!-- Load require.js. Delete this if your page already loads require.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.1/dist/embed-amd.js" crossorigin="anonymous"></script>
+
+<script type="application/vnd.jupyter.widget-state+json">
+{
+  "version_major": 2,
+  "version_minor": 0,
+  "state": {
+    "9dd4c24a73074341abc4eb1233d529dc": {
+      "model_name": "SigmaModel",
+      "model_module": "ipysigma",
+      "model_module_version": "^0.24.1",
+      "state": {
+        "_dom_classes": [],
+        "camera_state": {
+          "ratio": 1,
+          "x": 0.5,
+          "y": 0.5,
+          "angle": 0
+        },
+        "data": {
+          "nodes": [
+            {
+              "key": "philosopher",
+              "attributes": {
+                "community": 0,
+                "node_size": 9
+              }
+            },
+            {
+              "key": "astronomer",
+              "attributes": {
+                "community": 0,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "mathematician",
+              "attributes": {
+                "community": 0,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "historian",
+              "attributes": {
+                "community": 0,
+                "node_size": 8
+              }
+            },
+            {
+              "key": "musicologist",
+              "attributes": {
+                "community": 0,
+                "node_size": 6
+              }
+            },
+            {
+              "key": "geographer",
+              "attributes": {
+                "community": 0,
+                "node_size": 8
+              }
+            },
+            {
+              "key": "linguist",
+              "attributes": {
+                "community": 0,
+                "node_size": 7
+              }
+            }
+          ],
+          "edges": [
+            {
+              "source": "philosopher",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 9
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "historian",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "linguist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "geographer",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "linguist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "historian",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "geographer",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "geographer",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "linguist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "historian",
+              "attributes": {
+                "weight": 4
+              }
+            }
+          ],
+          "options": {
+            "type": "undirected",
+            "multi": false
+          }
+        },
+        "edge_weight": "weight",
+        "height": "calc(100vh - 16px)",
+        "layout": null,
+        "layout_settings": null,
+        "max_categorical_colors": 1,
+        "name": null,
+        "node_metrics": {},
+        "program_settings": {},
+        "renderer_settings": {
+          "zIndex": true,
+          "enableEdgeClickEvents": false,
+          "enableEdgeHoverEvents": false,
+          "labelDensity": 10000,
+          "labelGridCellSize": 250,
+          "renderEdgeLabels": true,
+          "labelFont": "sans-serif",
+          "hideEdgesOnMove": false,
+          "labelRenderedSizeThreshold": 0,
+          "defaultNodeType": "border",
+          "defaultEdgeType": "curve"
+        },
+        "selected_edge": null,
+        "selected_edge_category_values": null,
+        "selected_node": null,
+        "selected_node_category_values": null,
+        "snapshot": null,
+        "start_layout": true,
+        "start_layout_for_seconds": null,
+        "sync_key": null,
+        "sync_targets": [
+          "hover",
+          "selection",
+          "camera",
+          "layout"
+        ],
+        "ui_settings": {
+          "hideInfoPanel": false,
+          "hideSearch": false
+        },
+        "visual_variables": {
+          "nodeLabel": {
+            "type": "raw",
+            "attribute": "label",
+            "default": null
+          },
+          "nodeLabelSize": {
+            "type": "constant",
+            "default": 25
+          },
+          "nodeLabelColor": {
+            "type": "category",
+            "attribute": "community",
+            "palette": "Dark2",
+            "default": "#000"
+          },
+          "nodeColor": {
+            "type": "category",
+            "attribute": "community",
+            "palette": "Dark2",
+            "default": "#999"
+          },
+          "nodeColorSaturation": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeBorderColor": {
+            "type": "dependent",
+            "value": "node",
+            "default": null
+          },
+          "nodeBorderRatio": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeBorderSize": {
+            "type": "constant",
+            "default": 1
+          },
+          "nodeSize": {
+            "type": "raw",
+            "attribute": "node_size",
+            "default": null
+          },
+          "nodePictogram": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodePictogramColor": {
+            "type": "constant",
+            "default": "#000"
+          },
+          "nodeHaloSize": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeHaloColor": {
+            "type": "constant",
+            "default": "red"
+          },
+          "nodeShape": {
+            "type": "disabled",
+            "default": null
+          },
+          "edgeLabel": {
+            "type": "raw",
+            "attribute": "label",
+            "default": null
+          },
+          "edgeColor": {
+            "type": "raw",
+            "attribute": "color",
+            "default": "#ccc"
+          },
+          "edgeSize": {
+            "type": "continuous",
+            "range": [
+              1,
+              5
+            ],
+            "attribute": "weight",
+            "default": 1
+          },
+          "edgeCurveness": {
+            "type": "constant",
+            "default": 0.25
+          }
+        }
+      }
+    },
+    "bff459237dd445619e40168b9396a7a8": {
+      "model_name": "SigmaModel",
+      "model_module": "ipysigma",
+      "model_module_version": "^0.24.1",
+      "state": {
+        "_dom_classes": [],
+        "camera_state": {
+          "ratio": 1,
+          "x": 0.5,
+          "y": 0.5,
+          "angle": 0
+        },
+        "data": {
+          "nodes": [
+            {
+              "key": "physicist",
+              "attributes": {
+                "community": 0,
+                "node_size": 6
+              }
+            },
+            {
+              "key": "geographer",
+              "attributes": {
+                "community": 0,
+                "node_size": 8
+              }
+            },
+            {
+              "key": "mathematician",
+              "attributes": {
+                "community": 0,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "philosopher",
+              "attributes": {
+                "community": 0,
+                "node_size": 9
+              }
+            },
+            {
+              "key": "astronomer",
+              "attributes": {
+                "community": 0,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "historian",
+              "attributes": {
+                "community": 0,
+                "node_size": 8
+              }
+            },
+            {
+              "key": "musicologist",
+              "attributes": {
+                "community": 0,
+                "node_size": 6
+              }
+            },
+            {
+              "key": "linguist",
+              "attributes": {
+                "community": 0,
+                "node_size": 7
+              }
+            }
+          ],
+          "edges": [
+            {
+              "source": "physicist",
+              "target": "geographer",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "physicist",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "linguist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "historian",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "philosopher",
+              "attributes": {
+                "weight": 9
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "linguist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "historian",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "historian",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "linguist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "historian",
+              "attributes": {
+                "weight": 8
+              }
+            }
+          ],
+          "options": {
+            "type": "undirected",
+            "multi": false
+          }
+        },
+        "edge_weight": "weight",
+        "height": "calc(100vh - 16px)",
+        "layout": null,
+        "layout_settings": null,
+        "max_categorical_colors": 1,
+        "name": null,
+        "node_metrics": {},
+        "program_settings": {},
+        "renderer_settings": {
+          "zIndex": true,
+          "enableEdgeClickEvents": false,
+          "enableEdgeHoverEvents": false,
+          "labelDensity": 10000,
+          "labelGridCellSize": 250,
+          "renderEdgeLabels": true,
+          "labelFont": "sans-serif",
+          "hideEdgesOnMove": false,
+          "labelRenderedSizeThreshold": 0,
+          "defaultNodeType": "border",
+          "defaultEdgeType": "curve"
+        },
+        "selected_edge": null,
+        "selected_edge_category_values": null,
+        "selected_node": null,
+        "selected_node_category_values": null,
+        "snapshot": null,
+        "start_layout": true,
+        "start_layout_for_seconds": null,
+        "sync_key": null,
+        "sync_targets": [
+          "hover",
+          "selection",
+          "camera",
+          "layout"
+        ],
+        "ui_settings": {
+          "hideInfoPanel": false,
+          "hideSearch": false
+        },
+        "visual_variables": {
+          "nodeLabel": {
+            "type": "raw",
+            "attribute": "label",
+            "default": null
+          },
+          "nodeLabelSize": {
+            "type": "constant",
+            "default": 25
+          },
+          "nodeLabelColor": {
+            "type": "category",
+            "attribute": "community",
+            "palette": "Dark2",
+            "default": "#000"
+          },
+          "nodeColor": {
+            "type": "category",
+            "attribute": "community",
+            "palette": "Dark2",
+            "default": "#999"
+          },
+          "nodeColorSaturation": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeBorderColor": {
+            "type": "dependent",
+            "value": "node",
+            "default": null
+          },
+          "nodeBorderRatio": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeBorderSize": {
+            "type": "constant",
+            "default": 1
+          },
+          "nodeSize": {
+            "type": "raw",
+            "attribute": "node_size",
+            "default": null
+          },
+          "nodePictogram": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodePictogramColor": {
+            "type": "constant",
+            "default": "#000"
+          },
+          "nodeHaloSize": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeHaloColor": {
+            "type": "constant",
+            "default": "red"
+          },
+          "nodeShape": {
+            "type": "disabled",
+            "default": null
+          },
+          "edgeLabel": {
+            "type": "raw",
+            "attribute": "label",
+            "default": null
+          },
+          "edgeColor": {
+            "type": "raw",
+            "attribute": "color",
+            "default": "#ccc"
+          },
+          "edgeSize": {
+            "type": "continuous",
+            "range": [
+              1,
+              5
+            ],
+            "attribute": "weight",
+            "default": 1
+          },
+          "edgeCurveness": {
+            "type": "constant",
+            "default": 0.25
+          }
+        }
+      }
+    },
+    "bac8a384428048f9b8ce0f61d6ba356e": {
+      "model_name": "SigmaModel",
+      "model_module": "ipysigma",
+      "model_module_version": "^0.24.1",
+      "state": {
+        "_dom_classes": [],
+        "camera_state": {
+          "ratio": 1,
+          "x": 0.5,
+          "y": 0.5,
+          "angle": 0
+        },
+        "data": {
+          "nodes": [
+            {
+              "key": "physicist",
+              "attributes": {
+                "community": 1,
+                "node_size": 7
+              }
+            },
+            {
+              "key": "mathematician",
+              "attributes": {
+                "community": 1,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "astronomer",
+              "attributes": {
+                "community": 1,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "philosopher",
+              "attributes": {
+                "community": 0,
+                "node_size": 9
+              }
+            },
+            {
+              "key": "historian",
+              "attributes": {
+                "community": 1,
+                "node_size": 8
+              }
+            },
+            {
+              "key": "musicologist",
+              "attributes": {
+                "community": 0,
+                "node_size": 7
+              }
+            },
+            {
+              "key": "geographer",
+              "attributes": {
+                "community": 1,
+                "node_size": 9
+              }
+            },
+            {
+              "key": "linguist",
+              "attributes": {
+                "community": 0,
+                "node_size": 8
+              }
+            },
+            {
+              "key": "chemist",
+              "attributes": {
+                "community": 1,
+                "node_size": 6
+              }
+            }
+          ],
+          "edges": [
+            {
+              "source": "physicist",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "physicist",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "physicist",
+              "target": "philosopher",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "physicist",
+              "target": "chemist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "philosopher",
+              "attributes": {
+                "weight": 9
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "geographer",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "linguist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "historian",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "chemist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "philosopher",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "linguist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "historian",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "geographer",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "chemist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "historian",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "linguist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "historian",
+              "target": "geographer",
+              "attributes": {
+                "weight": 7
+              }
+            }
+          ],
+          "options": {
+            "type": "undirected",
+            "multi": false
+          }
+        },
+        "edge_weight": "weight",
+        "height": "calc(100vh - 16px)",
+        "layout": null,
+        "layout_settings": null,
+        "max_categorical_colors": 2,
+        "name": null,
+        "node_metrics": {},
+        "program_settings": {},
+        "renderer_settings": {
+          "zIndex": true,
+          "enableEdgeClickEvents": false,
+          "enableEdgeHoverEvents": false,
+          "labelDensity": 10000,
+          "labelGridCellSize": 250,
+          "renderEdgeLabels": true,
+          "labelFont": "sans-serif",
+          "hideEdgesOnMove": false,
+          "labelRenderedSizeThreshold": 0,
+          "defaultNodeType": "border",
+          "defaultEdgeType": "curve"
+        },
+        "selected_edge": null,
+        "selected_edge_category_values": null,
+        "selected_node": null,
+        "selected_node_category_values": null,
+        "snapshot": null,
+        "start_layout": true,
+        "start_layout_for_seconds": null,
+        "sync_key": null,
+        "sync_targets": [
+          "hover",
+          "selection",
+          "camera",
+          "layout"
+        ],
+        "ui_settings": {
+          "hideInfoPanel": false,
+          "hideSearch": false
+        },
+        "visual_variables": {
+          "nodeLabel": {
+            "type": "raw",
+            "attribute": "label",
+            "default": null
+          },
+          "nodeLabelSize": {
+            "type": "constant",
+            "default": 25
+          },
+          "nodeLabelColor": {
+            "type": "category",
+            "attribute": "community",
+            "palette": "Dark2",
+            "default": "#000"
+          },
+          "nodeColor": {
+            "type": "category",
+            "attribute": "community",
+            "palette": "Dark2",
+            "default": "#999"
+          },
+          "nodeColorSaturation": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeBorderColor": {
+            "type": "dependent",
+            "value": "node",
+            "default": null
+          },
+          "nodeBorderRatio": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeBorderSize": {
+            "type": "constant",
+            "default": 1
+          },
+          "nodeSize": {
+            "type": "raw",
+            "attribute": "node_size",
+            "default": null
+          },
+          "nodePictogram": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodePictogramColor": {
+            "type": "constant",
+            "default": "#000"
+          },
+          "nodeHaloSize": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeHaloColor": {
+            "type": "constant",
+            "default": "red"
+          },
+          "nodeShape": {
+            "type": "disabled",
+            "default": null
+          },
+          "edgeLabel": {
+            "type": "raw",
+            "attribute": "label",
+            "default": null
+          },
+          "edgeColor": {
+            "type": "raw",
+            "attribute": "color",
+            "default": "#ccc"
+          },
+          "edgeSize": {
+            "type": "continuous",
+            "range": [
+              1,
+              5
+            ],
+            "attribute": "weight",
+            "default": 1
+          },
+          "edgeCurveness": {
+            "type": "constant",
+            "default": 0.25
+          }
+        }
+      }
+    },
+    "23175265a0e94873ac68faceaf3f813f": {
+      "model_name": "SigmaModel",
+      "model_module": "ipysigma",
+      "model_module_version": "^0.24.1",
+      "state": {
+        "_dom_classes": [],
+        "camera_state": {
+          "ratio": 1,
+          "x": 0.5,
+          "y": 0.5,
+          "angle": 0
+        },
+        "data": {
+          "nodes": [
+            {
+              "key": "theologian",
+              "attributes": {
+                "community": 0,
+                "node_size": 6
+              }
+            },
+            {
+              "key": "philosopher",
+              "attributes": {
+                "community": 0,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "astronomer",
+              "attributes": {
+                "community": 0,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "physicist",
+              "attributes": {
+                "community": 0,
+                "node_size": 7
+              }
+            },
+            {
+              "key": "mathematician",
+              "attributes": {
+                "community": 1,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "historian",
+              "attributes": {
+                "community": 1,
+                "node_size": 9
+              }
+            },
+            {
+              "key": "musicologist",
+              "attributes": {
+                "community": 0,
+                "node_size": 7
+              }
+            },
+            {
+              "key": "geographer",
+              "attributes": {
+                "community": 1,
+                "node_size": 9
+              }
+            },
+            {
+              "key": "linguist",
+              "attributes": {
+                "community": 0,
+                "node_size": 8
+              }
+            },
+            {
+              "key": "chemist",
+              "attributes": {
+                "community": 0,
+                "node_size": 6
+              }
+            },
+            {
+              "key": "botanist",
+              "attributes": {
+                "community": 1,
+                "node_size": 8
+              }
+            },
+            {
+              "key": "anthropologist",
+              "attributes": {
+                "community": 0,
+                "node_size": 5
+              }
+            }
+          ],
+          "edges": [
+            {
+              "source": "theologian",
+              "target": "philosopher",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "theologian",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "physicist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 9
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "historian",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "linguist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "anthropologist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "physicist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "linguist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "historian",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "geographer",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "chemist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "botanist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "anthropologist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "physicist",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "physicist",
+              "target": "chemist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "geographer",
+              "attributes": {
+                "weight": 9
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "historian",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "chemist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "botanist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "anthropologist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "historian",
+              "target": "geographer",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "linguist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "botanist",
+              "attributes": {
+                "weight": 4
+              }
+            }
+          ],
+          "options": {
+            "type": "undirected",
+            "multi": false
+          }
+        },
+        "edge_weight": "weight",
+        "height": "calc(100vh - 16px)",
+        "layout": null,
+        "layout_settings": null,
+        "max_categorical_colors": 2,
+        "name": null,
+        "node_metrics": {},
+        "program_settings": {},
+        "renderer_settings": {
+          "zIndex": true,
+          "enableEdgeClickEvents": false,
+          "enableEdgeHoverEvents": false,
+          "labelDensity": 10000,
+          "labelGridCellSize": 250,
+          "renderEdgeLabels": true,
+          "labelFont": "sans-serif",
+          "hideEdgesOnMove": false,
+          "labelRenderedSizeThreshold": 0,
+          "defaultNodeType": "border",
+          "defaultEdgeType": "curve"
+        },
+        "selected_edge": null,
+        "selected_edge_category_values": null,
+        "selected_node": null,
+        "selected_node_category_values": null,
+        "snapshot": null,
+        "start_layout": true,
+        "start_layout_for_seconds": null,
+        "sync_key": null,
+        "sync_targets": [
+          "hover",
+          "selection",
+          "camera",
+          "layout"
+        ],
+        "ui_settings": {
+          "hideInfoPanel": false,
+          "hideSearch": false
+        },
+        "visual_variables": {
+          "nodeLabel": {
+            "type": "raw",
+            "attribute": "label",
+            "default": null
+          },
+          "nodeLabelSize": {
+            "type": "constant",
+            "default": 25
+          },
+          "nodeLabelColor": {
+            "type": "category",
+            "attribute": "community",
+            "palette": "Dark2",
+            "default": "#000"
+          },
+          "nodeColor": {
+            "type": "category",
+            "attribute": "community",
+            "palette": "Dark2",
+            "default": "#999"
+          },
+          "nodeColorSaturation": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeBorderColor": {
+            "type": "dependent",
+            "value": "node",
+            "default": null
+          },
+          "nodeBorderRatio": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeBorderSize": {
+            "type": "constant",
+            "default": 1
+          },
+          "nodeSize": {
+            "type": "raw",
+            "attribute": "node_size",
+            "default": null
+          },
+          "nodePictogram": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodePictogramColor": {
+            "type": "constant",
+            "default": "#000"
+          },
+          "nodeHaloSize": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeHaloColor": {
+            "type": "constant",
+            "default": "red"
+          },
+          "nodeShape": {
+            "type": "disabled",
+            "default": null
+          },
+          "edgeLabel": {
+            "type": "raw",
+            "attribute": "label",
+            "default": null
+          },
+          "edgeColor": {
+            "type": "raw",
+            "attribute": "color",
+            "default": "#ccc"
+          },
+          "edgeSize": {
+            "type": "continuous",
+            "range": [
+              1,
+              5
+            ],
+            "attribute": "weight",
+            "default": 1
+          },
+          "edgeCurveness": {
+            "type": "constant",
+            "default": 0.25
+          }
+        }
+      }
+    },
+    "f2a284803a9c466e9772f1301341608d": {
+      "model_name": "SigmaModel",
+      "model_module": "ipysigma",
+      "model_module_version": "^0.24.1",
+      "state": {
+        "_dom_classes": [],
+        "camera_state": {
+          "ratio": 1,
+          "x": 0.5,
+          "y": 0.5,
+          "angle": 0
+        },
+        "data": {
+          "nodes": [
+            {
+              "key": "theologian",
+              "attributes": {
+                "community": 0,
+                "node_size": 6
+              }
+            },
+            {
+              "key": "philosopher",
+              "attributes": {
+                "community": 0,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "astronomer",
+              "attributes": {
+                "community": 0,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "physicist",
+              "attributes": {
+                "community": 0,
+                "node_size": 7
+              }
+            },
+            {
+              "key": "mathematician",
+              "attributes": {
+                "community": 1,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "historian",
+              "attributes": {
+                "community": 1,
+                "node_size": 9
+              }
+            },
+            {
+              "key": "musicologist",
+              "attributes": {
+                "community": 0,
+                "node_size": 7
+              }
+            },
+            {
+              "key": "geographer",
+              "attributes": {
+                "community": 1,
+                "node_size": 9
+              }
+            },
+            {
+              "key": "linguist",
+              "attributes": {
+                "community": 0,
+                "node_size": 8
+              }
+            },
+            {
+              "key": "chemist",
+              "attributes": {
+                "community": 0,
+                "node_size": 6
+              }
+            },
+            {
+              "key": "botanist",
+              "attributes": {
+                "community": 1,
+                "node_size": 8
+              }
+            },
+            {
+              "key": "anthropologist",
+              "attributes": {
+                "community": 0,
+                "node_size": 5
+              }
+            }
+          ],
+          "edges": [
+            {
+              "source": "theologian",
+              "target": "philosopher",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "theologian",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "physicist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 9
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "historian",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "linguist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "anthropologist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "physicist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "linguist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "historian",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "geographer",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "chemist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "botanist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "anthropologist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "physicist",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "physicist",
+              "target": "chemist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "geographer",
+              "attributes": {
+                "weight": 9
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "linguist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "historian",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "chemist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "botanist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "anthropologist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "historian",
+              "target": "geographer",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "botanist",
+              "attributes": {
+                "weight": 4
+              }
+            }
+          ],
+          "options": {
+            "type": "undirected",
+            "multi": false
+          }
+        },
+        "edge_weight": "weight",
+        "height": "calc(100vh - 16px)",
+        "layout": null,
+        "layout_settings": null,
+        "max_categorical_colors": 2,
+        "name": null,
+        "node_metrics": {},
+        "program_settings": {},
+        "renderer_settings": {
+          "zIndex": true,
+          "enableEdgeClickEvents": false,
+          "enableEdgeHoverEvents": false,
+          "labelDensity": 10000,
+          "labelGridCellSize": 250,
+          "renderEdgeLabels": true,
+          "labelFont": "sans-serif",
+          "hideEdgesOnMove": false,
+          "labelRenderedSizeThreshold": 0,
+          "defaultNodeType": "border",
+          "defaultEdgeType": "curve"
+        },
+        "selected_edge": null,
+        "selected_edge_category_values": null,
+        "selected_node": null,
+        "selected_node_category_values": null,
+        "snapshot": null,
+        "start_layout": true,
+        "start_layout_for_seconds": null,
+        "sync_key": null,
+        "sync_targets": [
+          "hover",
+          "selection",
+          "camera",
+          "layout"
+        ],
+        "ui_settings": {
+          "hideInfoPanel": false,
+          "hideSearch": false
+        },
+        "visual_variables": {
+          "nodeLabel": {
+            "type": "raw",
+            "attribute": "label",
+            "default": null
+          },
+          "nodeLabelSize": {
+            "type": "constant",
+            "default": 25
+          },
+          "nodeLabelColor": {
+            "type": "category",
+            "attribute": "community",
+            "palette": "Dark2",
+            "default": "#000"
+          },
+          "nodeColor": {
+            "type": "category",
+            "attribute": "community",
+            "palette": "Dark2",
+            "default": "#999"
+          },
+          "nodeColorSaturation": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeBorderColor": {
+            "type": "dependent",
+            "value": "node",
+            "default": null
+          },
+          "nodeBorderRatio": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeBorderSize": {
+            "type": "constant",
+            "default": 1
+          },
+          "nodeSize": {
+            "type": "raw",
+            "attribute": "node_size",
+            "default": null
+          },
+          "nodePictogram": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodePictogramColor": {
+            "type": "constant",
+            "default": "#000"
+          },
+          "nodeHaloSize": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeHaloColor": {
+            "type": "constant",
+            "default": "red"
+          },
+          "nodeShape": {
+            "type": "disabled",
+            "default": null
+          },
+          "edgeLabel": {
+            "type": "raw",
+            "attribute": "label",
+            "default": null
+          },
+          "edgeColor": {
+            "type": "raw",
+            "attribute": "color",
+            "default": "#ccc"
+          },
+          "edgeSize": {
+            "type": "continuous",
+            "range": [
+              1,
+              5
+            ],
+            "attribute": "weight",
+            "default": 1
+          },
+          "edgeCurveness": {
+            "type": "constant",
+            "default": 0.25
+          }
+        }
+      }
+    },
+    "be47eafa3daa49e2b459e589c50750b8": {
+      "model_name": "SigmaModel",
+      "model_module": "ipysigma",
+      "model_module_version": "^0.24.1",
+      "state": {
+        "_dom_classes": [],
+        "camera_state": {
+          "ratio": 1,
+          "x": 0.5,
+          "y": 0.5,
+          "angle": 0
+        },
+        "data": {
+          "nodes": [
+            {
+              "key": "zoologist",
+              "attributes": {
+                "community": 0,
+                "node_size": 5
+              }
+            },
+            {
+              "key": "geographer",
+              "attributes": {
+                "community": 0,
+                "node_size": 9
+              }
+            },
+            {
+              "key": "botanist",
+              "attributes": {
+                "community": 0,
+                "node_size": 8
+              }
+            },
+            {
+              "key": "mathematician",
+              "attributes": {
+                "community": 1,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "theologian",
+              "attributes": {
+                "community": 1,
+                "node_size": 6
+              }
+            },
+            {
+              "key": "philosopher",
+              "attributes": {
+                "community": 1,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "astronomer",
+              "attributes": {
+                "community": 1,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "physicist",
+              "attributes": {
+                "community": 1,
+                "node_size": 7
+              }
+            },
+            {
+              "key": "historian",
+              "attributes": {
+                "community": 0,
+                "node_size": 9
+              }
+            },
+            {
+              "key": "musicologist",
+              "attributes": {
+                "community": 1,
+                "node_size": 7
+              }
+            },
+            {
+              "key": "meteorologist",
+              "attributes": {
+                "community": 1,
+                "node_size": 3
+              }
+            },
+            {
+              "key": "linguist",
+              "attributes": {
+                "community": 1,
+                "node_size": 8
+              }
+            },
+            {
+              "key": "chemist",
+              "attributes": {
+                "community": 1,
+                "node_size": 6
+              }
+            },
+            {
+              "key": "anthropologist",
+              "attributes": {
+                "community": 1,
+                "node_size": 5
+              }
+            }
+          ],
+          "edges": [
+            {
+              "source": "zoologist",
+              "target": "geographer",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "zoologist",
+              "target": "botanist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "zoologist",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "historian",
+              "attributes": {
+                "weight": 9
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "botanist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "botanist",
+              "target": "historian",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "botanist",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "physicist",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "philosopher",
+              "attributes": {
+                "weight": 9
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "meteorologist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "linguist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "historian",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "chemist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "anthropologist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "theologian",
+              "target": "philosopher",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "theologian",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "physicist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "historian",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "linguist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "anthropologist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "physicist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "linguist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "historian",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "chemist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "anthropologist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "physicist",
+              "target": "chemist",
+              "attributes": {
+                "weight": 1
+              }
+            }
+          ],
+          "options": {
+            "type": "undirected",
+            "multi": false
+          }
+        },
+        "edge_weight": "weight",
+        "height": "calc(100vh - 16px)",
+        "layout": null,
+        "layout_settings": null,
+        "max_categorical_colors": 2,
+        "name": null,
+        "node_metrics": {},
+        "program_settings": {},
+        "renderer_settings": {
+          "zIndex": true,
+          "enableEdgeClickEvents": false,
+          "enableEdgeHoverEvents": false,
+          "labelDensity": 10000,
+          "labelGridCellSize": 250,
+          "renderEdgeLabels": true,
+          "labelFont": "sans-serif",
+          "hideEdgesOnMove": false,
+          "labelRenderedSizeThreshold": 0,
+          "defaultNodeType": "border",
+          "defaultEdgeType": "curve"
+        },
+        "selected_edge": null,
+        "selected_edge_category_values": null,
+        "selected_node": null,
+        "selected_node_category_values": null,
+        "snapshot": null,
+        "start_layout": true,
+        "start_layout_for_seconds": null,
+        "sync_key": null,
+        "sync_targets": [
+          "hover",
+          "selection",
+          "camera",
+          "layout"
+        ],
+        "ui_settings": {
+          "hideInfoPanel": false,
+          "hideSearch": false
+        },
+        "visual_variables": {
+          "nodeLabel": {
+            "type": "raw",
+            "attribute": "label",
+            "default": null
+          },
+          "nodeLabelSize": {
+            "type": "constant",
+            "default": 25
+          },
+          "nodeLabelColor": {
+            "type": "category",
+            "attribute": "community",
+            "palette": "Dark2",
+            "default": "#000"
+          },
+          "nodeColor": {
+            "type": "category",
+            "attribute": "community",
+            "palette": "Dark2",
+            "default": "#999"
+          },
+          "nodeColorSaturation": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeBorderColor": {
+            "type": "dependent",
+            "value": "node",
+            "default": null
+          },
+          "nodeBorderRatio": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeBorderSize": {
+            "type": "constant",
+            "default": 1
+          },
+          "nodeSize": {
+            "type": "raw",
+            "attribute": "node_size",
+            "default": null
+          },
+          "nodePictogram": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodePictogramColor": {
+            "type": "constant",
+            "default": "#000"
+          },
+          "nodeHaloSize": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeHaloColor": {
+            "type": "constant",
+            "default": "red"
+          },
+          "nodeShape": {
+            "type": "disabled",
+            "default": null
+          },
+          "edgeLabel": {
+            "type": "raw",
+            "attribute": "label",
+            "default": null
+          },
+          "edgeColor": {
+            "type": "raw",
+            "attribute": "color",
+            "default": "#ccc"
+          },
+          "edgeSize": {
+            "type": "continuous",
+            "range": [
+              1,
+              5
+            ],
+            "attribute": "weight",
+            "default": 1
+          },
+          "edgeCurveness": {
+            "type": "constant",
+            "default": 0.25
+          }
+        }
+      }
+    },
+    "b7c65142c051497c9cd4fdf05d911995": {
+      "model_name": "SigmaModel",
+      "model_module": "ipysigma",
+      "model_module_version": "^0.24.1",
+      "state": {
+        "_dom_classes": [],
+        "camera_state": {
+          "ratio": 1,
+          "x": 0.5,
+          "y": 0.5,
+          "angle": 0
+        },
+        "data": {
+          "nodes": [
+            {
+              "key": "zoologist",
+              "attributes": {
+                "community": 0,
+                "node_size": 5
+              }
+            },
+            {
+              "key": "geographer",
+              "attributes": {
+                "community": 0,
+                "node_size": 9
+              }
+            },
+            {
+              "key": "botanist",
+              "attributes": {
+                "community": 0,
+                "node_size": 8
+              }
+            },
+            {
+              "key": "mathematician",
+              "attributes": {
+                "community": 1,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "theologian",
+              "attributes": {
+                "community": 1,
+                "node_size": 6
+              }
+            },
+            {
+              "key": "philosopher",
+              "attributes": {
+                "community": 1,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "astronomer",
+              "attributes": {
+                "community": 1,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "physicist",
+              "attributes": {
+                "community": 1,
+                "node_size": 7
+              }
+            },
+            {
+              "key": "historian",
+              "attributes": {
+                "community": 0,
+                "node_size": 9
+              }
+            },
+            {
+              "key": "musicologist",
+              "attributes": {
+                "community": 1,
+                "node_size": 7
+              }
+            },
+            {
+              "key": "meteorologist",
+              "attributes": {
+                "community": 1,
+                "node_size": 3
+              }
+            },
+            {
+              "key": "logician",
+              "attributes": {
+                "community": 1,
+                "node_size": 4
+              }
+            },
+            {
+              "key": "linguist",
+              "attributes": {
+                "community": 1,
+                "node_size": 8
+              }
+            },
+            {
+              "key": "economist",
+              "attributes": {
+                "community": 1,
+                "node_size": 5
+              }
+            },
+            {
+              "key": "chemist",
+              "attributes": {
+                "community": 1,
+                "node_size": 6
+              }
+            },
+            {
+              "key": "anthropologist",
+              "attributes": {
+                "community": 1,
+                "node_size": 5
+              }
+            }
+          ],
+          "edges": [
+            {
+              "source": "zoologist",
+              "target": "geographer",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "zoologist",
+              "target": "botanist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "zoologist",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "historian",
+              "attributes": {
+                "weight": 9
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "botanist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "botanist",
+              "target": "historian",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "botanist",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "physicist",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "philosopher",
+              "attributes": {
+                "weight": 9
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "meteorologist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "linguist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "chemist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "anthropologist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "theologian",
+              "target": "philosopher",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "theologian",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "physicist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "historian",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "linguist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "economist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "anthropologist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "physicist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "linguist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "historian",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "chemist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "anthropologist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "physicist",
+              "target": "chemist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "logician",
+              "target": "linguist",
+              "attributes": {
+                "weight": 1
+              }
+            }
+          ],
+          "options": {
+            "type": "undirected",
+            "multi": false
+          }
+        },
+        "edge_weight": "weight",
+        "height": "calc(100vh - 16px)",
+        "layout": null,
+        "layout_settings": null,
+        "max_categorical_colors": 2,
+        "name": null,
+        "node_metrics": {},
+        "program_settings": {},
+        "renderer_settings": {
+          "zIndex": true,
+          "enableEdgeClickEvents": false,
+          "enableEdgeHoverEvents": false,
+          "labelDensity": 10000,
+          "labelGridCellSize": 250,
+          "renderEdgeLabels": true,
+          "labelFont": "sans-serif",
+          "hideEdgesOnMove": false,
+          "labelRenderedSizeThreshold": 0,
+          "defaultNodeType": "border",
+          "defaultEdgeType": "curve"
+        },
+        "selected_edge": null,
+        "selected_edge_category_values": null,
+        "selected_node": null,
+        "selected_node_category_values": null,
+        "snapshot": null,
+        "start_layout": true,
+        "start_layout_for_seconds": null,
+        "sync_key": null,
+        "sync_targets": [
+          "hover",
+          "selection",
+          "camera",
+          "layout"
+        ],
+        "ui_settings": {
+          "hideInfoPanel": false,
+          "hideSearch": false
+        },
+        "visual_variables": {
+          "nodeLabel": {
+            "type": "raw",
+            "attribute": "label",
+            "default": null
+          },
+          "nodeLabelSize": {
+            "type": "constant",
+            "default": 25
+          },
+          "nodeLabelColor": {
+            "type": "category",
+            "attribute": "community",
+            "palette": "Dark2",
+            "default": "#000"
+          },
+          "nodeColor": {
+            "type": "category",
+            "attribute": "community",
+            "palette": "Dark2",
+            "default": "#999"
+          },
+          "nodeColorSaturation": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeBorderColor": {
+            "type": "dependent",
+            "value": "node",
+            "default": null
+          },
+          "nodeBorderRatio": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeBorderSize": {
+            "type": "constant",
+            "default": 1
+          },
+          "nodeSize": {
+            "type": "raw",
+            "attribute": "node_size",
+            "default": null
+          },
+          "nodePictogram": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodePictogramColor": {
+            "type": "constant",
+            "default": "#000"
+          },
+          "nodeHaloSize": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeHaloColor": {
+            "type": "constant",
+            "default": "red"
+          },
+          "nodeShape": {
+            "type": "disabled",
+            "default": null
+          },
+          "edgeLabel": {
+            "type": "raw",
+            "attribute": "label",
+            "default": null
+          },
+          "edgeColor": {
+            "type": "raw",
+            "attribute": "color",
+            "default": "#ccc"
+          },
+          "edgeSize": {
+            "type": "continuous",
+            "range": [
+              1,
+              5
+            ],
+            "attribute": "weight",
+            "default": 1
+          },
+          "edgeCurveness": {
+            "type": "constant",
+            "default": 0.25
+          }
+        }
+      }
+    },
+    "13c1c3ddb27b43a98e6e3fd64dbdd6bf": {
+      "model_name": "SigmaModel",
+      "model_module": "ipysigma",
+      "model_module_version": "^0.24.1",
+      "state": {
+        "_dom_classes": [],
+        "camera_state": {
+          "ratio": 1,
+          "x": 0.5,
+          "y": 0.5,
+          "angle": 0
+        },
+        "data": {
+          "nodes": [
+            {
+              "key": "zoologist",
+              "attributes": {
+                "community": 0,
+                "node_size": 5
+              }
+            },
+            {
+              "key": "geographer",
+              "attributes": {
+                "community": 0,
+                "node_size": 9
+              }
+            },
+            {
+              "key": "botanist",
+              "attributes": {
+                "community": 0,
+                "node_size": 8
+              }
+            },
+            {
+              "key": "mathematician",
+              "attributes": {
+                "community": 1,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "theologian",
+              "attributes": {
+                "community": 1,
+                "node_size": 6
+              }
+            },
+            {
+              "key": "philosopher",
+              "attributes": {
+                "community": 1,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "astronomer",
+              "attributes": {
+                "community": 1,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "physicist",
+              "attributes": {
+                "community": 1,
+                "node_size": 7
+              }
+            },
+            {
+              "key": "historian",
+              "attributes": {
+                "community": 0,
+                "node_size": 9
+              }
+            },
+            {
+              "key": "musicologist",
+              "attributes": {
+                "community": 1,
+                "node_size": 7
+              }
+            },
+            {
+              "key": "meteorologist",
+              "attributes": {
+                "community": 1,
+                "node_size": 3
+              }
+            },
+            {
+              "key": "logician",
+              "attributes": {
+                "community": 1,
+                "node_size": 5
+              }
+            },
+            {
+              "key": "linguist",
+              "attributes": {
+                "community": 1,
+                "node_size": 8
+              }
+            },
+            {
+              "key": "economist",
+              "attributes": {
+                "community": 1,
+                "node_size": 4
+              }
+            },
+            {
+              "key": "chemist",
+              "attributes": {
+                "community": 1,
+                "node_size": 6
+              }
+            },
+            {
+              "key": "anthropologist",
+              "attributes": {
+                "community": 1,
+                "node_size": 5
+              }
+            }
+          ],
+          "edges": [
+            {
+              "source": "zoologist",
+              "target": "geographer",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "zoologist",
+              "target": "botanist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "zoologist",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "historian",
+              "attributes": {
+                "weight": 9
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "botanist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "botanist",
+              "target": "historian",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "botanist",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "physicist",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "philosopher",
+              "attributes": {
+                "weight": 9
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "meteorologist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "linguist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "historian",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "chemist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "anthropologist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "theologian",
+              "target": "philosopher",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "theologian",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "physicist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "historian",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "economist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "anthropologist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "physicist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "linguist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "historian",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "chemist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "anthropologist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "historian",
+              "target": "linguist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "logician",
+              "target": "linguist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "linguist",
+              "target": "chemist",
+              "attributes": {
+                "weight": 1
+              }
+            }
+          ],
+          "options": {
+            "type": "undirected",
+            "multi": false
+          }
+        },
+        "edge_weight": "weight",
+        "height": "calc(100vh - 16px)",
+        "layout": null,
+        "layout_settings": null,
+        "max_categorical_colors": 2,
+        "name": null,
+        "node_metrics": {},
+        "program_settings": {},
+        "renderer_settings": {
+          "zIndex": true,
+          "enableEdgeClickEvents": false,
+          "enableEdgeHoverEvents": false,
+          "labelDensity": 10000,
+          "labelGridCellSize": 250,
+          "renderEdgeLabels": true,
+          "labelFont": "sans-serif",
+          "hideEdgesOnMove": false,
+          "labelRenderedSizeThreshold": 0,
+          "defaultNodeType": "border",
+          "defaultEdgeType": "curve"
+        },
+        "selected_edge": null,
+        "selected_edge_category_values": null,
+        "selected_node": null,
+        "selected_node_category_values": null,
+        "snapshot": null,
+        "start_layout": true,
+        "start_layout_for_seconds": null,
+        "sync_key": null,
+        "sync_targets": [
+          "hover",
+          "selection",
+          "camera",
+          "layout"
+        ],
+        "ui_settings": {
+          "hideInfoPanel": false,
+          "hideSearch": false
+        },
+        "visual_variables": {
+          "nodeLabel": {
+            "type": "raw",
+            "attribute": "label",
+            "default": null
+          },
+          "nodeLabelSize": {
+            "type": "constant",
+            "default": 25
+          },
+          "nodeLabelColor": {
+            "type": "category",
+            "attribute": "community",
+            "palette": "Dark2",
+            "default": "#000"
+          },
+          "nodeColor": {
+            "type": "category",
+            "attribute": "community",
+            "palette": "Dark2",
+            "default": "#999"
+          },
+          "nodeColorSaturation": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeBorderColor": {
+            "type": "dependent",
+            "value": "node",
+            "default": null
+          },
+          "nodeBorderRatio": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeBorderSize": {
+            "type": "constant",
+            "default": 1
+          },
+          "nodeSize": {
+            "type": "raw",
+            "attribute": "node_size",
+            "default": null
+          },
+          "nodePictogram": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodePictogramColor": {
+            "type": "constant",
+            "default": "#000"
+          },
+          "nodeHaloSize": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeHaloColor": {
+            "type": "constant",
+            "default": "red"
+          },
+          "nodeShape": {
+            "type": "disabled",
+            "default": null
+          },
+          "edgeLabel": {
+            "type": "raw",
+            "attribute": "label",
+            "default": null
+          },
+          "edgeColor": {
+            "type": "raw",
+            "attribute": "color",
+            "default": "#ccc"
+          },
+          "edgeSize": {
+            "type": "continuous",
+            "range": [
+              1,
+              5
+            ],
+            "attribute": "weight",
+            "default": 1
+          },
+          "edgeCurveness": {
+            "type": "constant",
+            "default": 0.25
+          }
+        }
+      }
+    },
+    "4d018cae0ce447c89e06c75f02831b1a": {
+      "model_name": "SigmaModel",
+      "model_module": "ipysigma",
+      "model_module_version": "^0.24.1",
+      "state": {
+        "_dom_classes": [],
+        "camera_state": {
+          "ratio": 1,
+          "x": 0.5,
+          "y": 0.5,
+          "angle": 0
+        },
+        "data": {
+          "nodes": [
+            {
+              "key": "zoologist",
+              "attributes": {
+                "community": 0,
+                "node_size": 6
+              }
+            },
+            {
+              "key": "geographer",
+              "attributes": {
+                "community": 0,
+                "node_size": 9
+              }
+            },
+            {
+              "key": "botanist",
+              "attributes": {
+                "community": 0,
+                "node_size": 8
+              }
+            },
+            {
+              "key": "mathematician",
+              "attributes": {
+                "community": 1,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "theologian",
+              "attributes": {
+                "community": 1,
+                "node_size": 6
+              }
+            },
+            {
+              "key": "philosopher",
+              "attributes": {
+                "community": 1,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "astronomer",
+              "attributes": {
+                "community": 1,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "physicist",
+              "attributes": {
+                "community": 1,
+                "node_size": 7
+              }
+            },
+            {
+              "key": "historian",
+              "attributes": {
+                "community": 0,
+                "node_size": 9
+              }
+            },
+            {
+              "key": "musicologist",
+              "attributes": {
+                "community": 1,
+                "node_size": 7
+              }
+            },
+            {
+              "key": "meteorologist",
+              "attributes": {
+                "community": 1,
+                "node_size": 4
+              }
+            },
+            {
+              "key": "logician",
+              "attributes": {
+                "community": 1,
+                "node_size": 5
+              }
+            },
+            {
+              "key": "linguist",
+              "attributes": {
+                "community": 1,
+                "node_size": 8
+              }
+            },
+            {
+              "key": "economist",
+              "attributes": {
+                "community": 1,
+                "node_size": 4
+              }
+            },
+            {
+              "key": "chemist",
+              "attributes": {
+                "community": 1,
+                "node_size": 7
+              }
+            },
+            {
+              "key": "archeologist",
+              "attributes": {
+                "community": 0,
+                "node_size": 4
+              }
+            },
+            {
+              "key": "anthropologist",
+              "attributes": {
+                "community": 1,
+                "node_size": 5
+              }
+            }
+          ],
+          "edges": [
+            {
+              "source": "zoologist",
+              "target": "geographer",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "zoologist",
+              "target": "botanist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "zoologist",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "historian",
+              "attributes": {
+                "weight": 9
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "botanist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "botanist",
+              "target": "historian",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "botanist",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "physicist",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "philosopher",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "meteorologist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "historian",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "linguist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "chemist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "anthropologist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "theologian",
+              "target": "philosopher",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "theologian",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "physicist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "historian",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "economist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "anthropologist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "physicist",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "linguist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "historian",
+              "attributes": {
+                "weight": 9
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "chemist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "anthropologist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "historian",
+              "target": "linguist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "historian",
+              "target": "archeologist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "logician",
+              "target": "linguist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "linguist",
+              "target": "chemist",
+              "attributes": {
+                "weight": 1
+              }
+            }
+          ],
+          "options": {
+            "type": "undirected",
+            "multi": false
+          }
+        },
+        "edge_weight": "weight",
+        "height": "calc(100vh - 16px)",
+        "layout": null,
+        "layout_settings": null,
+        "max_categorical_colors": 2,
+        "name": null,
+        "node_metrics": {},
+        "program_settings": {},
+        "renderer_settings": {
+          "zIndex": true,
+          "enableEdgeClickEvents": false,
+          "enableEdgeHoverEvents": false,
+          "labelDensity": 10000,
+          "labelGridCellSize": 250,
+          "renderEdgeLabels": true,
+          "labelFont": "sans-serif",
+          "hideEdgesOnMove": false,
+          "labelRenderedSizeThreshold": 0,
+          "defaultNodeType": "border",
+          "defaultEdgeType": "curve"
+        },
+        "selected_edge": null,
+        "selected_edge_category_values": null,
+        "selected_node": null,
+        "selected_node_category_values": null,
+        "snapshot": null,
+        "start_layout": true,
+        "start_layout_for_seconds": null,
+        "sync_key": null,
+        "sync_targets": [
+          "hover",
+          "selection",
+          "camera",
+          "layout"
+        ],
+        "ui_settings": {
+          "hideInfoPanel": false,
+          "hideSearch": false
+        },
+        "visual_variables": {
+          "nodeLabel": {
+            "type": "raw",
+            "attribute": "label",
+            "default": null
+          },
+          "nodeLabelSize": {
+            "type": "constant",
+            "default": 25
+          },
+          "nodeLabelColor": {
+            "type": "category",
+            "attribute": "community",
+            "palette": "Dark2",
+            "default": "#000"
+          },
+          "nodeColor": {
+            "type": "category",
+            "attribute": "community",
+            "palette": "Dark2",
+            "default": "#999"
+          },
+          "nodeColorSaturation": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeBorderColor": {
+            "type": "dependent",
+            "value": "node",
+            "default": null
+          },
+          "nodeBorderRatio": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeBorderSize": {
+            "type": "constant",
+            "default": 1
+          },
+          "nodeSize": {
+            "type": "raw",
+            "attribute": "node_size",
+            "default": null
+          },
+          "nodePictogram": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodePictogramColor": {
+            "type": "constant",
+            "default": "#000"
+          },
+          "nodeHaloSize": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeHaloColor": {
+            "type": "constant",
+            "default": "red"
+          },
+          "nodeShape": {
+            "type": "disabled",
+            "default": null
+          },
+          "edgeLabel": {
+            "type": "raw",
+            "attribute": "label",
+            "default": null
+          },
+          "edgeColor": {
+            "type": "raw",
+            "attribute": "color",
+            "default": "#ccc"
+          },
+          "edgeSize": {
+            "type": "continuous",
+            "range": [
+              1,
+              5
+            ],
+            "attribute": "weight",
+            "default": 1
+          },
+          "edgeCurveness": {
+            "type": "constant",
+            "default": 0.25
+          }
+        }
+      }
+    },
+    "71fcca90b65447a9b9c7d48fbf51457d": {
+      "model_name": "SigmaModel",
+      "model_module": "ipysigma",
+      "model_module_version": "^0.24.1",
+      "state": {
+        "_dom_classes": [],
+        "camera_state": {
+          "ratio": 1,
+          "x": 0.5,
+          "y": 0.5,
+          "angle": 0
+        },
+        "data": {
+          "nodes": [
+            {
+              "key": "zoologist",
+              "attributes": {
+                "community": 0,
+                "node_size": 6
+              }
+            },
+            {
+              "key": "geographer",
+              "attributes": {
+                "community": 0,
+                "node_size": 9
+              }
+            },
+            {
+              "key": "botanist",
+              "attributes": {
+                "community": 0,
+                "node_size": 8
+              }
+            },
+            {
+              "key": "mathematician",
+              "attributes": {
+                "community": 1,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "theologian",
+              "attributes": {
+                "community": 1,
+                "node_size": 6
+              }
+            },
+            {
+              "key": "philosopher",
+              "attributes": {
+                "community": 1,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "astronomer",
+              "attributes": {
+                "community": 1,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "physicist",
+              "attributes": {
+                "community": 1,
+                "node_size": 7
+              }
+            },
+            {
+              "key": "historian",
+              "attributes": {
+                "community": 0,
+                "node_size": 9
+              }
+            },
+            {
+              "key": "musicologist",
+              "attributes": {
+                "community": 1,
+                "node_size": 7
+              }
+            },
+            {
+              "key": "meteorologist",
+              "attributes": {
+                "community": 1,
+                "node_size": 3
+              }
+            },
+            {
+              "key": "logician",
+              "attributes": {
+                "community": 1,
+                "node_size": 5
+              }
+            },
+            {
+              "key": "linguist",
+              "attributes": {
+                "community": 1,
+                "node_size": 8
+              }
+            },
+            {
+              "key": "economist",
+              "attributes": {
+                "community": 1,
+                "node_size": 5
+              }
+            },
+            {
+              "key": "chemist",
+              "attributes": {
+                "community": 1,
+                "node_size": 7
+              }
+            },
+            {
+              "key": "archeologist",
+              "attributes": {
+                "community": 0,
+                "node_size": 4
+              }
+            },
+            {
+              "key": "anthropologist",
+              "attributes": {
+                "community": 1,
+                "node_size": 4
+              }
+            }
+          ],
+          "edges": [
+            {
+              "source": "zoologist",
+              "target": "geographer",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "zoologist",
+              "target": "botanist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "zoologist",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "historian",
+              "attributes": {
+                "weight": 9
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "botanist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "botanist",
+              "target": "historian",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "botanist",
+              "target": "philosopher",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "physicist",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "philosopher",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "meteorologist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "historian",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "linguist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "chemist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "anthropologist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "theologian",
+              "target": "philosopher",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "theologian",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "physicist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "historian",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "linguist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "economist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "anthropologist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "physicist",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "linguist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "historian",
+              "attributes": {
+                "weight": 9
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "chemist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "anthropologist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "historian",
+              "target": "archeologist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "logician",
+              "target": "linguist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "linguist",
+              "target": "chemist",
+              "attributes": {
+                "weight": 3
+              }
+            }
+          ],
+          "options": {
+            "type": "undirected",
+            "multi": false
+          }
+        },
+        "edge_weight": "weight",
+        "height": "calc(100vh - 16px)",
+        "layout": null,
+        "layout_settings": null,
+        "max_categorical_colors": 2,
+        "name": null,
+        "node_metrics": {},
+        "program_settings": {},
+        "renderer_settings": {
+          "zIndex": true,
+          "enableEdgeClickEvents": false,
+          "enableEdgeHoverEvents": false,
+          "labelDensity": 10000,
+          "labelGridCellSize": 250,
+          "renderEdgeLabels": true,
+          "labelFont": "sans-serif",
+          "hideEdgesOnMove": false,
+          "labelRenderedSizeThreshold": 0,
+          "defaultNodeType": "border",
+          "defaultEdgeType": "curve"
+        },
+        "selected_edge": null,
+        "selected_edge_category_values": null,
+        "selected_node": null,
+        "selected_node_category_values": null,
+        "snapshot": null,
+        "start_layout": true,
+        "start_layout_for_seconds": null,
+        "sync_key": null,
+        "sync_targets": [
+          "hover",
+          "selection",
+          "camera",
+          "layout"
+        ],
+        "ui_settings": {
+          "hideInfoPanel": false,
+          "hideSearch": false
+        },
+        "visual_variables": {
+          "nodeLabel": {
+            "type": "raw",
+            "attribute": "label",
+            "default": null
+          },
+          "nodeLabelSize": {
+            "type": "constant",
+            "default": 25
+          },
+          "nodeLabelColor": {
+            "type": "category",
+            "attribute": "community",
+            "palette": "Dark2",
+            "default": "#000"
+          },
+          "nodeColor": {
+            "type": "category",
+            "attribute": "community",
+            "palette": "Dark2",
+            "default": "#999"
+          },
+          "nodeColorSaturation": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeBorderColor": {
+            "type": "dependent",
+            "value": "node",
+            "default": null
+          },
+          "nodeBorderRatio": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeBorderSize": {
+            "type": "constant",
+            "default": 1
+          },
+          "nodeSize": {
+            "type": "raw",
+            "attribute": "node_size",
+            "default": null
+          },
+          "nodePictogram": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodePictogramColor": {
+            "type": "constant",
+            "default": "#000"
+          },
+          "nodeHaloSize": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeHaloColor": {
+            "type": "constant",
+            "default": "red"
+          },
+          "nodeShape": {
+            "type": "disabled",
+            "default": null
+          },
+          "edgeLabel": {
+            "type": "raw",
+            "attribute": "label",
+            "default": null
+          },
+          "edgeColor": {
+            "type": "raw",
+            "attribute": "color",
+            "default": "#ccc"
+          },
+          "edgeSize": {
+            "type": "continuous",
+            "range": [
+              1,
+              5
+            ],
+            "attribute": "weight",
+            "default": 1
+          },
+          "edgeCurveness": {
+            "type": "constant",
+            "default": 0.25
+          }
+        }
+      }
+    },
+    "d4fb945f7fc94ac68300dbc83651fd3f": {
+      "model_name": "SigmaModel",
+      "model_module": "ipysigma",
+      "model_module_version": "^0.24.1",
+      "state": {
+        "_dom_classes": [],
+        "camera_state": {
+          "ratio": 1,
+          "x": 0.5,
+          "y": 0.5,
+          "angle": 0
+        },
+        "data": {
+          "nodes": [
+            {
+              "key": "zoologist",
+              "attributes": {
+                "community": 0,
+                "node_size": 5
+              }
+            },
+            {
+              "key": "botanist",
+              "attributes": {
+                "community": 0,
+                "node_size": 8
+              }
+            },
+            {
+              "key": "geographer",
+              "attributes": {
+                "community": 0,
+                "node_size": 9
+              }
+            },
+            {
+              "key": "mathematician",
+              "attributes": {
+                "community": 1,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "theologian",
+              "attributes": {
+                "community": 2,
+                "node_size": 6
+              }
+            },
+            {
+              "key": "philosopher",
+              "attributes": {
+                "community": 2,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "astronomer",
+              "attributes": {
+                "community": 1,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "political scientist",
+              "attributes": {
+                "community": 2,
+                "node_size": 6
+              }
+            },
+            {
+              "key": "physicist",
+              "attributes": {
+                "community": 1,
+                "node_size": 7
+              }
+            },
+            {
+              "key": "historian",
+              "attributes": {
+                "community": 0,
+                "node_size": 9
+              }
+            },
+            {
+              "key": "musicologist",
+              "attributes": {
+                "community": 2,
+                "node_size": 7
+              }
+            },
+            {
+              "key": "meteorologist",
+              "attributes": {
+                "community": 1,
+                "node_size": 3
+              }
+            },
+            {
+              "key": "logician",
+              "attributes": {
+                "community": 1,
+                "node_size": 4
+              }
+            },
+            {
+              "key": "linguist",
+              "attributes": {
+                "community": 1,
+                "node_size": 8
+              }
+            },
+            {
+              "key": "economist",
+              "attributes": {
+                "community": 2,
+                "node_size": 5
+              }
+            },
+            {
+              "key": "chemist",
+              "attributes": {
+                "community": 1,
+                "node_size": 7
+              }
+            },
+            {
+              "key": "archeologist",
+              "attributes": {
+                "community": 0,
+                "node_size": 4
+              }
+            },
+            {
+              "key": "anthropologist",
+              "attributes": {
+                "community": 2,
+                "node_size": 4
+              }
+            }
+          ],
+          "edges": [
+            {
+              "source": "zoologist",
+              "target": "botanist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "zoologist",
+              "target": "geographer",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "zoologist",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "botanist",
+              "target": "historian",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "botanist",
+              "target": "geographer",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "botanist",
+              "target": "philosopher",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "historian",
+              "attributes": {
+                "weight": 9
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "geographer",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "physicist",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "philosopher",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "meteorologist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "historian",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "linguist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "chemist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "anthropologist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "theologian",
+              "target": "philosopher",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "theologian",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "political scientist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "physicist",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "historian",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "economist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "anthropologist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "physicist",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "linguist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "historian",
+              "attributes": {
+                "weight": 9
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "chemist",
+              "attributes": {
+                "weight": 4
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "anthropologist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "historian",
+              "target": "linguist",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "historian",
+              "target": "archeologist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "logician",
+              "target": "linguist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "linguist",
+              "target": "chemist",
+              "attributes": {
+                "weight": 2
+              }
+            }
+          ],
+          "options": {
+            "type": "undirected",
+            "multi": false
+          }
+        },
+        "edge_weight": "weight",
+        "height": "calc(100vh - 16px)",
+        "layout": null,
+        "layout_settings": null,
+        "max_categorical_colors": 3,
+        "name": null,
+        "node_metrics": {},
+        "program_settings": {},
+        "renderer_settings": {
+          "zIndex": true,
+          "enableEdgeClickEvents": false,
+          "enableEdgeHoverEvents": false,
+          "labelDensity": 10000,
+          "labelGridCellSize": 250,
+          "renderEdgeLabels": true,
+          "labelFont": "sans-serif",
+          "hideEdgesOnMove": false,
+          "labelRenderedSizeThreshold": 0,
+          "defaultNodeType": "border",
+          "defaultEdgeType": "curve"
+        },
+        "selected_edge": null,
+        "selected_edge_category_values": null,
+        "selected_node": null,
+        "selected_node_category_values": null,
+        "snapshot": null,
+        "start_layout": true,
+        "start_layout_for_seconds": null,
+        "sync_key": null,
+        "sync_targets": [
+          "hover",
+          "selection",
+          "camera",
+          "layout"
+        ],
+        "ui_settings": {
+          "hideInfoPanel": false,
+          "hideSearch": false
+        },
+        "visual_variables": {
+          "nodeLabel": {
+            "type": "raw",
+            "attribute": "label",
+            "default": null
+          },
+          "nodeLabelSize": {
+            "type": "constant",
+            "default": 25
+          },
+          "nodeLabelColor": {
+            "type": "category",
+            "attribute": "community",
+            "palette": "Dark2",
+            "default": "#000"
+          },
+          "nodeColor": {
+            "type": "category",
+            "attribute": "community",
+            "palette": "Dark2",
+            "default": "#999"
+          },
+          "nodeColorSaturation": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeBorderColor": {
+            "type": "dependent",
+            "value": "node",
+            "default": null
+          },
+          "nodeBorderRatio": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeBorderSize": {
+            "type": "constant",
+            "default": 1
+          },
+          "nodeSize": {
+            "type": "raw",
+            "attribute": "node_size",
+            "default": null
+          },
+          "nodePictogram": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodePictogramColor": {
+            "type": "constant",
+            "default": "#000"
+          },
+          "nodeHaloSize": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeHaloColor": {
+            "type": "constant",
+            "default": "red"
+          },
+          "nodeShape": {
+            "type": "disabled",
+            "default": null
+          },
+          "edgeLabel": {
+            "type": "raw",
+            "attribute": "label",
+            "default": null
+          },
+          "edgeColor": {
+            "type": "raw",
+            "attribute": "color",
+            "default": "#ccc"
+          },
+          "edgeSize": {
+            "type": "continuous",
+            "range": [
+              1,
+              5
+            ],
+            "attribute": "weight",
+            "default": 1
+          },
+          "edgeCurveness": {
+            "type": "constant",
+            "default": 0.25
+          }
+        }
+      }
+    }
+  }
+}
+</script>
+<script type="application/vnd.jupyter.widget-view+json">
+{"version_major": 2, "version_minor": 0, "model_id": "d4fb945f7fc94ac68300dbc83651fd3f"}
+</script>
+
+</body>
+</html>

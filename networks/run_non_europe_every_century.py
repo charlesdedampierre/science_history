@@ -1,0 +1,77 @@
+import sys
+
+sys.path.append("../")
+
+import sqlite3
+
+import pandas as pd
+import numpy as np
+import polars as pl
+
+from functions.datamodel import OptimumParameter
+from functions.env import DB_SCIENCE_PATH, FULL_DB_PATH, GRAPH_RESULTS
+from functions.feat_network import filter_edge_table, get_edge_node_table
+from functions.feat_visualization import sygma_graph
+
+conn_full_db = sqlite3.connect(FULL_DB_PATH)
+conn = sqlite3.connect(DB_SCIENCE_PATH)
+
+optimal_parameters = pd.read_sql("SELECT * FROM optimization_100", conn)
+optimal_parameters = optimal_parameters.sort_values("mean", ascending=False)
+
+dict_op = optimal_parameters.iloc[0].to_dict()
+dict_op = OptimumParameter(**dict_op)
+
+from region_filters import columns_non_eu
+
+if __name__ == "__main__":
+    df_occupation = pd.read_sql("SELECT * FROM individual_id_cleaned_occupations", conn)
+    df_temporal = pd.read_sql("SELECT * FROM temporal_data", conn)
+    df_temporal = df_temporal[df_temporal["region_code"].isin(columns_non_eu)]
+    df_temporal = df_temporal[["wikidata_id", "birthyear"]]
+
+    centuries = np.arange(800, 2000, 100)
+    print(centuries)
+
+    for century in centuries:
+        df_temporal_filtered = df_temporal[df_temporal["birthyear"] <= century]
+
+        df = pd.merge(df_occupation, df_temporal_filtered, on="wikidata_id")
+        df = df.drop("birthyear", axis=1)
+        df = df.drop_duplicates()
+
+        df.columns = ["source", "target"]
+        if century == 1500:
+            df.to_csv("indi_europe_before_1500.csv")
+        df["weight"] = 1
+        df = df.drop_duplicates()
+        print(len(set(df.source)))
+
+        df = pl.from_pandas(df)
+        df_edge, df_nodes = get_edge_node_table(df)
+
+        df_edge_filter = filter_edge_table(
+            df_edge,
+            edge_rule=dict_op.edge_rule,
+            top_directed_neighbours=dict_op.n_neighbours,
+            normalize_on_top=False,
+            min_count_link=3,
+        )
+
+        century_str = str(century)
+
+        df_partition, g = sygma_graph(
+            df_edge_filter,
+            df_nodes,
+            edge_bins=10,
+            node_bins=10,
+            resolution=dict_op.resolution,
+            filepath=GRAPH_RESULTS + f"/before_non_europe_{century_str}.html",
+        )
+
+        df_partition.to_sql(
+            f"partition_non_europe_before_{century_str}",
+            conn,
+            if_exists="replace",
+            index=False,
+        )

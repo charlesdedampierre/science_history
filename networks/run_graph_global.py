@@ -63,7 +63,7 @@ if __name__ == "__main__":
         min_count_link=0,
     )
 
-    df_partition = sygma_graph(
+    df_partition, g = sygma_graph(
         df_edge_filter,
         df_nodes,
         edge_bins=10,

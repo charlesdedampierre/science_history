@@ -6,7 +6,8 @@ from .feat_utils import normalize_cosine, specificity
 
 def get_edge_node_table(df: pl.DataFrame, sample=10000, seed=42):
     # Create a node table
-    df_nodes = df.to_pandas().groupby(["target"])["weight"].sum().reset_index()
+    df_nodes = df.to_pandas()
+    df_nodes = df_nodes.groupby(["target"])["weight"].sum().reset_index()
     df_nodes.columns = ["node", "sum_weight"]
     df_nodes = df_nodes.sort_values("sum_weight", ascending=False)
     df_nodes = df_nodes.reset_index(drop=True)
@@ -58,13 +59,14 @@ def get_edge_node_table(df: pl.DataFrame, sample=10000, seed=42):
 
 def filter_edge_table(
     df_edge: pd.DataFrame,
-    edge_rule: str = "specificity",
-    top_directed_neighbours: int = 5,
+    edge_rule: str = "count",
+    top_directed_neighbours: int = 3,
     normalize_on_top: bool = True,
-    min_count_link=10,
+    min_count_link=2,
 ) -> pd.DataFrame:
     df_edge = df_edge[df_edge["weight"] >= min_count_link]
     df_edge = df_edge[df_edge["source"] != df_edge["target"]]
+
     if edge_rule == "specificity":
         # the weight is now the chi2
         df_filter = df_edge.drop("weight", axis=1)

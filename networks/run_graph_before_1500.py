@@ -15,38 +15,22 @@ from functions.feat_visualization import sygma_graph
 conn_full_db = sqlite3.connect(FULL_DB_PATH)
 conn = sqlite3.connect(DB_SCIENCE_PATH)
 
-optimal_parameters = pd.read_sql("SELECT * FROM optimization", conn)
+optimal_parameters = pd.read_sql("SELECT * FROM optimization_europe", conn)
 optimal_parameters = optimal_parameters.sort_values("mean", ascending=False)
 
 dict_op = optimal_parameters.iloc[0].to_dict()
 dict_op = OptimumParameter(**dict_op)
 
-columns_to_keep = [
-    "re_arabic_world",
-    "re_central_europe",
-    "re_chinese_world",
-    "re_eastern_europe",
-    "re_france",
-    "re_german_world",
-    "re_greek_world",
-    "re_indian_world",
-    "re_italy",
-    "re_japan",
-    "re_low_countries",
-    "re_nordic_countries",
-    "re_persian_world",
-    "re_slav_world",
-    "re_spain",
-    "re_united_kingdom",
-]
+from region_filters import columns_eu
 
 if __name__ == "__main__":
     df_occupation = pd.read_sql("SELECT * FROM individual_id_cleaned_occupations", conn)
 
     df_temporal = pd.read_sql("SELECT * FROM temporal_data", conn)
-    df_temporal = df_temporal[df_temporal["region_code"].isin(columns_to_keep)]
+    df_temporal = df_temporal[df_temporal["region_code"].isin(columns_eu)]
     df_temporal = df_temporal[["wikidata_id", "birthyear"]]
-    df_temporal = df_temporal[df_temporal["birthyear"] <= 1600]
+    df_temporal = df_temporal[df_temporal["birthyear"] <= 1500]
+    print(len(set(df_temporal.wikidata_id)))
 
     df = pd.merge(df_occupation, df_temporal, on="wikidata_id")
     df = df.drop("birthyear", axis=1)
@@ -63,10 +47,10 @@ if __name__ == "__main__":
         edge_rule=dict_op.edge_rule,
         top_directed_neighbours=dict_op.n_neighbours,
         normalize_on_top=False,
-        min_count_link=0,
+        min_count_link=dict_op.min_count_link,
     )
 
-    df_partition = sygma_graph(
+    df_partition, g = sygma_graph(
         df_edge_filter,
         df_nodes,
         edge_bins=10,
@@ -76,3 +60,4 @@ if __name__ == "__main__":
     )
 
     df_partition.to_sql("partition_before_1500", conn, if_exists="replace", index=False)
+    print(df_partition)

@@ -11,17 +11,15 @@ from tqdm import tqdm
 from functions.datamodel import OptimumParameter
 from functions.env import DB_SCIENCE_PATH, FULL_DB_PATH
 from functions.feat_network import filter_edge_table, get_edge_node_table
-from functions.feat_visualization import sygma_graph
+from functions.feat_visualization import sygma_graph, sygma_graph_leiden
 
 conn_full_db = sqlite3.connect(FULL_DB_PATH)
 conn = sqlite3.connect(DB_SCIENCE_PATH)
 
-optimal_parameters = pd.read_sql("SELECT * FROM optimization", conn)
-optimal_parameters = optimal_parameters.sort_values("mean", ascending=False)
+from optimal_clustering import optimal_clustering
 
-dict_op = optimal_parameters.iloc[0].to_dict()
+dict_op = optimal_clustering
 dict_op = OptimumParameter(**dict_op)
-
 
 if __name__ == "__main__":
     df_ind_regions = pd.read_sql_query(
@@ -36,6 +34,7 @@ if __name__ == "__main__":
     df_occupation["weight"] = 1
 
     all_regions = list(set(df_ind_regions["region_code"]))
+    print(all_regions)
 
     final_clustering = []
     for region_code in tqdm(all_regions):
@@ -51,16 +50,15 @@ if __name__ == "__main__":
                 edge_rule=dict_op.edge_rule,
                 top_directed_neighbours=dict_op.n_neighbours,
                 normalize_on_top=False,
-                min_count_link=0,
+                min_count_link=dict_op.min_count_link,
             )
 
-            df_partition = sygma_graph(
+            df_partition, g = sygma_graph_leiden(
                 df_edge_filter,
                 df_nodes,
                 edge_bins=10,
                 node_bins=10,
-                resolution=dict_op.resolution,
-                filepath=f"graph/region/{region_code}.html",
+                filepath=f"../graph/region/{region_code}.html",
             )
 
             df_partition["region_code"] = region_code

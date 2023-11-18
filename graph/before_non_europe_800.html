@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IPyWidget export</title>
+</head>
+<body>
+
+
+<!-- Load require.js. Delete this if your page already loads require.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.1/dist/embed-amd.js" crossorigin="anonymous"></script>
+
+<script type="application/vnd.jupyter.widget-state+json">
+{
+  "version_major": 2,
+  "version_minor": 0,
+  "state": {
+    "9dd4c24a73074341abc4eb1233d529dc": {
+      "model_name": "SigmaModel",
+      "model_module": "ipysigma",
+      "model_module_version": "^0.24.1",
+      "state": {
+        "_dom_classes": [],
+        "camera_state": {
+          "ratio": 1,
+          "x": 0.5,
+          "y": 0.5,
+          "angle": 0
+        },
+        "data": {
+          "nodes": [
+            {
+              "key": "philosopher",
+              "attributes": {
+                "community": 0,
+                "node_size": 9
+              }
+            },
+            {
+              "key": "astronomer",
+              "attributes": {
+                "community": 0,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "mathematician",
+              "attributes": {
+                "community": 0,
+                "node_size": 10
+              }
+            },
+            {
+              "key": "historian",
+              "attributes": {
+                "community": 0,
+                "node_size": 8
+              }
+            },
+            {
+              "key": "musicologist",
+              "attributes": {
+                "community": 0,
+                "node_size": 6
+              }
+            },
+            {
+              "key": "geographer",
+              "attributes": {
+                "community": 0,
+                "node_size": 8
+              }
+            },
+            {
+              "key": "linguist",
+              "attributes": {
+                "community": 0,
+                "node_size": 7
+              }
+            }
+          ],
+          "edges": [
+            {
+              "source": "philosopher",
+              "target": "astronomer",
+              "attributes": {
+                "weight": 9
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 8
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "historian",
+              "attributes": {
+                "weight": 6
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "linguist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "philosopher",
+              "target": "geographer",
+              "attributes": {
+                "weight": 3
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "mathematician",
+              "attributes": {
+                "weight": 10
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "linguist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "historian",
+              "attributes": {
+                "weight": 7
+              }
+            },
+            {
+              "source": "astronomer",
+              "target": "geographer",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "musicologist",
+              "attributes": {
+                "weight": 2
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "geographer",
+              "attributes": {
+                "weight": 5
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "linguist",
+              "attributes": {
+                "weight": 1
+              }
+            },
+            {
+              "source": "mathematician",
+              "target": "historian",
+              "attributes": {
+                "weight": 4
+              }
+            }
+          ],
+          "options": {
+            "type": "undirected",
+            "multi": false
+          }
+        },
+        "edge_weight": "weight",
+        "height": "calc(100vh - 16px)",
+        "layout": null,
+        "layout_settings": null,
+        "max_categorical_colors": 1,
+        "name": null,
+        "node_metrics": {},
+        "program_settings": {},
+        "renderer_settings": {
+          "zIndex": true,
+          "enableEdgeClickEvents": false,
+          "enableEdgeHoverEvents": false,
+          "labelDensity": 10000,
+          "labelGridCellSize": 250,
+          "renderEdgeLabels": true,
+          "labelFont": "sans-serif",
+          "hideEdgesOnMove": false,
+          "labelRenderedSizeThreshold": 0,
+          "defaultNodeType": "border",
+          "defaultEdgeType": "curve"
+        },
+        "selected_edge": null,
+        "selected_edge_category_values": null,
+        "selected_node": null,
+        "selected_node_category_values": null,
+        "snapshot": null,
+        "start_layout": true,
+        "start_layout_for_seconds": null,
+        "sync_key": null,
+        "sync_targets": [
+          "hover",
+          "selection",
+          "camera",
+          "layout"
+        ],
+        "ui_settings": {
+          "hideInfoPanel": false,
+          "hideSearch": false
+        },
+        "visual_variables": {
+          "nodeLabel": {
+            "type": "raw",
+            "attribute": "label",
+            "default": null
+          },
+          "nodeLabelSize": {
+            "type": "constant",
+            "default": 25
+          },
+          "nodeLabelColor": {
+            "type": "category",
+            "attribute": "community",
+            "palette": "Dark2",
+            "default": "#000"
+          },
+          "nodeColor": {
+            "type": "category",
+            "attribute": "community",
+            "palette": "Dark2",
+            "default": "#999"
+          },
+          "nodeColorSaturation": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeBorderColor": {
+            "type": "dependent",
+            "value": "node",
+            "default": null
+          },
+          "nodeBorderRatio": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeBorderSize": {
+            "type": "constant",
+            "default": 1
+          },
+          "nodeSize": {
+            "type": "raw",
+            "attribute": "node_size",
+            "default": null
+          },
+          "nodePictogram": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodePictogramColor": {
+            "type": "constant",
+            "default": "#000"
+          },
+          "nodeHaloSize": {
+            "type": "disabled",
+            "default": null
+          },
+          "nodeHaloColor": {
+            "type": "constant",
+            "default": "red"
+          },
+          "nodeShape": {
+            "type": "disabled",
+            "default": null
+          },
+          "edgeLabel": {
+            "type": "raw",
+            "attribute": "label",
+            "default": null
+          },
+          "edgeColor": {
+            "type": "raw",
+            "attribute": "color",
+            "default": "#ccc"
+          },
+          "edgeSize": {
+            "type": "continuous",
+            "range": [
+              1,
+              5
+            ],
+            "attribute": "weight",
+            "default": 1
+          },
+          "edgeCurveness": {
+            "type": "constant",
+            "default": 0.25
+          }
+        }
+      }
+    }
+  }
+}
+</script>
+<script type="application/vnd.jupyter.widget-view+json">
+{"version_major": 2, "version_minor": 0, "model_id": "9dd4c24a73074341abc4eb1233d529dc"}
+</script>
+
+</body>
+</html>

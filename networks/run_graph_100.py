@@ -3,7 +3,6 @@ import sys
 sys.path.append("../")
 
 import sqlite3
-import random
 
 
 import pandas as pd
@@ -12,37 +11,26 @@ import polars as pl
 from functions.datamodel import OptimumParameter
 from functions.env import DB_SCIENCE_PATH, FULL_DB_PATH, GRAPH_RESULTS
 from functions.feat_network import filter_edge_table, get_edge_node_table
-from functions.feat_visualization import sygma_graph
+from functions.feat_visualization import sygma_graph, sygma_graph_leiden
 
 pd.options.mode.chained_assignment = None
 
 conn_full_db = sqlite3.connect(FULL_DB_PATH)
 conn = sqlite3.connect(DB_SCIENCE_PATH)
 
-optimal_parameters = pd.read_sql("SELECT * FROM optimization", conn)
+optimal_parameters = pd.read_sql("SELECT * FROM optimization_100", conn)
 optimal_parameters = optimal_parameters.sort_values("mean", ascending=False)
 
 dict_op = optimal_parameters.iloc[0].to_dict()
 dict_op = OptimumParameter(**dict_op)
 
-columns_to_keep = [
-    "re_arabic_world",
-    "re_central_europe",
-    "re_chinese_world",
-    "re_eastern_europe",
-    "re_france",
-    "re_german_world",
-    "re_greek_world",
-    "re_indian_world",
-    "re_italy",
-    "re_japan",
-    "re_low_countries",
-    "re_nordic_countries",
-    "re_persian_world",
-    "re_slav_world",
-    "re_spain",
-    "re_united_kingdom",
-]
+
+from optimal_clustering import optimal_clustering
+
+dict_op = optimal_clustering
+dict_op = OptimumParameter(**dict_op)
+from region_filters import columns_to_keep
+
 
 if __name__ == "__main__":
     df_occupation = pd.read_sql("SELECT * FROM individual_id_cleaned_occupations", conn)
@@ -76,12 +64,15 @@ if __name__ == "__main__":
         my_list = df_select.wikidata_id.unique()
         my_list = list(df_select.wikidata_id)
 
-        if len(my_list) <= 20:
+        n_random_individuals = 5
+        if len(my_list) <= n_random_individuals:
             selected_elements = my_list
         else:
             selected_elements = pd.DataFrame(my_list)
             selected_elements = list(
-                pd.DataFrame(selected_elements).sample(20, random_state=42)[0].values
+                pd.DataFrame(selected_elements)
+                .sample(n_random_individuals, random_state=42)[0]
+                .values
             )
 
         # selected_elements = random.sample(my_list, 20)
@@ -116,23 +107,27 @@ if __name__ == "__main__":
     df = pl.from_pandas(df)
     df_edge, df_nodes = get_edge_node_table(df)
 
-    df_edge_filter = filter_edge_table(
-        df_edge,
-        edge_rule=dict_op.edge_rule,
-        top_directed_neighbours=dict_op.n_neighbours,
-        normalize_on_top=False,
-        min_count_link=0,
-    )
+    df_edge_filter = df_edge[df_edge["weight"] >= dict_op.min_count_link]
+    df_edge_filter = df_edge_filter[
+        df_edge_filter["source"] != df_edge_filter["target"]
+    ]
+    df_edge_filter = df_edge_filter[
+        df_edge_filter["rank_count"] <= dict_op.n_neighbours
+    ]
 
-    df_partition, g = sygma_graph(
+    df_partition, g = sygma_graph_leiden(
         df_edge_filter,
         df_nodes,
         edge_bins=10,
         node_bins=10,
-        resolution=dict_op.resolution,
-        filepath=GRAPH_RESULTS + "/100.html",
+        filepath=GRAPH_RESULTS + "/100_optimized_100.html",
     )
 
     df_partition.to_sql(
-        "optimal_partition_weighted", conn, if_exists="replace", index=False
+        "optimal_partition_weighted_optimized_100",
+        conn,
+        if_exists="replace",
+        index=False,
     )
+
+    print(df_partition)
