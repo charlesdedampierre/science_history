@@ -33,9 +33,9 @@ if __name__ == "__main__":
     df_occupation = pd.read_sql("SELECT * FROM individual_id_cleaned_occupations", conn)
 
     df_temporal = pd.read_sql("SELECT * FROM temporal_data", conn)
-    df_temporal = df_temporal[df_temporal["region_code"].isin(columns_to_keep)]
+    df_temporal = df_temporal[df_temporal["region_code"].isin(columns_non_eu_unique)]
     df_temporal = df_temporal[["wikidata_id", "birthyear"]]
-    df_temporal = df_temporal[df_temporal["birthyear"] <= 1600]
+    df_temporal = df_temporal[df_temporal["birthyear"] <= 1700]
     print(len(set(df_temporal.wikidata_id)))
 
     df = pd.merge(df_occupation, df_temporal, on="wikidata_id")
@@ -61,7 +61,9 @@ if __name__ == "__main__":
         df_nodes,
         edge_bins=10,
         node_bins=10,
-        filepath=GRAPH_RESULTS + "/before_1600.html",
+        filepath=GRAPH_RESULTS + "/before_non_europe_1700.html",
     )
 
-    df_partition.to_sql("partition_before_1600", conn, if_exists="replace", index=False)
+    df_partition.to_sql(
+        "partition_before_non_europe_1700", conn, if_exists="replace", index=False
+    )

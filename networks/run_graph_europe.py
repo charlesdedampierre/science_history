@@ -15,18 +15,10 @@ from functions.feat_visualization import sygma_graph, sygma_graph_leiden
 conn_full_db = sqlite3.connect(FULL_DB_PATH)
 conn = sqlite3.connect(DB_SCIENCE_PATH)
 
-# optimal_parameters = pd.read_sql("SELECT * FROM optimization_100", conn)
-optimal_parameters = pd.read_sql("SELECT * FROM optimization_europe", conn)
-
-optimal_parameters = optimal_parameters.sort_values("mean", ascending=False)
-dict_op = optimal_parameters.iloc[0].to_dict()
-dict_op = OptimumParameter(**dict_op)
-
 from optimal_clustering import optimal_clustering
 
 dict_op = optimal_clustering
 dict_op = OptimumParameter(**dict_op)
-
 
 from region_filters import columns_eu
 

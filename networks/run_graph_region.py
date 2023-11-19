@@ -45,13 +45,13 @@ if __name__ == "__main__":
             df = pl.from_pandas(df)
             df_edge, df_nodes = get_edge_node_table(df)
 
-            df_edge_filter = filter_edge_table(
-                df_edge,
-                edge_rule=dict_op.edge_rule,
-                top_directed_neighbours=dict_op.n_neighbours,
-                normalize_on_top=False,
-                min_count_link=dict_op.min_count_link,
-            )
+            df_edge_filter = df_edge[df_edge["weight"] >= dict_op.min_count_link]
+            df_edge_filter = df_edge_filter[
+                df_edge_filter["source"] != df_edge_filter["target"]
+            ]
+            df_edge_filter = df_edge_filter[
+                df_edge_filter["rank_count"] <= dict_op.n_neighbours
+            ]
 
             df_partition, g = sygma_graph_leiden(
                 df_edge_filter,
