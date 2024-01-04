@@ -4,7 +4,6 @@ sys.path.append("../")
 
 import sqlite3
 
-import pickle
 import pandas as pd
 import polars as pl
 
@@ -24,22 +23,7 @@ dict_op = OptimumParameter(**dict_op)
 
 
 if __name__ == "__main__":
-    df = pd.read_csv("data/global_weighted.csv")
-    df["meta_occupation"] = df["meta_occupation"].apply(lambda x: x.split(" | "))
-    df = df.explode("meta_occupation")
-    df = df.reset_index(drop=True)
-    df = df[["wikidata_id", "meta_occupation"]]
-    df = df.drop_duplicates()
-
-    df.columns = ["source", "target"]
-    df["weight"] = 1
-
-    print(df)
-
-    df = pl.from_pandas(df)
-    df_edge, df_nodes = get_edge_node_table(df)
-    df_edge.to_csv("matrix/global_weighted.csv")
-
+    df_edge = pd.read_csv("../networks/matrix/weighted_optimized_before_1700.csv")
     df_edge_filter = df_edge[df_edge["weight"] >= dict_op.min_count_link]
     df_edge_filter = df_edge_filter[
         df_edge_filter["source"] != df_edge_filter["target"]
@@ -54,11 +38,6 @@ if __name__ == "__main__":
         node_bins=10,
         filepath=GRAPH_RESULTS + "/100_europe_as_one_optimized_100.html",
     )
-
-    # Save the 'g' object as a pickle file
-    with open("g_objects/g_global_weighted.pkl", "wb") as f:
-        pickle.dump(g, f)
-
     df_partition = df_partition.sort_values("community")
     df_partition.to_sql(
         "optimal_partition_100_europe",

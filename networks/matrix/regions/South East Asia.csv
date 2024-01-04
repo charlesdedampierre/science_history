@@ -1,0 +1,15 @@
+,source,target,specificity,weight,rank_count,rank_specificity
+0,zoologist,botanist,2.25,1,1.0,1.0
+1,philosopher,linguist,0.3402777777777778,1,3.0,1.0
+2,philosopher,botanist,0.08333333333333333,1,2.0,2.0
+3,philosopher,astronomer,0.08333333333333333,1,1.0,3.0
+4,linguist,philosopher,0.3402777777777778,1,1.0,1.0
+5,linguist,botanist,0.08333333333333333,1,3.0,2.0
+6,linguist,astronomer,0.08333333333333333,1,2.0,3.0
+7,geographer,astronomer,2.25,1,1.0,1.0
+8,botanist,zoologist,2.25,1,4.0,1.0
+9,botanist,linguist,0.08333333333333333,1,3.0,2.0
+10,botanist,philosopher,0.08333333333333333,1,1.0,3.0
+11,astronomer,geographer,2.25,1,1.0,1.0
+12,astronomer,linguist,0.08333333333333333,1,4.0,2.0
+13,astronomer,philosopher,0.08333333333333333,1,2.0,3.0
