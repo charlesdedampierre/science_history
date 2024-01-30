@@ -1,0 +1,76 @@
+,source,target,specificity,weight,rank_count,rank_specificity
+0,zoologist,botanist,30816.736328457147,44,1.0,1.0
+1,zoologist,mathematician,5200.887090489465,19,2.0,2.0
+2,zoologist,physicist,4579.415275825569,17,3.0,3.0
+19,theologian,philosopher,1649756.381626353,346,1.0,1.0
+20,theologian,historian,720265.5259413122,218,2.0,2.0
+21,theologian,mathematician,111489.61798998892,90,3.0,3.0
+39,sociologist,philosopher,727.294487905764,4,1.0,1.0
+40,sociologist,historian,448.9697823936697,3,2.0,2.0
+43,sociologist,geographer,48.56978239366964,1,3.0,5.0
+45,political scientist,philosopher,1916.1162964961186,7,1.0,1.0
+46,political scientist,historian,1547.8516508878527,6,2.0,2.0
+48,political scientist,theologian,169.33736517356692,2,3.0,4.0
+52,physicist,mathematician,169639.85889907985,111,1.0,1.0
+53,physicist,astronomer,72949.5148736448,64,2.0,2.0
+54,physicist,philosopher,37174.39980817074,52,3.0,3.0
+72,philosopher,theologian,1649756.381626353,346,1.0,1.0
+73,philosopher,mathematician,245368.0136732853,140,2.0,2.0
+74,philosopher,historian,137663.70889907982,100,3.0,3.0
+94,pharmacologist,botanist,1205.2131882624465,4,1.0,1.0
+95,pharmacologist,chemist,375.1355506099571,2,3.0,2.0
+96,pharmacologist,zoologist,315.2756867440609,2,2.0,3.0
+98,paleontologist,botanist,531.2296735905045,4,1.0,1.0
+99,paleontologist,philosopher,118.57809549500944,2,2.0,2.0
+103,paleontologist,theologian,31.729673590504447,1,3.0,6.0
+107,musicologist,mathematician,19951.85440158259,33,1.0,1.0
+108,musicologist,astronomer,6840.842037586547,17,3.0,2.0
+109,musicologist,philosopher,6597.890765218956,19,2.0,3.0
+122,meteorologist,mathematician,890.4200597831567,6,1.0,1.0
+123,meteorologist,physicist,679.3544495399096,5,2.0,2.0
+125,meteorologist,botanist,433.199904085364,4,3.0,4.0
+133,mathematician,astronomer,1588357.895879726,313,1.0,1.0
+134,mathematician,philosopher,245368.0136732853,140,2.0,2.0
+135,mathematician,physicist,169639.85889907985,111,3.0,3.0
+155,logician,philosopher,2237.7944879057636,7,1.0,1.0
+156,logician,theologian,1807.8197823936698,6,2.0,2.0
+158,logician,historian,48.56978239366964,1,3.0,4.0
+161,linguist,historian,24184.065941312234,40,1.0,1.0
+162,linguist,theologian,22988.030941312234,39,2.0,2.0
+163,linguist,philosopher,14947.422535443458,33,3.0,3.0
+181,historian,theologian,720265.5259413122,218,1.0,1.0
+182,historian,philosopher,137663.70889907982,100,2.0,2.0
+183,historian,geographer,80668.35094131224,73,3.0,3.0
+201,geologist,botanist,860.273697174221,7,1.0,1.0
+203,geologist,astronomer,743.6739401759424,6,3.0,3.0
+204,geologist,historian,630.3384030565738,6,2.0,4.0
+218,geographer,historian,80668.35094131224,73,2.0,1.0
+219,geographer,astronomer,79955.09722658597,67,3.0,2.0
+220,geographer,mathematician,75346.19980817074,74,1.0,3.0
+238,epidemiologist,astronomer,69.37871841120226,1,2.0,1.0
+240,epidemiologist,geographer,58.67648532805803,1,1.0,3.0
+242,epidemiologist,mathematician,53.16358840631838,1,3.0,5.0
+243,economist,philosopher,3574.8907652189546,14,1.0,1.0
+244,economist,historian,3391.229455984174,13,2.0,2.0
+245,economist,theologian,1278.129455984174,8,3.0,3.0
+258,chemist,physicist,5444.4090030497855,17,2.0,1.0
+259,chemist,philosopher,4946.381891991127,17,1.0,2.0
+260,chemist,botanist,4820.852753049786,16,3.0,3.0
+274,botanist,zoologist,30816.736328457147,44,1.0,1.0
+275,botanist,anatomist,12229.709347181008,27,2.0,2.0
+276,botanist,chemist,4820.852753049786,16,3.0,3.0
+294,astronomer,mathematician,1588357.895879726,313,1.0,1.0
+295,astronomer,geographer,79955.09722658597,67,2.0,2.0
+297,astronomer,philosopher,70519.12047865635,66,3.0,4.0
+313,art theorist,botanist,48.56978239366964,1,1.0,3.0
+315,art theorist,philosopher,43.976306087582046,1,2.0,5.0
+316,art theorist,mathematician,43.976306087582046,1,3.0,6.0
+317,archeologist,historian,37300.82945598417,43,1.0,1.0
+318,archeologist,anthropologist,8314.006047760351,17,2.0,2.0
+321,archeologist,theologian,976.8294559841739,7,3.0,5.0
+332,anthropologist,archeologist,8314.006047760351,17,2.0,1.0
+333,anthropologist,historian,6983.274730347133,18,1.0,2.0
+334,anthropologist,geographer,531.6533017757052,5,3.0,3.0
+346,anatomist,botanist,12229.709347181008,27,1.0,1.0
+347,anatomist,philosopher,4927.156190990019,18,2.0,2.0
+349,anatomist,mathematician,2974.4289182627463,14,3.0,4.0

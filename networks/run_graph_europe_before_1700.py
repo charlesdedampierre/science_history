@@ -32,10 +32,9 @@ if __name__ == "__main__":
     df.columns = ["source", "target"]
     df["weight"] = 1
 
-    print(df)
-
     df = pl.from_pandas(df)
     df_edge, df_nodes = get_edge_node_table(df)
+    print(df_edge)
     df_edge.to_csv(f"matrix/{file_name}.csv")
 
     df_edge_filter = df_edge[df_edge["weight"] >= dict_op.min_count_link]
@@ -53,6 +52,11 @@ if __name__ == "__main__":
         node_bins=10,
         filepath=GRAPH_RESULTS + f"/{file_name}.html",
     )
+
+    import pickle
+
+    with open("g_objects/g_europe.pkl", "wb") as f:
+        pickle.dump(g, f)
 
     df_partition = df_partition.sort_values("community")
     df_partition.to_sql(

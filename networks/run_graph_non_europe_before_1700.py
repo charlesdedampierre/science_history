@@ -6,6 +6,7 @@ import sqlite3
 
 import pandas as pd
 import polars as pl
+import numpy as np
 
 from functions.datamodel import OptimumParameter
 from functions.env import DB_SCIENCE_PATH, GRAPH_RESULTS, DB_SCIENCE_PATH_NEW
@@ -18,6 +19,14 @@ from optimal_clustering import optimal_clustering
 
 dict_op = optimal_clustering
 dict_op = OptimumParameter(**dict_op)
+
+
+def cosine_similarity(vector1, vector2):
+    dot_product = np.dot(vector1, vector2)
+    norm1 = np.linalg.norm(vector1)
+    norm2 = np.linalg.norm(vector2)
+    return dot_product / (norm1 * norm2)
+
 
 if __name__ == "__main__":
     df = pd.read_csv("data/non_europe_before_1700.csv")
@@ -34,7 +43,6 @@ if __name__ == "__main__":
 
     df = pl.from_pandas(df)
     df_edge, df_nodes = get_edge_node_table(df)
-    df_edge.to_csv("matrix/non_europe_before_1700.csv")
 
     df_edge_filter = df_edge[df_edge["weight"] >= dict_op.min_count_link]
     df_edge_filter = df_edge_filter[
@@ -44,6 +52,8 @@ if __name__ == "__main__":
         df_edge_filter["rank_count"] <= dict_op.n_neighbours
     ]
 
+    df_edge.to_csv("matrix/non_europe_before_1700.csv")
+
     df_partition, g = sygma_graph_leiden(
         df_edge_filter,
         df_nodes,
@@ -51,6 +61,11 @@ if __name__ == "__main__":
         node_bins=10,
         filepath=GRAPH_RESULTS + "/non_europe_before_1700.html",
     )
+
+    import pickle
+
+    with open("g_objects/g_non_europe.pkl", "wb") as f:
+        pickle.dump(g, f)
 
     df_partition = df_partition.sort_values("community")
     df_partition.to_sql(

@@ -1,0 +1,151 @@
+,source,target,weight
+35,astronomer,mathematician,215.42
+92,mathematician,astronomer,215.42
+122,philosopher,theologian,117.64
+141,theologian,philosopher,117.64
+121,philosopher,mathematician,114.17
+94,mathematician,philosopher,114.17
+81,historian,philosopher,88.35
+36,astronomer,philosopher,82.65
+120,philosopher,historian,76.65
+82,historian,theologian,69.73
+139,theologian,historian,69.73
+66,geographer,historian,48.44
+80,historian,geographer,48.44
+124,physicist,mathematician,44.79
+95,mathematician,physicist,40.04
+67,geographer,mathematician,38.83
+65,geographer,astronomer,33.22
+123,physicist,astronomer,31.11
+125,physicist,philosopher,29.7
+105,musicologist,philosopher,27.0
+84,linguist,historian,24.54
+86,linguist,philosopher,23.15
+140,theologian,mathematician,22.72
+104,musicologist,mathematician,21.77
+33,astronomer,geographer,21.42
+143,zoologist,botanist,14.52
+44,botanist,zoologist,14.11
+103,musicologist,astronomer,13.5
+37,astronomer,physicist,12.75
+119,philosopher,astronomer,12.06
+21,archeologist,historian,12.0
+85,linguist,mathematician,10.63
+43,botanist,philosopher,10.31
+41,botanist,historian,8.66
+13,anthropologist,historian,7.72
+56,economist,philosopher,7.52
+6,anatomist,philosopher,7.12
+45,chemist,astronomer,6.47
+15,anthropologist,philosopher,6.06
+1,anatomist,botanist,5.42
+145,zoologist,historian,5.26
+93,mathematician,geographer,5.16
+49,chemist,physicist,4.78
+48,chemist,philosopher,4.77
+54,economist,historian,4.75
+146,zoologist,mathematician,4.67
+16,archeologist,anthropologist,4.37
+99,meteorologist,mathematician,4.32
+90,logician,philosopher,3.88
+91,logician,theologian,3.67
+131,political scientist,philosopher,3.49
+147,zoologist,philosopher,3.2
+47,chemist,mathematician,3.09
+10,anthropologist,archeologist,3.07
+83,linguist,astronomer,2.89
+116,pharmacologist,botanist,2.78
+96,meteorologist,astronomer,2.52
+39,botanist,astronomer,2.36
+88,logician,linguist,2.27
+100,meteorologist,philosopher,2.12
+4,anatomist,historian,2.0
+87,linguist,theologian,1.82
+12,anthropologist,geographer,1.8
+46,chemist,botanist,1.77
+70,geologist,astronomer,1.72
+137,sociologist,philosopher,1.69
+25,archeologist,theologian,1.68
+75,geologist,mathematician,1.6
+136,sociologist,historian,1.51
+55,economist,mathematician,1.48
+128,political scientist,historian,1.42
+71,geologist,botanist,1.4
+77,geologist,physicist,1.33
+135,sociologist,economist,1.03
+73,geologist,geographer,0.98
+107,paleontologist,botanist,0.91
+129,political scientist,linguist,0.87
+62,epidemiologist,botanist,0.81
+101,meteorologist,physicist,0.8
+5,anatomist,mathematician,0.78
+76,geologist,philosopher,0.77
+2,anatomist,chemist,0.72
+138,theologian,astronomer,0.71
+148,zoologist,physicist,0.6
+7,anatomist,physicist,0.58
+24,archeologist,philosopher,0.54
+9,anatomist,zoologist,0.53
+117,pharmacologist,chemist,0.49
+58,economist,theologian,0.48
+42,botanist,mathematician,0.47
+40,botanist,geographer,0.42
+111,paleontologist,philosopher,0.42
+118,pharmacologist,zoologist,0.38
+133,political scientist,theologian,0.37
+79,geologist,zoologist,0.37
+3,anatomist,geographer,0.34
+63,epidemiologist,mathematician,0.34
+64,epidemiologist,physicist,0.34
+17,archeologist,astronomer,0.33
+51,economist,botanist,0.32
+53,economist,geographer,0.31
+134,sociologist,anthropologist,0.3
+59,economist,zoologist,0.29
+34,astronomer,historian,0.27
+74,geologist,historian,0.27
+18,archeologist,botanist,0.26
+142,zoologist,astronomer,0.25
+11,anthropologist,astronomer,0.24
+28,art theorist,geographer,0.24
+109,paleontologist,geologist,0.23
+38,botanist,anatomist,0.22
+50,economist,anthropologist,0.21
+19,archeologist,geographer,0.2
+57,economist,physicist,0.19
+114,paleontologist,zoologist,0.19
+115,pharmacologist,anatomist,0.19
+29,art theorist,linguist,0.18
+0,anatomist,astronomer,0.17
+26,art theorist,anatomist,0.17
+32,art theorist,zoologist,0.17
+61,epidemiologist,astronomer,0.17
+31,art theorist,philosopher,0.16
+110,paleontologist,linguist,0.15
+106,paleontologist,anatomist,0.15
+30,art theorist,mathematician,0.15
+68,geologist,anatomist,0.14
+72,geologist,chemist,0.13
+149,zoologist,theologian,0.13
+144,zoologist,geographer,0.12
+60,epidemiologist,anatomist,0.12
+113,paleontologist,theologian,0.1
+23,archeologist,mathematician,0.09
+97,meteorologist,botanist,0.09
+130,political scientist,mathematician,0.08
+14,anthropologist,mathematician,0.08
+132,political scientist,sociologist,0.08
+20,archeologist,geologist,0.08
+27,art theorist,botanist,0.08
+112,paleontologist,physicist,0.07
+102,meteorologist,zoologist,0.06
+89,logician,mathematician,0.06
+69,geologist,anthropologist,0.06
+127,political scientist,economist,0.06
+22,archeologist,linguist,0.04
+8,anatomist,theologian,0.04
+52,economist,chemist,0.03
+98,meteorologist,historian,0.02
+78,geologist,theologian,0.01
+108,paleontologist,geographer,0.01
+126,political scientist,anthropologist,0.01
