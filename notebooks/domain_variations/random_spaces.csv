@@ -1,0 +1,34 @@
+,region_name,domain,difference_from_mean
+0,Ancient Mediterranean,Abstract Domain,0.15290024756018178
+1,Ancient Mediterranean,Human Domain,-0.41705808335716055
+2,Ancient Mediterranean,Natural Domain,0.2641578357969768
+3,Asia,Abstract Domain,0.17704049087850837
+4,Asia,Human Domain,-1.1037777563782014
+5,Asia,Natural Domain,0.9267372654996949
+6,British Islands,Abstract Domain,-0.14208337214041009
+7,British Islands,Human Domain,0.5336443573304933
+8,British Islands,Natural Domain,-0.3915609851900797
+9,Eastern Europe,Abstract Domain,-0.07117917935951024
+10,Eastern Europe,Human Domain,0.10658985765913513
+11,Eastern Europe,Natural Domain,-0.03541067829962454
+12,France,Abstract Domain,-0.16377658678067472
+13,France,Human Domain,0.40166417011635785
+14,France,Natural Domain,-0.23788758333568047
+15,German world,Abstract Domain,-0.06254052258785574
+16,German world,Human Domain,0.26580117848735796
+17,German world,Natural Domain,-0.20326065589950043
+18,Iberian Peninsula,Abstract Domain,-0.14666108844104872
+19,Iberian Peninsula,Human Domain,-0.04983731479731261
+20,Iberian Peninsula,Natural Domain,0.19649840323836082
+21,Italy,Abstract Domain,-0.17583619570478515
+22,Italy,Human Domain,0.43888898337700794
+23,Italy,Natural Domain,-0.2630527876722173
+24,Low countries,Abstract Domain,-0.04323922940121179
+25,Low countries,Human Domain,0.7117816841812399
+26,Low countries,Natural Domain,-0.6685424547800253
+27,MENA,Abstract Domain,0.14757872457463606
+28,MENA,Human Domain,-0.5246901772906198
+29,MENA,Natural Domain,0.37711145271598634
+30,Nordic countries,Abstract Domain,0.3277967114021706
+31,Nordic countries,Human Domain,-0.3630068993282748
+32,Nordic countries,Natural Domain,0.035210187926106154

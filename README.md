@@ -8,3 +8,5 @@ Optimal clustering by sampling the number of individuals 5 time adn lookign what
 2) Nettoyer les occupations
 3) Draw the networks
 4) compare the networks with ARI
+
+WJAC = \sum_{i=1}^{n} w_i \times a_i \times c_i

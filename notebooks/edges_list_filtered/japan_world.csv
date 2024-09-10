@@ -1,0 +1,33 @@
+,source,target,specificity,weight,rank_count,rank_specificity
+0,zoologist,botanist,94.04081632653062,2,1.0,1.0
+1,theologian,linguist,7.90204081632653,1,1.0,1.0
+2,theologian,philosopher,4.28826530612245,1,2.0,2.0
+3,political scientist,philosopher,86.53146258503402,7,1.0,1.0
+5,political scientist,linguist,9.372789115646256,2,2.0,3.0
+6,political scientist,economist,9.372789115646256,2,3.0,4.0
+9,physicist,political scientist,14.394557823129254,1,1.0,1.0
+10,philosopher,linguist,180.85816326530616,9,1.0,1.0
+11,philosopher,political scientist,86.53146258503402,7,2.0,2.0
+12,philosopher,historian,21.889030612244902,3,3.0,3.0
+18,musicologist,historian,10.331632653061225,1,1.0,1.0
+19,musicologist,philosopher,4.28826530612245,1,2.0,2.0
+20,mathematician,astronomer,35.30204081632653,2,1.0,1.0
+23,mathematician,political scientist,1.5727891156462583,1,3.0,4.0
+24,mathematician,philosopher,0.8581632653061224,1,2.0,5.0
+25,linguist,philosopher,180.85816326530616,9,1.0,1.0
+26,linguist,historian,70.60408163265306,4,2.0,2.0
+27,linguist,political scientist,9.372789115646256,2,3.0,3.0
+30,historian,linguist,70.60408163265306,4,1.0,1.0
+31,historian,philosopher,21.889030612244902,3,2.0,2.0
+33,historian,economist,3.104081632653061,1,3.0,4.0
+34,geologist,botanist,22.540816326530614,1,1.0,1.0
+35,geographer,mathematician,17.651020408163266,1,1.0,1.0
+36,economist,philosopher,16.458163265306123,3,1.0,1.0
+37,economist,political scientist,9.372789115646256,2,2.0,2.0
+38,economist,historian,3.104081632653061,1,3.0,3.0
+41,chemist,botanist,22.540816326530614,1,1.0,1.0
+42,botanist,zoologist,94.04081632653062,2,1.0,1.0
+43,botanist,chemist,22.540816326530614,1,3.0,2.0
+45,botanist,philosopher,1.3890306122448983,1,2.0,4.0
+46,astronomer,mathematician,35.30204081632653,2,1.0,1.0
+47,astronomer,political scientist,6.2891156462585025,1,2.0,2.0

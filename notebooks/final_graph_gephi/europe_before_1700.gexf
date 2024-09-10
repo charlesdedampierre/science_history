@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http:///www.gexf.net/1.1draft/viz">
+  <meta/>
+  <graph defaultedgetype="undirected">
+    <attributes class="node">
+      <attribute id="community" title="community" type="integer"/>
+      <attribute id="node_size" title="node_size" type="integer"/>
+    </attributes>
+    <nodes>
+      <node id="zoologist">
+        <attvalues>
+          <attvalue for="community" value="1"/>
+          <attvalue for="node_size" value="6"/>
+        </attvalues>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="7"/>
+        <viz:position x="396.41342797404707" y="963.9790212855474"/>
+      </node>
+      <node id="botanist">
+        <attvalues>
+          <attvalue for="community" value="1"/>
+          <attvalue for="node_size" value="8"/>
+        </attvalues>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="9"/>
+        <viz:position x="396.245233591682" y="962.620488045163"/>
+      </node>
+      <node id="mathematician">
+        <attvalues>
+          <attvalue for="community" value="2"/>
+          <attvalue for="node_size" value="9"/>
+        </attvalues>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="10"/>
+        <viz:position x="399.55179123859284" y="963.9076769935556"/>
+      </node>
+      <node id="physicist">
+        <attvalues>
+          <attvalue for="community" value="1"/>
+          <attvalue for="node_size" value="7"/>
+        </attvalues>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="8"/>
+        <viz:position x="398.1719314226213" y="964.4910196491745"/>
+      </node>
+      <node id="theologian">
+        <attvalues>
+          <attvalue for="community" value="0"/>
+          <attvalue for="node_size" value="10"/>
+        </attvalues>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="11"/>
+        <viz:position x="402.0066472532735" y="960.9761013038396"/>
+      </node>
+      <node id="philosopher">
+        <attvalues>
+          <attvalue for="community" value="0"/>
+          <attvalue for="node_size" value="10"/>
+        </attvalues>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="11"/>
+        <viz:position x="400.33091828024243" y="961.7777169311894"/>
+      </node>
+      <node id="historian">
+        <attvalues>
+          <attvalue for="community" value="0"/>
+          <attvalue for="node_size" value="10"/>
+        </attvalues>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="11"/>
+        <viz:position x="403.501031049441" y="961.7193258501748"/>
+      </node>
+      <node id="sociologist">
+        <attvalues>
+          <attvalue for="community" value="0"/>
+          <attvalue for="node_size" value="1"/>
+        </attvalues>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="2"/>
+        <viz:position x="402.97307103201604" y="962.9463536002381"/>
+      </node>
+      <node id="geographer">
+        <attvalues>
+          <attvalue for="community" value="2"/>
+          <attvalue for="node_size" value="9"/>
+        </attvalues>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="10"/>
+        <viz:position x="402.55672845313586" y="964.285214205952"/>
+      </node>
+      <node id="political scientist">
+        <attvalues>
+          <attvalue for="community" value="0"/>
+          <attvalue for="node_size" value="3"/>
+        </attvalues>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="4"/>
+        <viz:position x="401.5849406125051" y="959.9398890085225"/>
+      </node>
+      <node id="astronomer">
+        <attvalues>
+          <attvalue for="community" value="2"/>
+          <attvalue for="node_size" value="8"/>
+        </attvalues>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="9"/>
+        <viz:position x="400.5415521945289" y="965.1296785226749"/>
+      </node>
+      <node id="pharmacologist">
+        <attvalues>
+          <attvalue for="community" value="1"/>
+          <attvalue for="node_size" value="2"/>
+        </attvalues>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="3"/>
+        <viz:position x="395.1551682785279" y="963.0442419221058"/>
+      </node>
+      <node id="chemist">
+        <attvalues>
+          <attvalue for="community" value="1"/>
+          <attvalue for="node_size" value="5"/>
+        </attvalues>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="6"/>
+        <viz:position x="397.23838421561624" y="962.687756551288"/>
+      </node>
+      <node id="paleontologist">
+        <attvalues>
+          <attvalue for="community" value="0"/>
+          <attvalue for="node_size" value="1"/>
+        </attvalues>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="2"/>
+        <viz:position x="397.7258679493058" y="960.8703630293217"/>
+      </node>
+      <node id="musicologist">
+        <attvalues>
+          <attvalue for="community" value="2"/>
+          <attvalue for="node_size" value="7"/>
+        </attvalues>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="8"/>
+        <viz:position x="400.8317703799393" y="964.159567555926"/>
+      </node>
+      <node id="meteorologist">
+        <attvalues>
+          <attvalue for="community" value="1"/>
+          <attvalue for="node_size" value="3"/>
+        </attvalues>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="4"/>
+        <viz:position x="396.96148956008676" y="964.6861877313653"/>
+      </node>
+      <node id="logician">
+        <attvalues>
+          <attvalue for="community" value="0"/>
+          <attvalue for="node_size" value="2"/>
+        </attvalues>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="3"/>
+        <viz:position x="400.85425482635" y="959.9320989294853"/>
+      </node>
+      <node id="linguist">
+        <attvalues>
+          <attvalue for="community" value="0"/>
+          <attvalue for="node_size" value="8"/>
+        </attvalues>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="9"/>
+        <viz:position x="402.45340182163767" y="959.9322254316832"/>
+      </node>
+      <node id="geologist">
+        <attvalues>
+          <attvalue for="community" value="1"/>
+          <attvalue for="node_size" value="4"/>
+        </attvalues>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="5"/>
+        <viz:position x="400.57714096430175" y="963.276390434795"/>
+      </node>
+      <node id="epidemiologist">
+        <attvalues>
+          <attvalue for="community" value="2"/>
+          <attvalue for="node_size" value="1"/>
+        </attvalues>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="2"/>
+        <viz:position x="401.5984860508931" y="966.1123421919857"/>
+      </node>
+      <node id="economist">
+        <attvalues>
+          <attvalue for="community" value="0"/>
+          <attvalue for="node_size" value="5"/>
+        </attvalues>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="6"/>
+        <viz:position x="403.052215232063" y="960.4308047369192"/>
+      </node>
+      <node id="anatomist">
+        <attvalues>
+          <attvalue for="community" value="2"/>
+          <attvalue for="node_size" value="6"/>
+        </attvalues>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="7"/>
+        <viz:position x="397.8149859269793" y="961.9048416918483"/>
+      </node>
+      <node id="art theorist">
+        <attvalues>
+          <attvalue for="community" value="1"/>
+          <attvalue for="node_size" value="3"/>
+        </attvalues>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="4"/>
+        <viz:position x="398.1443642589078" y="962.831431465731"/>
+      </node>
+      <node id="archeologist">
+        <attvalues>
+          <attvalue for="community" value="0"/>
+          <attvalue for="node_size" value="5"/>
+        </attvalues>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="6"/>
+        <viz:position x="405.0376078747836" y="961.4869817810536"/>
+      </node>
+      <node id="anthropologist">
+        <attvalues>
+          <attvalue for="community" value="0"/>
+          <attvalue for="node_size" value="4"/>
+        </attvalues>
+        <viz:color r="153" g="153" b="153"/>
+        <viz:size value="5"/>
+        <viz:position x="405.15208573694343" y="962.5201328306473"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="geid_73_0" source="zoologist" target="botanist" weight="8">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="4.111111111111111"/>
+      </edge>
+      <edge id="geid_73_1" source="zoologist" target="mathematician" weight="6">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="3.2222222222222223"/>
+      </edge>
+      <edge id="geid_73_2" source="zoologist" target="physicist" weight="5">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="2.7777777777777777"/>
+      </edge>
+      <edge id="geid_73_3" source="zoologist" target="pharmacologist" weight="2">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="1.4444444444444444"/>
+      </edge>
+      <edge id="geid_73_4" source="botanist" target="pharmacologist" weight="3">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="1.8888888888888888"/>
+      </edge>
+      <edge id="geid_73_5" source="botanist" target="paleontologist" weight="3">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="1.8888888888888888"/>
+      </edge>
+      <edge id="geid_73_6" source="botanist" target="meteorologist" weight="3">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="1.8888888888888888"/>
+      </edge>
+      <edge id="geid_73_7" source="botanist" target="geologist" weight="4">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="2.333333333333333"/>
+      </edge>
+      <edge id="geid_73_8" source="botanist" target="chemist" weight="5">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="2.7777777777777777"/>
+      </edge>
+      <edge id="geid_73_9" source="botanist" target="anatomist" weight="7">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="3.6666666666666665"/>
+      </edge>
+      <edge id="geid_73_10" source="botanist" target="art theorist" weight="1">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="1"/>
+      </edge>
+      <edge id="geid_73_11" source="mathematician" target="theologian" weight="9">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="4.555555555555555"/>
+      </edge>
+      <edge id="geid_73_12" source="mathematician" target="physicist" weight="9">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="4.555555555555555"/>
+      </edge>
+      <edge id="geid_73_13" source="mathematician" target="philosopher" weight="10">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="5"/>
+      </edge>
+      <edge id="geid_73_14" source="mathematician" target="musicologist" weight="7">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="3.6666666666666665"/>
+      </edge>
+      <edge id="geid_73_15" source="mathematician" target="meteorologist" weight="3">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="1.8888888888888888"/>
+      </edge>
+      <edge id="geid_73_16" source="mathematician" target="astronomer" weight="10">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="5"/>
+      </edge>
+      <edge id="geid_73_17" source="mathematician" target="geographer" weight="9">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="4.555555555555555"/>
+      </edge>
+      <edge id="geid_73_18" source="mathematician" target="epidemiologist" weight="1">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="1"/>
+      </edge>
+      <edge id="geid_73_19" source="mathematician" target="art theorist" weight="2">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="1.4444444444444444"/>
+      </edge>
+      <edge id="geid_73_20" source="mathematician" target="anatomist" weight="5">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="2.7777777777777777"/>
+      </edge>
+      <edge id="geid_73_21" source="physicist" target="astronomer" weight="8">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="4.111111111111111"/>
+      </edge>
+      <edge id="geid_73_22" source="physicist" target="philosopher" weight="8">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="4.111111111111111"/>
+      </edge>
+      <edge id="geid_73_23" source="physicist" target="meteorologist" weight="3">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="1.8888888888888888"/>
+      </edge>
+      <edge id="geid_73_24" source="physicist" target="chemist" weight="5">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="2.7777777777777777"/>
+      </edge>
+      <edge id="geid_73_25" source="theologian" target="philosopher" weight="10">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="5"/>
+      </edge>
+      <edge id="geid_73_26" source="theologian" target="historian" weight="10">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="5"/>
+      </edge>
+      <edge id="geid_73_27" source="theologian" target="political scientist" weight="2">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="1.4444444444444444"/>
+      </edge>
+      <edge id="geid_73_28" source="theologian" target="paleontologist" weight="1">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="1"/>
+      </edge>
+      <edge id="geid_73_29" source="theologian" target="logician" weight="3">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="1.8888888888888888"/>
+      </edge>
+      <edge id="geid_73_30" source="theologian" target="linguist" weight="7">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="3.6666666666666665"/>
+      </edge>
+      <edge id="geid_73_31" source="theologian" target="economist" weight="4">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="2.333333333333333"/>
+      </edge>
+      <edge id="geid_73_32" source="theologian" target="archeologist" weight="4">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="2.333333333333333"/>
+      </edge>
+      <edge id="geid_73_33" source="philosopher" target="sociologist" weight="2">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="1.4444444444444444"/>
+      </edge>
+      <edge id="geid_73_34" source="philosopher" target="political scientist" weight="4">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="2.333333333333333"/>
+      </edge>
+      <edge id="geid_73_35" source="philosopher" target="historian" weight="9">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="4.555555555555555"/>
+      </edge>
+      <edge id="geid_73_36" source="philosopher" target="paleontologist" weight="2">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="1.4444444444444444"/>
+      </edge>
+      <edge id="geid_73_37" source="philosopher" target="musicologist" weight="6">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="3.2222222222222223"/>
+      </edge>
+      <edge id="geid_73_38" source="philosopher" target="logician" weight="4">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="2.333333333333333"/>
+      </edge>
+      <edge id="geid_73_39" source="philosopher" target="linguist" weight="7">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="3.6666666666666665"/>
+      </edge>
+      <edge id="geid_73_40" source="philosopher" target="economist" weight="5">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="2.7777777777777777"/>
+      </edge>
+      <edge id="geid_73_41" source="philosopher" target="chemist" weight="6">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="3.2222222222222223"/>
+      </edge>
+      <edge id="geid_73_42" source="philosopher" target="astronomer" weight="8">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="4.111111111111111"/>
+      </edge>
+      <edge id="geid_73_43" source="philosopher" target="art theorist" weight="1">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="1"/>
+      </edge>
+      <edge id="geid_73_44" source="philosopher" target="anatomist" weight="6">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="3.2222222222222223"/>
+      </edge>
+      <edge id="geid_73_45" source="historian" target="sociologist" weight="2">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="1.4444444444444444"/>
+      </edge>
+      <edge id="geid_73_46" source="historian" target="political scientist" weight="3">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="1.8888888888888888"/>
+      </edge>
+      <edge id="geid_73_47" source="historian" target="logician" weight="1">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="1"/>
+      </edge>
+      <edge id="geid_73_48" source="historian" target="linguist" weight="7">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="3.6666666666666665"/>
+      </edge>
+      <edge id="geid_73_49" source="historian" target="geographer" weight="9">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="4.555555555555555"/>
+      </edge>
+      <edge id="geid_73_50" source="historian" target="geologist" weight="4">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="2.333333333333333"/>
+      </edge>
+      <edge id="geid_73_51" source="historian" target="economist" weight="5">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="2.7777777777777777"/>
+      </edge>
+      <edge id="geid_73_52" source="historian" target="archeologist" weight="7">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="3.6666666666666665"/>
+      </edge>
+      <edge id="geid_73_53" source="historian" target="anthropologist" weight="6">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="3.2222222222222223"/>
+      </edge>
+      <edge id="geid_73_54" source="sociologist" target="geographer" weight="1">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="1"/>
+      </edge>
+      <edge id="geid_73_55" source="geographer" target="astronomer" weight="8">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="4.111111111111111"/>
+      </edge>
+      <edge id="geid_73_56" source="geographer" target="epidemiologist" weight="1">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="1"/>
+      </edge>
+      <edge id="geid_73_57" source="geographer" target="anthropologist" weight="3">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="1.8888888888888888"/>
+      </edge>
+      <edge id="geid_73_58" source="astronomer" target="musicologist" weight="5">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="2.7777777777777777"/>
+      </edge>
+      <edge id="geid_73_59" source="astronomer" target="geologist" weight="4">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="2.333333333333333"/>
+      </edge>
+      <edge id="geid_73_60" source="astronomer" target="epidemiologist" weight="1">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="1"/>
+      </edge>
+      <edge id="geid_73_61" source="pharmacologist" target="chemist" weight="2">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="1.4444444444444444"/>
+      </edge>
+      <edge id="geid_73_62" source="archeologist" target="anthropologist" weight="6">
+        <viz:color r="204" g="204" b="204"/>
+        <viz:size value="3.2222222222222223"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
