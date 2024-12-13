@@ -1,0 +1,658 @@
+,wikidata_id,individual_name,region_code,region_name,birthyear,meta_occupation
+0,Q316119,Gnaeus Pompeius Trogus,re_latin,Latin World,-100.0,historian
+1,Q782074,Claudianus Mamertus,re_latin,Latin World,420.0,theologian | philosopher
+2,Q182123,Irenaeus,re_latin,Latin World,130.0,theologian | philosopher
+3,Q44344,Hilary of Poitiers,re_latin,Latin World,315.0,theologian | philosopher
+4,Q1430,Marcus Aurelius,re_latin,Latin World,121.0,philosopher
+5,Q313795,John Cassian,re_latin,Latin World,360.0,theologian
+6,Q50082878,Jess Wade,re_latin,Latin World,2.0,physicist
+7,Q723645,Victorius of Aquitaine,re_latin,Latin World,450.0,astronomer | mathematician
+8,Q209102,Lactantius,re_latin,Latin World,250.0,philosopher | historian
+9,Q2891791,Latinius Pacatus Drepanius,re_latin,Latin World,400.0,historian
+10,Q2161,Tacitus,re_latin,Latin World,54.0,philosopher | historian
+11,Q885870,Victorinus Junior,re_latin,Latin World,300.0,historian
+12,Q239448,Pompeia Plotina,re_latin,Latin World,70.0,philosopher
+13,Q532684,Salvian,re_latin,Latin World,400.0,theologian | historian
+14,Q336704,Sulpicius Severus,re_latin,Latin World,360.0,historian
+15,Q297515,Pomponius Mela,re_latin,Latin World,15.0,geographer | historian
+16,Q188646,Lucan,re_latin,Latin World,39.0,historian
+17,Q535060,Terentianus,re_latin,Latin World,150.0,linguist
+18,Q10133,Suetonius,re_latin,Latin World,70.0,historian
+19,Q109998607,Tommaso Massarini,re_latin,Latin World,18.0,historian
+20,Q656891,Arulenus Rusticus,re_latin,Latin World,35.0,philosopher
+21,Q207113,Hippolytus,re_latin,Latin World,170.0,theologian
+22,Q755297,Athenaeus Mechanicus,re_latin,Latin World,-199.0,philosopher | mathematician
+23,Q74243,Marcus Cluvius Rufus,re_latin,Latin World,50.0,historian
+24,Q506540,Didymus Chalcenterus,re_latin,Latin World,-62.0,linguist
+25,Q248733,Eusebius of Myndus,re_latin,Latin World,300.0,philosopher
+26,Q311835,Pittacus of Mytilene,re_greek_world,Greek World,-650.0,philosopher
+27,Q708247,Gaius Marius Victorinus,re_latin,Latin World,290.0,theologian | philosopher
+28,Q134189,Plotinus,re_latin,Latin World,205.0,philosopher
+29,Q594441,Publius Clodius Thrasea Paetus,re_latin,Latin World,100.0,philosopher
+30,Q706319,Marinus of Tyre,re_latin,Latin World,100.0,geographer | mathematician
+31,Q82778,Pliny the Elder,re_latin,Latin World,20.0,philosopher | historian | anatomist
+32,Q298376,Gaius Julius Hyginus,re_latin,Latin World,-63.0,astronomer
+33,Q447741,Lucius Calbenus Taurus,re_latin,Latin World,150.0,philosopher
+34,Q758060,Atticus,re_latin,Latin World,150.0,philosopher
+35,Q670317,Gaius Oppius,re_latin,Latin World,-100.0,historian
+36,Q248969,Sopater of Apamea,re_latin,Latin World,242.0,philosopher
+37,Q1164993,Marcus Junius Congus Gracchanus,re_latin,Latin World,-200.0,historian
+38,Q1385296,Quintus Sextius,re_latin,Latin World,-50.0,philosopher
+39,Q365835,Tyrannius Rufinus,re_latin,Latin World,345.0,theologian
+40,Q3624758,Marcus Actorius Naso,re_latin,Latin World,-100.0,historian
+41,Q1376509,Sulpicius Alexander,re_latin,Latin World,400.0,historian
+42,Q174929,Tertullian,re_latin,Latin World,160.0,theologian | philosopher
+43,Q210853,Justin,re_latin,Latin World,101.0,historian
+44,Q1390986,Helvidius Priscus,re_latin,Latin World,50.0,philosopher
+45,Q311733,Titus Pomponius Atticus,re_latin,Latin World,-109.0,philosopher
+46,Q2312613,Flavius Lucius Dexter,re_latin,Latin World,400.0,historian
+47,Q782401,Sallustius,re_latin,Latin World,400.0,philosopher
+48,Q443278,Antonia Gordiana,re_latin,Latin World,201.0,historian
+49,Q294800,Aulus Gellius,re_latin,Latin World,130.0,philosopher
+50,Q44170,Ignatius of Antioch,re_latin,Latin World,35.0,theologian
+51,Q2054,Seneca,re_latin,Latin World,-4.0,philosopher
+52,Q1237555,Aulus Egnatius Priscillianus,re_latin,Latin World,135.0,philosopher
+53,Q273671,Seneca the Elder,re_latin,Latin World,-53.0,philosopher | historian
+54,Q947576,Valerius Antias,re_latin,Latin World,-200.0,historian
+55,Q11923560,Gaius Fannius,re_latin,Latin World,100.0,historian
+56,Q26204,Dionysius of Halicarnassus,re_latin,Latin World,-59.0,historian
+57,Q741160,Lucius Ampelius,re_latin,Latin World,150.0,historian
+58,Q290471,Moderatus of Gades,re_latin,Latin World,50.0,philosopher
+59,Q223615,Flavius Caper,re_latin,Latin World,150.0,linguist
+60,Q727792,Lucius Arruntius the Elder,re_latin,Latin World,-100.0,historian
+61,Q106026,Arius,re_latin,Latin World,250.0,theologian
+62,Q319273,Gaius Asinius Pollio,re_latin,Latin World,-74.0,historian
+63,Q759760,Aufidius Bassus,re_latin,Latin World,-50.0,historian
+64,Q966315,Virius Nicomachus Flavianus,re_latin,Latin World,400.0,historian
+65,Q682860,Julius Obsequens,re_latin,Latin World,400.0,historian
+66,Q669971,Trebellius Pollio,re_latin,Latin World,250.0,historian
+67,Q252841,Seleucus,re_latin,Latin World,200.0,historian
+68,Q1391069,Rabbi Ishmael,re_latin,Latin World,70.0,philosopher
+69,Q897734,Lucius Lucceius,re_latin,Latin World,-105.0,historian
+70,Q190240,Cyprian,re_latin,Latin World,200.0,philosopher
+71,Q313782,Aelian,re_latin,Latin World,200.0,zoologist | historian
+72,Q1271013,Adrian of Tyre,re_latin,Latin World,113.0,philosopher
+73,Q1084333,Flavius Sallustius,re_latin,Latin World,350.0,philosopher
+74,Q313924,Nicolaus of Damascus,re_latin,Latin World,-63.0,philosopher | historian
+75,Q563283,Gaius Asinius Quadratus,re_latin,Latin World,200.0,historian
+76,Q1541,Cicero,re_latin,Latin World,-106.0,philosopher
+77,Q192931,Pausanias,re_latin,Latin World,115.0,geographer | historian
+78,Q175042,Nigidius Figulus,re_latin,Latin World,-97.0,philosopher
+79,Q335309,Aulus Claudius Charax,re_latin,Latin World,150.0,historian
+80,Q12285191,Lucius Aemilius Juncus,re_latin,Latin World,100.0,philosopher
+81,Q1025379,Caelestius,re_latin,Latin World,380.0,theologian
+82,Q2335606,Pierius,re_latin,Latin World,201.0,philosopher
+83,Q772773,Antonius Musa,re_latin,Latin World,-62.0,botanist
+84,Q255448,Porcia,re_latin,Latin World,-100.0,philosopher
+85,Q316098,Marcus Velleius Paterculus,re_latin,Latin World,-18.0,historian
+86,Q451550,Philodemus,re_latin,Latin World,-109.0,philosopher
+87,Q171241,Diodorus Siculus,re_latin,Latin World,-89.0,geographer | historian
+88,Q1159625,Lucius Voltacilius Pitholaus,re_latin,Latin World,-100.0,historian
+89,Q26825,Herodotos,re_greek_world,Greek World,-483.0,historian
+90,Q444285,Asconius Pedianus,re_latin,Latin World,-8.0,historian
+91,Q274091,Dionysius Exiguus,re_latin,Latin World,475.0,mathematician
+92,Q222890,Novatian,re_latin,Latin World,220.0,theologian
+93,Q391514,Julius Capitolinus,re_latin,Latin World,250.0,historian
+94,Q15429187,Eumachus of Neapolis,re_latin,Latin World,-200.0,historian
+95,Q450708,Gaius Asinius Gallus,re_latin,Latin World,-39.0,historian
+96,Q934244,Pomponius Porphyrion,re_latin,Latin World,201.0,linguist
+97,Q12093928,Gaius Clodius Licinus,re_latin,Latin World,-50.0,historian
+98,Q47154,Lucretius,re_latin,Latin World,-93.0,philosopher
+99,Q2036794,Timagenes,re_latin,Latin World,-100.0,historian
+100,Q2857528,Antonius Castor,re_latin,Latin World,50.0,botanist
+101,Q248624,Amelius,re_latin,Latin World,200.0,philosopher
+102,Q441590,Eustathius of Cappadocia,re_latin,Latin World,300.0,philosopher
+103,Q248578,Chrysanthius,re_latin,Latin World,310.0,philosopher
+104,Q772677,Aulus Cremutius Cordus,re_latin,Latin World,-50.0,historian
+105,Q185117,Justin Martyr,re_latin,Latin World,100.0,theologian | philosopher
+106,Q11925501,Hermogenes of Carthago,re_latin,Latin World,150.0,theologian
+107,Q561367,Lucius Aelius Stilo Praeconinus,re_latin,Latin World,-153.0,philosopher
+108,Q354431,Aelius Aristides,re_latin,Latin World,117.0,philosopher
+109,Q673402,Gaius Sulpicius Gallus,re_latin,Latin World,-208.0,astronomer
+110,Q927711,Messius Phoebus Severus,re_latin,Latin World,450.0,philosopher
+111,Q451572,Menelaus of Alexandria,re_latin,Latin World,70.0,astronomer | mathematician
+112,Q192365,Cassiodorus,re_latin,Latin World,487.0,musicologist | philosopher | historian
+113,Q134461,Josephus,re_latin,Latin World,37.0,historian
+114,Q537755,Polyaenus,re_latin,Latin World,101.0,historian
+115,Q316123,Silius Italicus,re_latin,Latin World,26.0,historian
+116,Q1121669,Ticonius,re_latin,Latin World,370.0,theologian
+117,Q515249,Caecilius of Calacte,re_latin,Latin World,-50.0,historian
+118,Q554387,Favorinus,re_latin,Latin World,85.0,philosopher
+119,Q1164905,Marius Plotius Sacerdos,re_latin,Latin World,200.0,linguist
+120,Q735515,Aspasius,re_latin,Latin World,80.0,philosopher
+121,Q765147,Januarius Nepotianus,re_latin,Latin World,300.0,historian
+122,Q313056,Herodian,re_latin,Latin World,170.0,historian
+123,Q349959,Quintus Dellius,re_latin,Latin World,-100.0,historian
+124,Q1474972,Furius Dionysius Filocalus,re_latin,Latin World,400.0,historian
+125,Q221465,Hydatius,re_latin,Latin World,400.0,historian
+126,Q507036,Lucius Annaeus Cornutus,re_latin,Latin World,20.0,philosopher
+127,Q833663,Herennius Senecio,re_latin,Latin World,50.0,philosopher | historian
+128,Q109594,Cornelius Nepos,re_latin,Latin World,-99.0,historian
+129,Q201346,Marcion of Sinope,re_latin,Latin World,85.0,theologian | philosopher
+130,Q172198,Ammianus Marcellinus,re_latin,Latin World,330.0,historian
+131,Q441138,Alexandros Polyhistor,re_latin,Latin World,-99.0,geographer
+132,Q1242065,Quintus Baebius Macer,re_latin,Latin World,50.0,historian
+133,Q446155,Cronius the Pythagorean,re_latin,Latin World,200.0,philosopher
+134,Q748621,Victor of Vita,re_latin,Latin World,430.0,historian
+135,Q546375,Publius Egnatius Celer,re_latin,Latin World,100.0,philosopher
+136,Q18999,Junius Rusticus,re_latin,Latin World,100.0,philosopher
+137,Q729244,Calcidius,re_latin,Latin World,350.0,philosopher
+138,Q2868804,Lucius Ateius Praetextatus,re_latin,Latin World,-104.0,linguist
+139,Q718213,Auxentius of Milan,re_latin,Latin World,301.0,theologian
+140,Q1232970,Marcus Servilius Nonianus,re_latin,Latin World,-50.0,historian
+141,Q1243321,Vulcacius Gallicanus,re_latin,Latin World,250.0,historian
+142,Q16932930,Saint Sylvia of Aquitaine,re_latin,Latin World,330.0,historian
+143,Q367422,Julius Firmicus Maternus,re_latin,Latin World,400.0,astronomer
+144,Q365110,Philo of Larissa,re_latin,Latin World,-144.0,philosopher
+145,Q6197,Horace,re_latin,Latin World,-64.0,philosopher
+146,Q1965137,Marcus Favonius,re_latin,Latin World,-89.0,philosopher
+147,Q180081,Cato the Elder,re_latin,Latin World,-233.0,economist
+148,Q833542,Aelius Lampridius,re_latin,Latin World,400.0,historian
+149,Q4807731,Aspasius of Ravenna,re_latin,Latin World,200.0,philosopher
+150,Q1098323,Claudius Maximus,re_latin,Latin World,200.0,philosopher
+151,Q2039,Titus Livius,re_latin,Latin World,-58.0,historian
+152,Q379991,Valerius Maximus,re_latin,Latin World,-100.0,historian
+153,Q3189849,Julius Exsuperantius,re_latin,Latin World,350.0,historian
+154,Q975318,Granius Licinianus,re_latin,Latin World,101.0,historian
+155,Q102851,Boethius,re_latin,Latin World,480.0,musicologist | philosopher | mathematician
+156,Q3838837,Lucius Crassicius Pansa,re_latin,Latin World,-50.0,philosopher
+157,Q185770,Posidonius,re_latin,Latin World,-134.0,philosopher | physicist | astronomer | mathematician | geographer | historian
+158,Q1225062,Siro the Epicurean,re_latin,Latin World,-100.0,philosopher
+159,Q965333,Theodorus of Asine,re_latin,Latin World,275.0,philosopher
+160,Q995441,Fabius Rusticus,re_latin,Latin World,100.0,historian
+161,Q454652,Prosper of Aquitaine,re_latin,Latin World,390.0,theologian | historian
+162,Q11035375,Quintus Aelius Tubero,re_latin,Latin World,-162.0,philosopher
+163,Q535137,Marius Maximus,re_latin,Latin World,165.0,historian
+164,Q8778,Galen,re_latin,Latin World,200.0,anatomist
+165,Q1114706,Romulus of Genoa,re_latin,Latin World,301.0,theologian
+166,Q1232604,Julius Valerius Alexander Polemius,re_latin,Latin World,250.0,historian
+167,Q6033021,Palladius of Ratiaria,re_latin,Latin World,301.0,theologian
+168,Q315370,Celsus,re_latin,Latin World,200.0,philosopher
+169,Q317055,Marcus Cornelius Fronto,re_latin,Latin World,100.0,philosopher
+170,Q381874,Gaius Musonius Rufus,re_latin,Latin World,25.0,philosopher
+171,Q1223467,Quintus Lucilius Balbus,re_latin,Latin World,0.0,philosopher
+172,Q312410,Epicharmus of Kos,re_greek_world,Greek World,-523.0,philosopher | mathematician
+173,Q1349817,Castor of Rhodes,re_latin,Latin World,100.0,historian
+174,Q59138,Diogenes Laërtius,re_latin,Latin World,180.0,philosopher | historian
+175,Q1411,Claudius,re_latin,Latin World,-9.0,historian
+176,Q332785,Persius,re_latin,Latin World,34.0,philosopher
+177,Q190368,Appian,re_latin,Latin World,95.0,historian
+178,Q707449,Censorinus,re_latin,Latin World,250.0,musicologist
+179,Q316483,Lucius Annaeus Florus,re_latin,Latin World,70.0,historian
+180,Q1159576,Lucius Aelius Tubero,re_latin,Latin World,-150.0,philosopher | historian
+181,Q1376539,Renatus Profuturus Frigeridus,re_latin,Latin World,400.0,historian
+182,Q138724,Lucius Tarutius Firmanus,re_latin,Latin World,-100.0,astronomer | philosopher | mathematician
+183,Q2994436,Consentius,re_latin,Latin World,400.0,linguist
+184,Q2248247,Quintus Terentius Scaurus,re_latin,Latin World,201.0,linguist
+185,Q10261,Pythagoras,re_greek_world,Greek World,-582.0,musicologist | philosopher | mathematician
+186,Q311456,Orosius,re_latin,Latin World,385.0,theologian | historian
+187,Q1133857,Cornelius Labeo,re_latin,Latin World,250.0,philosopher
+188,Q772775,Polemon of Laodicea,re_latin,Latin World,90.0,philosopher
+189,Q521520,Gaius Licinius Mucianus,re_latin,Latin World,100.0,historian
+190,Q1237504,Plotius Crispinus,re_latin,Latin World,-50.0,philosopher
+191,Q662582,Fenestella,re_latin,Latin World,-35.0,historian
+192,Q206119,Marcus Terentius Varro,re_latin,Latin World,-115.0,musicologist | philosopher
+193,Q532315,Athenodoros Cordylion,re_latin,Latin World,-50.0,philosopher
+194,Q950770,Quintus Aelius Tubero,re_latin,Latin World,-73.0,historian
+195,Q4298,Publius Flavius Vegetius Renatus,re_latin,Latin World,400.0,historian
+196,Q1227766,Paeanius,re_latin,Latin World,400.0,historian
+197,Q9200,Paul the Apostle,re_latin,Latin World,5.0,theologian
+198,Q2123334,Quintus Aelius Tubero,re_latin,Latin World,-75.0,historian
+199,Q761346,Servius Fabius Pictor,re_latin,Latin World,-189.0,historian
+200,Q272087,Tatian,re_latin,Latin World,120.0,theologian | philosopher
+201,Q1662957,Julian of Eclanum,re_latin,Latin World,386.0,philosopher
+202,Q859652,Cerdo,re_latin,Latin World,200.0,theologian
+203,Q11906126,Publius Anteius Antiochus,re_latin,Latin World,150.0,philosopher
+204,Q47180,Petronius,re_latin,Latin World,27.0,philosopher
+205,Q794615,Aetius,re_latin,Latin World,200.0,astronomer | philosopher
+206,Q520487,Gaius Julius Solinus,re_latin,Latin World,400.0,geographer | historian
+207,Q1230624,Aelius Spartianus,re_latin,Latin World,301.0,historian
+208,Q43689,Ambrose,re_latin,Latin World,339.0,theologian | philosopher
+209,Q905137,Didymus the Musician,re_latin,Latin World,-100.0,musicologist
+210,Q203445,Porphyry,re_latin,Latin World,233.0,musicologist | philosopher | historian
+211,Q8747,Euclid,re_greek_world,Greek World,-322.0,mathematician
+212,Q1150145,Polemon of Athens,re_greek_world,Greek World,200.0,geographer | philosopher | historian
+213,Q660170,Isidore of Alexandria,re_greek_world,Greek World,450.0,philosopher
+214,Q248287,Peregrinus Proteus,re_greek_world,Greek World,95.0,philosopher
+215,Q2369009,Apollodorus the Epicurean,re_greek_world,Greek World,-150.0,philosopher
+216,Q185206,Priscian of Lydia,re_greek_world,Greek World,500.0,philosopher
+217,Q1377100,Calippus of Syracuse,re_greek_world,Greek World,-350.0,philosopher
+218,Q297420,Panaetius,re_greek_world,Greek World,-184.0,philosopher
+219,Q1465879,Xeniades,re_greek_world,Greek World,-500.0,philosopher
+220,Q359231,Bion of Borysthenes,re_greek_world,Greek World,-324.0,philosopher
+221,Q228564,Aspasia,re_greek_world,Greek World,-469.0,philosopher
+222,Q580565,Palaephatus,re_greek_world,Greek World,-400.0,historian
+223,Q297402,Prodicus,re_greek_world,Greek World,-459.0,philosopher
+224,Q179149,Antisthenes,re_greek_world,Greek World,-443.0,philosopher
+225,Q555818,Philippus of Opus,re_greek_world,Greek World,-400.0,astronomer | philosopher | mathematician
+226,Q2482150,Cleidemus,re_greek_world,Greek World,-350.0,historian
+227,Q183144,Epictetus,re_greek_world,Greek World,50.0,philosopher
+228,Q913,Socrates,re_greek_world,Greek World,-468.0,philosopher
+229,Q5382897,Epigenes,re_greek_world,Greek World,-450.0,philosopher
+230,Q928470,Simmias of Thebes,re_greek_world,Greek World,-500.0,philosopher | mathematician
+231,Q108577191,Archilochus,re_greek_world,Greek World,-271.0,historian
+232,Q983755,Praxagoras of Athens,re_greek_world,Greek World,400.0,historian
+233,Q288467,Lastheneia of Mantinea,re_greek_world,Greek World,-350.0,philosopher
+234,Q349916,Aristidis of Athens,re_greek_world,Greek World,150.0,philosopher
+235,Q962486,Echecrates of Phlius,re_greek_world,Greek World,-499.0,philosopher
+236,Q169243,Protagoras,re_greek_world,Greek World,-489.0,philosopher
+237,Q366031,Anaxarchus,re_greek_world,Greek World,-379.0,philosopher
+238,Q1236440,Bion of Abdera,re_greek_world,Greek World,-429.0,astronomer | mathematician
+239,Q1230889,Mnaseas,re_greek_world,Greek World,-300.0,historian
+240,Q221623,Heliodorus of Athens,re_greek_world,Greek World,-150.0,historian
+241,Q662932,Persaeus,re_greek_world,Greek World,-305.0,philosopher
+242,Q1047995,Antipater of Tyre,re_greek_world,Greek World,-50.0,philosopher
+243,Q162163,Ion of Chios,re_greek_world,Greek World,-489.0,philosopher | historian | mathematician
+244,Q177847,Lucian of Samosata,re_greek_world,Greek World,120.0,philosopher
+245,Q271809,Proclus,re_greek_world,Greek World,412.0,philosopher | mathematician
+246,Q363468,Dexippus,re_greek_world,Greek World,210.0,historian
+247,Q548104,Julius Pollux,re_greek_world,Greek World,200.0,philosopher
+248,Q514262,Androtion,re_greek_world,Greek World,-500.0,historian
+249,Q1185510,Demetrius of Callatis,re_greek_world,Greek World,-299.0,historian
+250,Q554535,Phaedrus,re_greek_world,Greek World,-443.0,philosopher
+251,Q965086,Sotades,re_greek_world,Greek World,-400.0,philosopher
+252,Q172248,Marcus Junius Brutus,re_greek_world,Greek World,-84.0,philosopher
+253,Q667385,Aristos of Ascalon,re_greek_world,Greek World,-50.0,philosopher
+254,Q462582,Pythias,re_greek_world,Greek World,-361.0,zoologist
+255,Q859,Plato,re_greek_world,Greek World,-426.0,philosopher
+256,Q41523,Plutarch,re_greek_world,Greek World,40.0,philosopher | historian
+257,Q609147,Phylarchus,re_greek_world,Greek World,-254.0,historian
+258,Q444595,Perictione,re_greek_world,Greek World,-500.0,philosopher
+259,Q235494,Hipparchia of Maroneia,re_greek_world,Greek World,-349.0,philosopher
+260,Q284994,Carneades,re_greek_world,Greek World,-212.0,philosopher
+261,Q4355017,Diyllus,re_greek_world,Greek World,-300.0,historian
+262,Q221497,Xenophilus,re_greek_world,Greek World,-400.0,musicologist | philosopher
+263,Q41683,Thucydides,re_greek_world,Greek World,-460.0,historian
+264,Q5264,Hippocrates,re_greek_world,Greek World,-459.0,philosopher
+265,Q317331,Aratus of Sicyon,re_greek_world,Greek World,-270.0,historian
+266,Q309772,Athenagoras of Athens,re_greek_world,Greek World,133.0,theologian | philosopher
+267,Q3012616,Damastes of Sigeum,re_greek_world,Greek World,-500.0,geographer | historian
+268,Q312682,Euclid of Megara,re_greek_world,Greek World,-436.0,philosopher
+269,Q2661420,Dardanus of Athens,re_greek_world,Greek World,-159.0,philosopher
+270,Q3060400,Euphantus,re_greek_world,Greek World,-320.0,philosopher | historian
+271,Q1186462,Demon of Athens,re_greek_world,Greek World,-400.0,historian
+272,Q920912,Theaetetus,re_greek_world,Greek World,-416.0,philosopher | mathematician
+273,Q316353,Strato of Lampsacus,re_greek_world,Greek World,-334.0,philosopher | physicist
+274,Q319406,Epimenides of Crete,re_greek_world,Greek World,-700.0,philosopher
+275,Q712755,Crates of Athens,re_greek_world,Greek World,-400.0,philosopher
+276,Q325955,Speusippus,re_greek_world,Greek World,-406.0,philosopher | mathematician
+277,Q205704,Apollodorus of Athens,re_greek_world,Greek World,-179.0,historian
+278,Q12960188,Theodotus,re_greek_world,Greek World,150.0,theologian
+279,Q553856,Polemon,re_greek_world,Greek World,-400.0,philosopher
+280,Q160362,Theophrastus,re_greek_world,Greek World,-370.0,botanist | philosopher | physicist
+281,Q868,Aristotle,re_greek_world,Greek World,-383.0,philosopher
+282,Q542808,Hermarchus,re_greek_world,Greek World,-324.0,philosopher
+283,Q1287486,Metrocles,re_greek_world,Greek World,-400.0,philosopher
+284,Q633023,Archiadas,re_greek_world,Greek World,500.0,philosopher
+285,Q73527,Arcesilaus,re_greek_world,Greek World,-314.0,philosopher
+286,Q42887,Clement I,re_greek_world,Greek World,100.0,theologian
+287,Q343607,Archelaus,re_greek_world,Greek World,-500.0,philosopher
+288,Q4791018,Aristodemus of Cydathenaeum,re_greek_world,Greek World,-450.0,philosopher
+289,Q2346245,Stesimbrotos of Thasos,re_greek_world,Greek World,-469.0,historian
+290,Q1057347,Hegesander,re_greek_world,Greek World,-150.0,historian
+291,Q433852,Ephippus of Olynthus,re_greek_world,Greek World,-400.0,historian
+292,Q316334,Heraclides Ponticus,re_greek_world,Greek World,-384.0,astronomer | philosopher
+293,Q2927235,Bryson of Achaea,re_greek_world,Greek World,-450.0,philosopher
+294,Q434021,Timycha,re_greek_world,Greek World,-400.0,philosopher
+295,Q1747004,Timon of Athens,re_greek_world,Greek World,-500.0,philosopher
+296,Q294092,Critias,re_greek_world,Greek World,-459.0,philosopher
+297,Q1586059,Harpocration of Argos,re_greek_world,Greek World,200.0,philosopher
+298,Q317947,Crates of Thebes,re_greek_world,Greek World,-364.0,philosopher
+299,Q2367894,Teles of Megara,re_greek_world,Greek World,-250.0,philosopher
+300,Q744125,Chaerephon,re_greek_world,Greek World,-401.0,philosopher
+301,Q4721014,Alexandrides of Delphi,re_greek_world,Greek World,-300.0,historian
+302,Q409647,Aeschines of Sphettus,re_greek_world,Greek World,-429.0,philosopher
+303,Q2217419,Nicomachus,re_greek_world,Greek World,-301.0,philosopher
+304,Q218451,Zoilus,re_greek_world,Greek World,-399.0,philosopher | historian
+305,Q320132,Nearchus,re_greek_world,Greek World,-355.0,historian
+306,Q129772,Xenophon,re_greek_world,Greek World,-429.0,philosopher | historian
+307,Q965144,Cebes,re_greek_world,Greek World,-500.0,philosopher | mathematician
+308,Q504744,Hellanicus of Mytilene,re_greek_world,Greek World,-489.0,historian
+309,Q544987,Aristobulus of Cassandreia,re_greek_world,Greek World,-374.0,historian
+310,Q223383,Mnesarchus of Athens,re_greek_world,Greek World,-159.0,philosopher
+311,Q452077,Menippus,re_greek_world,Greek World,-299.0,philosopher
+312,Q328793,Periander,re_greek_world,Greek World,-700.0,philosopher
+313,Q34601,Chilon of Sparta,re_greek_world,Greek World,-599.0,philosopher
+314,Q1128200,Lasus of Hermione,re_greek_world,Greek World,-548.0,musicologist
+315,Q210573,Hippias,re_greek_world,Greek World,-442.0,astronomer | philosopher | mathematician
+316,Q15091905,Deceneo,re_greek_world,Greek World,-100.0,astronomer | philosopher
+317,Q381048,Stilpo,re_greek_world,Greek World,-358.0,philosopher
+318,Q31845,Arrian,re_greek_world,Greek World,95.0,philosopher | historian
+319,Q473381,Ammonius of Athens,re_greek_world,Greek World,50.0,philosopher
+320,Q133337,Solon,re_greek_world,Greek World,-637.0,philosopher
+321,Q311879,Herodes Atticus,re_greek_world,Greek World,102.0,philosopher
+322,Q171303,Zeno of Citium,re_greek_world,Greek World,-333.0,philosopher
+323,Q380190,Phaedo of Elis,re_greek_world,Greek World,-401.0,philosopher
+324,Q191964,Diogenes of Apollonia,re_greek_world,Greek World,-459.0,philosopher
+325,Q964738,Peter the Patrician,re_greek_world,Greek World,500.0,historian
+326,Q266299,Philochorus,re_greek_world,Greek World,-339.0,historian
+327,Q435274,Hieronymus of Cardia,re_greek_world,Greek World,-353.0,historian
+328,Q41980,Democritus,re_greek_world,Greek World,-460.0,philosopher | mathematician
+329,Q949530,Demonax,re_greek_world,Greek World,200.0,philosopher
+330,Q537304,Ploutarchos of Athens,re_greek_world,Greek World,350.0,philosopher
+331,Q1336424,Hermogenes,re_greek_world,Greek World,-500.0,philosopher
+332,Q192313,Pyrrho,re_greek_world,Greek World,-360.0,philosopher
+333,Q82793,Callisthenes,re_greek_world,Greek World,-359.0,historian
+334,Q469199,Victorinus of Pettau,re_latin,Latin World,250.0,theologian | philosopher
+335,Q1367611,Socrates the Younger,re_greek_world,Greek World,-420.0,philosopher
+336,Q353580,Adeimantus of Collytus,re_greek_world,Greek World,-431.0,philosopher
+337,Q11916247,Ctesibius of Chalcis,re_greek_world,Greek World,-400.0,philosopher
+338,Q43216,Epicurus,re_greek_world,Greek World,-341.0,philosopher
+339,Q978418,Marsyas of Pella,re_greek_world,Greek World,-400.0,historian
+340,Q353264,Diagoras of Melos,re_greek_world,Greek World,-450.0,philosopher
+341,Q2274948,Philostratus,re_greek_world,Greek World,170.0,philosopher
+342,Q1227107,Diotima of Mantinea,re_greek_world,Greek World,-450.0,philosopher
+343,Q43423,Aesop,re_greek_world,Greek World,-619.0,philosopher
+344,Q211411,Chrysippus of Soli,re_greek_world,Greek World,-280.0,philosopher | mathematician
+345,Q586050,Asclepigenia,re_greek_world,Greek World,400.0,philosopher
+346,Q646951,Ariston of Chios,re_greek_world,Greek World,-299.0,philosopher
+347,Q668009,Aristotelis the Dialectician,re_greek_world,Greek World,-300.0,philosopher
+348,Q214121,Xenocrates,re_greek_world,Greek World,-395.0,philosopher | mathematician
+349,Q1279413,Cercidas,re_greek_world,Greek World,-300.0,philosopher
+350,Q1364945,Glaucon,re_greek_world,Greek World,-444.0,philosopher
+351,Q189759,Zeno of Sidon,re_greek_world,Greek World,-149.0,philosopher | mathematician
+352,Q280872,Timon of Phlius,re_greek_world,Greek World,-319.0,philosopher
+353,Q905827,Diodorus of Tyre,re_greek_world,Greek World,-150.0,philosopher
+354,Q1372239,Eudemus of Cyprus,re_greek_world,Greek World,-400.0,philosopher
+355,Q2861408,Aristion,re_greek_world,Greek World,-150.0,philosopher
+356,Q3630471,Autocrates,re_greek_world,Greek World,-250.0,historian
+357,Q1073837,Critolaus,re_greek_world,Greek World,-199.0,philosopher
+358,Q15078686,Antiphon,re_greek_world,Greek World,-500.0,philosopher | mathematician
+359,Q466951,Clitomachus,re_greek_world,Greek World,-186.0,philosopher
+360,Q261909,Meton of Athens,re_greek_world,Greek World,-500.0,astronomer | mathematician
+361,Q310149,Cleanthes,re_greek_world,Greek World,-329.0,philosopher
+362,Q125247,Cratylus,re_greek_world,Greek World,-500.0,philosopher
+363,Q2346819,Damon of Athens,re_greek_world,Greek World,-450.0,musicologist | philosopher
+364,Q934471,Criton,re_greek_world,Greek World,-468.0,philosopher
+365,Q1763617,Nicarete of Megara,re_greek_world,Greek World,-400.0,philosopher
+366,Q4780369,Apollodorus of Phaleron,re_greek_world,Greek World,-420.0,philosopher
+367,Q131169,Polybius,re_greek_world,Greek World,-199.0,historian
+368,Q780234,Priscus of Epirus,re_greek_world,Greek World,305.0,philosopher
+369,Q2759424,Anticlides,re_greek_world,Greek World,-300.0,historian
+370,Q59180,Diogenes of Sinope,re_greek_world,Greek World,-399.0,philosopher
+371,Q2087377,Asclepiades of Phlius,re_greek_world,Greek World,-349.0,philosopher
+372,Q298071,Hippodamus of Miletus,re_greek_world,Greek World,-497.0,mathematician
+373,Q18819268,Mnesarchus of Croton,re_greek_world,Greek World,-450.0,philosopher
+374,Q298860,Hippasus,re_greek_world,Greek World,-600.0,musicologist | philosopher | mathematician
+375,Q716416,Hippon,re_greek_world,Greek World,-500.0,philosopher
+376,Q162593,Pelagius,re_greek_world,Greek World,360.0,theologian | philosopher
+377,Q11920485,Escílax d'Halicarnàs,re_greek_world,Greek World,-150.0,astronomer
+378,Q928092,Peter the Iberian,re_greek_world,Greek World,411.0,philosopher
+379,Q4684706,Adrastus of Cyzicus,re_greek_world,Greek World,-500.0,astronomer
+380,Q581732,Antipater of Tarsus,re_greek_world,Greek World,-300.0,philosopher
+381,Q291952,Sosipatra,re_greek_world,Greek World,400.0,philosopher
+382,Q314467,Aenesidemus,re_greek_world,Greek World,-79.0,philosopher
+383,Q200608,Ephrem the Syrian,re_greek_world,Greek World,306.0,theologian
+384,Q31278,Cleomedes,re_greek_world,Greek World,1.0,astronomer | mathematician
+385,Q486945,Sotion,re_greek_world,Greek World,-100.0,philosopher
+386,Q16658175,Zosimus of Ascalona,re_greek_world,Greek World,450.0,historian
+387,Q472620,Artemidorus of Ephesus,re_greek_world,Greek World,-150.0,geographer
+388,Q510719,Eutocius of Ascalon,re_greek_world,Greek World,480.0,philosopher | mathematician
+389,Q352621,Dicaearchus,re_greek_world,Greek World,-349.0,geographer | philosopher | historian | mathematician
+390,Q168261,Ptolemy I Soter,re_greek_world,Greek World,-365.0,historian
+391,Q2470320,Apollonius of Ephesus,re_greek_world,Greek World,201.0,theologian
+392,Q921532,Dorotheus of Sidon,re_greek_world,Greek World,50.0,astronomer
+393,Q437869,Evagrius Ponticus,re_greek_world,Greek World,345.0,theologian
+394,Q178217,Diofantos,re_greek_world,Greek World,201.0,mathematician
+395,Q24068760,Aristobulus of Paneas,re_greek_world,Greek World,-150.0,philosopher
+396,Q451566,Menaechmus,re_greek_world,Greek World,-379.0,astronomer | mathematician
+397,Q18626710,Julian,re_greek_world,Greek World,400.0,theologian
+398,Q211783,Pappus of Alexandria,re_greek_world,Greek World,290.0,astronomer | mathematician
+399,Q712572,Philistus,re_greek_world,Greek World,-424.0,historian
+400,Q2285961,Silenus Calatinus,re_greek_world,Greek World,-300.0,historian
+401,Q310028,Isidore of Miletus,re_greek_world,Greek World,442.0,physicist | mathematician
+402,Q242270,Hecataeus of Miletus,re_greek_world,Greek World,-600.0,geographer | historian
+403,Q3991387,Timagoras of Gela,re_greek_world,Greek World,-350.0,philosopher
+404,Q580661,Antiochus of Syracuse,re_greek_world,Greek World,-450.0,historian
+405,Q434773,Crantor,re_greek_world,Greek World,-343.0,philosopher
+406,Q80612,Anaximenes of Miletus,re_greek_world,Greek World,-584.0,astronomer | philosopher | mathematician
+407,Q433919,Phintys,re_greek_world,Greek World,-400.0,philosopher
+408,Q581833,Marinus of Neapolis,re_greek_world,Greek World,440.0,astronomer | philosopher
+409,Q313018,Aristophanes of Byzantium,re_greek_world,Greek World,-256.0,linguist
+410,Q1354573,Lycus of Rhegium,re_greek_world,Greek World,-350.0,historian
+411,Q355664,Theodore of Mopsuestia,re_greek_world,Greek World,350.0,theologian
+412,Q311731,Priscus,re_greek_world,Greek World,410.0,philosopher | historian
+413,Q310916,Iamblichus,re_greek_world,Greek World,245.0,philosopher
+414,Q59137,Diogenes of Oenoanda,re_greek_world,Greek World,200.0,philosopher
+415,Q714841,Eustathius of Epiphania,re_greek_world,Greek World,401.0,historian
+416,Q721022,Malchus,re_greek_world,Greek World,450.0,historian
+417,Q44011,Gregory of Nazianzus,re_greek_world,Greek World,330.0,theologian | philosopher
+418,Q372798,Polus,re_greek_world,Greek World,-500.0,philosopher
+419,Q297040,Apollonius of Tyana,re_greek_world,Greek World,15.0,philosopher | mathematician
+420,Q391202,Agathangelos,re_greek_world,Greek World,500.0,historian
+421,Q317029,Theodoret,re_greek_world,Greek World,393.0,historian
+422,Q4024777,Zopyrus of Tarentum,re_greek_world,Greek World,-350.0,philosopher
+423,Q43182,Eratosthenes,re_greek_world,Greek World,-275.0,musicologist | astronomer | mathematician | geographer | historian
+424,Q645774,Bolus of Mendes,re_greek_world,Greek World,-300.0,botanist | philosopher
+425,Q2637222,Aesara,re_greek_world,Greek World,-400.0,philosopher
+426,Q3731014,Heracleides of Magnesia,re_greek_world,Greek World,-50.0,historian
+427,Q3620711,Apollonides of Smyrna,re_greek_world,Greek World,-150.0,philosopher
+428,Q356433,Priscian,re_greek_world,Greek World,500.0,philosopher
+429,Q1389145,John the Lydian,re_greek_world,Greek World,490.0,historian
+430,Q2705204,Evander,re_greek_world,Greek World,-201.0,philosopher
+431,Q235426,Theano,re_greek_world,Greek World,-600.0,astronomer | philosopher | mathematician
+432,Q354342,Bardaisan,re_greek_world,Greek World,154.0,philosopher
+433,Q1270333,Praxeas,re_greek_world,Greek World,200.0,theologian
+434,Q463564,Xenophon of Ephesus,re_greek_world,Greek World,101.0,philosopher
+435,Q192371,Polycarp,re_greek_world,Greek World,69.0,theologian
+436,Q1295215,Satyrus the Peripatetic,re_greek_world,Greek World,-300.0,philosopher | historian
+437,Q1616998,Neanthes of Cyzicus,re_greek_world,Greek World,-250.0,historian
+438,Q1148501,Diophanes of Nicaea,re_greek_world,Greek World,-100.0,botanist
+439,Q180671,Aratus,re_greek_world,Greek World,-314.0,astronomer
+440,Q1189157,Nausiphanes,re_greek_world,Greek World,-400.0,philosopher
+441,Q1496242,Callinicus,re_greek_world,Greek World,300.0,historian
+442,Q180109,Apollonius of Perga,re_greek_world,Greek World,-261.0,astronomer | mathematician
+443,Q335156,Aristoxenus,re_greek_world,Greek World,-359.0,musicologist | philosopher | mathematician
+444,Q1047689,Menodotus of Nicomedia,re_greek_world,Greek World,100.0,philosopher
+445,Q3381179,Philon of Gadara,re_greek_world,Greek World,100.0,mathematician
+446,Q287423,Epigenes of Byzantium,re_greek_world,Greek World,-150.0,astronomer | mathematician
+447,Q317146,Alexandros of Aphrodisias,re_greek_world,Greek World,200.0,philosopher
+448,Q275606,Aurelius Victor,re_greek_world,Greek World,320.0,historian
+449,Q451390,Autolycus of Pitane,re_greek_world,Greek World,-359.0,astronomer | mathematician
+450,Q83375,Empedocles,re_greek_world,Greek World,-489.0,philosopher
+451,Q441448,Carpocrates,re_greek_world,Greek World,100.0,philosopher
+452,Q312491,John Malalas,re_greek_world,Greek World,491.0,historian
+453,Q248793,Maximus of Ephesus,re_greek_world,Greek World,310.0,philosopher
+454,Q404023,Aedesius,re_greek_world,Greek World,280.0,philosopher
+455,Q316867,Sosigenes of Alexandria,re_greek_world,Greek World,-100.0,astronomer | philosopher | mathematician
+456,Q506553,Olympiodorus of Thebes,re_greek_world,Greek World,380.0,philosopher | historian
+457,Q550477,Timocharis,re_greek_world,Greek World,-319.0,astronomer
+458,Q346567,Callixenus of Rhodes,re_greek_world,Greek World,-199.0,historian
+459,Q385213,Prohaeresius,re_greek_world,Greek World,276.0,philosopher
+460,Q2047944,Palladius of Galatia,re_greek_world,Greek World,363.0,historian
+461,Q334457,Dio Chrysostom,re_greek_world,Greek World,40.0,philosopher
+462,Q51885,Thecla,re_greek_world,Greek World,100.0,theologian
+463,Q3044500,Demetrius of Scepsis,re_greek_world,Greek World,-204.0,philosopher | historian
+464,Q363818,Nicander,re_greek_world,Greek World,-249.0,historian
+465,Q2524557,Anatolius of Laodicea,re_greek_world,Greek World,250.0,philosopher | mathematician
+466,Q1373037,Syrianus,re_greek_world,Greek World,500.0,philosopher
+467,Q3347025,Neleus of Scepsis,re_greek_world,Greek World,-350.0,philosopher
+468,Q459774,Ambrose of Alexandria,re_greek_world,Greek World,200.0,theologian
+469,Q1747749,Tiberius Claudius Aristocles,re_greek_world,Greek World,100.0,philosopher
+470,Q201867,Cleitarchus,re_greek_world,Greek World,-400.0,historian
+471,Q125551,Parmenides,re_greek_world,Greek World,-514.0,philosopher
+472,Q3624868,Asclepiades,re_greek_world,Greek World,-150.0,historian
+473,Q444459,Alcidamas,re_greek_world,Greek World,-450.0,philosopher
+474,Q4441106,Aphthonius of Antioch,re_greek_world,Greek World,300.0,philosopher
+475,Q44024,Athanasios of Alexandria,re_greek_world,Greek World,296.0,theologian
+476,Q3413787,Archelaus,re_greek_world,Greek World,300.0,theologian
+477,Q705950,Theon of Smyrna,re_greek_world,Greek World,70.0,philosopher | musicologist | astronomer | mathematician
+478,Q380089,Fulgentius of Ruspe,re_greek_world,Greek World,468.0,theologian
+479,Q2861395,Aristodemus of Nysa,re_greek_world,Greek World,-200.0,philosopher | historian
+480,Q447451,Sabellius,re_greek_world,Greek World,200.0,theologian
+481,Q973954,Philoxenus of Mabbug,re_greek_world,Greek World,440.0,theologian
+482,Q433332,Mara Bar-Serapion,re_greek_world,Greek World,50.0,philosopher
+483,Q1613489,Hermias,re_greek_world,Greek World,401.0,philosopher
+484,Q186153,Procopius,re_greek_world,Greek World,500.0,historian
+485,Q188232,Didymus the Blind,re_greek_world,Greek World,313.0,theologian
+486,Q1266186,Theodosius of Bithynia,re_greek_world,Greek World,-159.0,astronomer | mathematician
+487,Q2696027,Alexander of Damascus,re_greek_world,Greek World,200.0,philosopher
+488,Q3714438,Dositheus,re_greek_world,Greek World,-250.0,astronomer | mathematician
+489,Q18639389,Abrotelia,re_greek_world,Greek World,-500.0,philosopher
+490,Q1531412,Harkhebi,re_greek_world,Greek World,-301.0,astronomer
+491,Q185223,Cassius Dio,re_greek_world,Greek World,150.0,historian
+492,Q2695834,Agathobulus,re_greek_world,Greek World,100.0,philosopher
+493,Q16529474,Astone,re_greek_world,Greek World,-550.0,philosopher
+494,Q503075,Crates of Mallus,re_greek_world,Greek World,-200.0,philosopher
+495,Q8739,Archimedes,re_greek_world,Greek World,-286.0,astronomer | philosopher | physicist | mathematician
+496,Q63456919,Pandrosion,re_greek_world,Greek World,400.0,mathematician
+497,Q317014,Sextus Julius Africanus,re_greek_world,Greek World,160.0,philosopher | historian
+498,Q170472,Origen,re_greek_world,Greek World,185.0,theologian | philosopher
+499,Q1051470,Vettius Valens,re_greek_world,Greek World,120.0,astronomer
+500,Q515542,Agathemerus,re_greek_world,Greek World,250.0,geographer
+501,Q504771,Philo of Byblos,re_greek_world,Greek World,50.0,historian
+502,Q1226993,Dionysius Periegetes,re_greek_world,Greek World,100.0,historian
+503,Q312500,Herophilos,re_greek_world,Greek World,-334.0,anatomist
+504,Q297390,Craterus,re_greek_world,Greek World,-369.0,historian
+505,Q707344,Numenius of Apamea,re_greek_world,Greek World,200.0,philosopher
+506,Q42458,Anaximander,re_greek_world,Greek World,-609.0,philosopher | physicist | astronomer | mathematician | geographer
+507,Q229246,Julia Domna,re_greek_world,Greek World,165.0,philosopher
+508,Q298654,Cyril of Jerusalem,re_greek_world,Greek World,313.0,theologian
+509,Q363375,Publilius Syrus,re_greek_world,Greek World,-100.0,philosopher
+510,Q391216,Agatharchides,re_greek_world,Greek World,-207.0,geographer | philosopher | historian | anatomist
+511,Q2531620,Pamprepius,re_greek_world,Greek World,440.0,philosopher
+512,Q4191445,Zenob Glak,re_greek_world,Greek World,300.0,historian
+513,Q165589,Leucippus,re_greek_world,Greek World,-500.0,philosopher | physicist
+514,Q451719,Damo,re_greek_world,Greek World,-600.0,philosopher | mathematician
+515,Q365977,Bias of Priene,re_greek_world,Greek World,-599.0,philosopher
+516,Q1378597,Eurytus,re_greek_world,Greek World,-500.0,philosopher | mathematician
+517,Q189767,Zeno of Tarsus,re_greek_world,Greek World,-250.0,philosopher
+518,Q139567,Zacharias Rhetor,re_greek_world,Greek World,465.0,philosopher | historian
+519,Q83041,Anaxagoras,re_greek_world,Greek World,-499.0,astronomer | philosopher | physicist | mathematician
+520,Q1400157,Cleinias of Tarentum,re_greek_world,Greek World,-500.0,philosopher
+521,Q313791,Ephorus,re_greek_world,Greek World,-399.0,historian
+522,Q260951,Dinon,re_greek_world,Greek World,-399.0,historian
+523,Q534163,Xanthos,re_greek_world,Greek World,-500.0,historian
+524,Q142999,Eusebius of Caesarea,re_greek_world,Greek World,275.0,theologian | historian
+525,Q317942,Euhemerus,re_greek_world,Greek World,-400.0,philosopher | historian | anthropologist
+526,Q31271346,Dion von Neapel,re_greek_world,Greek World,-500.0,mathematician
+527,Q354377,Conon of Samos,re_greek_world,Greek World,-279.0,astronomer | mathematician
+528,Q44015,John the Apostle,re_greek_world,Greek World,6.0,theologian
+529,Q378236,Aristides Quintilianus,re_greek_world,Greek World,150.0,musicologist
+530,Q1226828,Diogenes of Tarsus,re_greek_world,Greek World,-200.0,philosopher
+531,Q298226,Anthemius of Tralles,re_greek_world,Greek World,474.0,physicist | mathematician
+532,Q1226996,Dionysius of Miletus,re_greek_world,Greek World,-600.0,historian
+533,Q313934,Macrobius,re_greek_world,Greek World,370.0,musicologist | philosopher
+534,Q1419147,Firmilian,re_greek_world,Greek World,200.0,philosopher
+535,Q725225,Thrasyllus of Mendes,re_greek_world,Greek World,-100.0,musicologist | philosopher
+536,Q132157,Zeno of Elea,re_greek_world,Greek World,-489.0,philosopher | mathematician
+537,Q521203,Duris of Samos,re_greek_world,Greek World,-339.0,historian
+538,Q343018,Eunapius,re_greek_world,Greek World,349.0,philosopher | historian
+539,Q168707,Pliny the Younger,re_greek_world,Greek World,61.0,historian
+540,Q928551,Origen the Pagan,re_greek_world,Greek World,200.0,philosopher
+541,Q2749849,Athenodorus of Soli,re_greek_world,Greek World,-300.0,philosopher
+542,Q931271,Tisias,re_greek_world,Greek World,-499.0,philosopher
+543,Q189597,Philo of Alexandria,re_greek_world,Greek World,-14.0,philosopher | historian
+544,Q731906,Asclepiodotus of Alexandria,re_greek_world,Greek World,500.0,philosopher
+545,Q315360,Damascius,re_greek_world,Greek World,450.0,philosopher
+546,Q510737,Lucian of Antioch,re_greek_world,Greek World,240.0,theologian
+547,Q2902906,Rabbi Nehemiah,re_greek_world,Greek World,101.0,mathematician
+548,Q43706,John Chrysostom,re_greek_world,Greek World,349.0,theologian
+549,Q354384,Theon of Alexandria,re_greek_world,Greek World,335.0,astronomer | mathematician
+550,Q11903,Hypatia,re_greek_world,Greek World,360.0,astronomer | philosopher | mathematician
+551,Q443510,Hesychius of Alexandria,re_greek_world,Greek World,450.0,linguist
+552,Q3826494,Lamiscus,re_greek_world,Greek World,-400.0,philosopher | mathematician
+553,Q717647,Gnaeus Claudius Severus Arabianus,re_greek_world,Greek World,113.0,philosopher
+554,Q140188,Aristarchus of Samos,re_greek_world,Greek World,-309.0,astronomer
+555,Q456560,Myia,re_greek_world,Greek World,-600.0,philosopher | mathematician
+556,Q33941,Julian,re_greek_world,Greek World,331.0,philosopher
+557,Q317632,John Philoponus,re_greek_world,Greek World,490.0,philosopher | physicist | astronomer | mathematician | theologian
+558,Q1722472,Callias of Syracuse,re_greek_world,Greek World,-400.0,historian
+559,Q3432037,Aristaeus of Croton,re_greek_world,Greek World,-450.0,philosopher | mathematician
+560,Q897689,Chaeremon of Alexandria,re_greek_world,Greek World,10.0,philosopher | historian
+561,Q84027027,Didymus of Alexandria,re_greek_world,Greek World,-50.0,mathematician
+562,Q942439,Monimus,re_greek_world,Greek World,-400.0,philosopher
+563,Q310821,Akiva ben Joseph,re_greek_world,Greek World,15.0,theologian
+564,Q280432,Athenodoros Cananites,re_greek_world,Greek World,-100.0,philosopher | historian
+565,Q313286,Demetrius of Phalerum,re_greek_world,Greek World,-349.0,philosopher
+566,Q123147,Ammonius Hermiae,re_greek_world,Greek World,435.0,astronomer | philosopher
+567,Q2570422,Sotion,re_greek_world,Greek World,-250.0,philosopher | historian
+568,Q2657803,Asterius the Sophist,re_greek_world,Greek World,300.0,theologian
+569,Q1749928,Phaleas of Chalcedon,re_greek_world,Greek World,-400.0,philosopher
+570,Q280934,Alexander Lychnus,re_greek_world,Greek World,-50.0,historian
+571,Q11925495,Hermodorus,re_greek_world,Greek World,-399.0,philosopher
+572,Q15975321,Flavius Boethus,re_greek_world,Greek World,150.0,philosopher
+573,Q191734,Gregory of Nyssa,re_greek_world,Greek World,400.0,theologian
+574,Q1297839,Serenus of Antinouplis,re_greek_world,Greek World,300.0,mathematician
+575,Q1383547,Ulpianus,re_greek_world,Greek World,300.0,philosopher
+576,Q138531,Phlegon of Tralles,re_greek_world,Greek World,200.0,historian
+577,Q929311,Hegesias of Magnesia,re_greek_world,Greek World,-200.0,historian
+578,Q948620,Hermias of Atarneus,re_greek_world,Greek World,-350.0,philosopher
+579,Q365183,Themistius,re_greek_world,Greek World,317.0,philosopher
+580,Q754890,Athanis,re_greek_world,Greek World,-400.0,historian
+581,Q176287,Timaeus of Locri,re_greek_world,Greek World,-500.0,astronomer | philosopher | mathematician
+582,Q188883,Clement of Alexandria,re_greek_world,Greek World,150.0,theologian | philosopher
+583,Q3556912,Theognostus of Alexandria,re_greek_world,Greek World,210.0,theologian
+584,Q5063276,Cephalion,re_greek_world,Greek World,100.0,historian
+585,Q1241343,Justus of Tiberias,re_greek_world,Greek World,35.0,historian
+586,Q7155483,Pausanias of Damascus,re_greek_world,Greek World,-150.0,geographer
+587,Q1185502,Demetrius Lacon,re_greek_world,Greek World,-150.0,philosopher
+588,Q360366,Nicomachus,re_greek_world,Greek World,60.0,musicologist | philosopher | mathematician
+589,Q3636221,Baton of Sinope,re_greek_world,Greek World,-199.0,historian
+590,Q41766,Ctesibius,re_greek_world,Greek World,-283.0,mathematician
+591,Q729105,Severus of Antioch,re_greek_world,Greek World,465.0,theologian
+592,Q641051,Arius Didymus,re_greek_world,Greek World,-83.0,philosopher
+593,Q388333,Cadmus of Miletus,re_greek_world,Greek World,-500.0,historian
+594,Q44258,Basil of Caesarea,re_greek_world,Greek World,329.0,theologian | philosopher
+595,Q534986,Flavius Vopiscus,re_greek_world,Greek World,201.0,historian
+596,Q41155,Heraclitus,re_greek_world,Greek World,-534.0,philosopher
+597,Q36303,Thales,re_greek_world,Greek World,-624.0,astronomer | philosopher | physicist | mathematician
+598,Q974775,Olympiodorus the Younger,re_greek_world,Greek World,495.0,philosopher
+599,Q2763097,Abba Saul,re_greek_world,Greek World,101.0,theologian
+600,Q202001,Archytas,re_greek_world,Greek World,-427.0,philosopher | musicologist | astronomer | mathematician
+601,Q2312602,Montanus of Phrygia,re_greek_world,Greek World,150.0,theologian
+602,Q19715972,Nicostratus of Trebizond,re_greek_world,Greek World,300.0,historian
+603,Q44248,Jerome,re_greek_world,Greek World,345.0,theologian | historian
+604,Q857017,Gaius Blossius,re_greek_world,Greek World,-150.0,philosopher
+605,Q3371179,Polemarchus,re_greek_world,Greek World,-500.0,philosopher
+606,Q345277,Basilides,re_greek_world,Greek World,117.0,theologian
+607,Q3271431,Leon of Byzantium,re_greek_world,Greek World,-400.0,philosopher
+608,Q212338,Philolaus,re_greek_world,Greek World,-469.0,philosopher | musicologist | astronomer | mathematician
+609,Q2706119,Telecles,re_greek_world,Greek World,-201.0,philosopher
+610,Q11906871,Ascletarió,re_greek_world,Greek World,100.0,mathematician
+611,Q2832178,Alcimus,re_greek_world,Greek World,-350.0,historian
+612,Q2695686,Abba Hilkiah,re_greek_world,Greek World,1.0,theologian
+613,Q359945,Melito of Sardis,re_greek_world,Greek World,100.0,philosopher
+614,Q226868,Zosimos of Panopolis,re_greek_world,Greek World,250.0,philosopher
+615,Q738605,Boethus of Sidon,re_greek_world,Greek World,-199.0,philosopher
+616,Q461067,Pantaenus,re_greek_world,Greek World,200.0,theologian | philosopher
+617,Q7807000,Timosthenes,re_greek_world,Greek World,-301.0,geographer
+618,Q23061186,Nicolaus Sophista,re_greek_world,Greek World,400.0,philosopher
+619,Q161853,Hero of Alexandria,re_greek_world,Greek World,10.0,physicist | mathematician
+620,Q1175868,Menander of Ephesus,re_greek_world,Greek World,-299.0,historian
+621,Q159905,Hipparchus,re_greek_world,Greek World,-189.0,geographer | astronomer | mathematician
+622,Q2601910,Aristo of Pella,re_greek_world,Greek World,100.0,historian
+623,Q131671,Xenophanes,re_greek_world,Greek World,-569.0,philosopher
+624,Q1113270,Archedemus of Tarsus,re_greek_world,Greek World,-300.0,philosopher
+625,Q236594,Sextus Empiricus,re_greek_world,Greek World,200.0,philosopher
+626,Q471218,Callippus of Cyzicus,re_greek_world,Greek World,-369.0,astronomer | mathematician
+627,Q2639498,Boethus of Sidon,re_greek_world,Greek World,-74.0,philosopher
+628,Q320042,Antiochus of Ascalon,re_greek_world,Greek World,-123.0,philosopher
+629,Q461007,Eubulides,re_greek_world,Greek World,-500.0,philosopher
+630,Q436634,Cassius Longinus,re_greek_world,Greek World,213.0,philosopher
+631,Q1383804,Heracleides of Cyme,re_greek_world,Greek World,-399.0,historian
+632,Q248975,Herillus,re_greek_world,Greek World,-279.0,philosopher
+633,Q447428,Cerinthus,re_greek_world,Greek World,100.0,theologian | philosopher
+634,Q297776,Pedanius Dioscorides,re_greek_world,Greek World,40.0,botanist | pharmacologist
+635,Q657941,Albinus,re_greek_world,Greek World,100.0,philosopher
+636,Q973972,Sporus of Nicaea,re_greek_world,Greek World,240.0,astronomer | mathematician
+637,Q370123,Apollodorus of Artemita,re_greek_world,Greek World,-129.0,historian
+638,Q312548,Megasthenes,re_greek_world,Greek World,-350.0,historian | anthropologist
+639,Q950303,Cratippus of Pergamon,re_greek_world,Greek World,-100.0,philosopher
+640,Q450311,Alypius,re_greek_world,Greek World,350.0,musicologist
+641,Q2695791,Abtolemus,re_greek_world,Greek World,101.0,theologian
+642,Q3502838,Thallus,re_greek_world,Greek World,100.0,historian
+643,Q1290567,Maximus I of Constantinople,re_greek_world,Greek World,350.0,philosopher
+644,Q2696474,Apollinaris,re_greek_world,Greek World,400.0,philosopher
+645,Q365017,Agathocles of Cyzicus,re_greek_world,Greek World,-299.0,historian
+646,Q429744,Philinus of Agrigentum,re_greek_world,Greek World,-300.0,historian
+647,Q34943,Ptolemy,re_greek_world,Greek World,100.0,philosopher | musicologist | astronomer | mathematician | geographer
+648,Q310173,Ammonius Saccas,re_greek_world,Greek World,175.0,philosopher
+649,Q2319055,Rhianus,re_greek_world,Greek World,-274.0,historian
+650,Q718003,Possidius of Calama,re_latin,Latin World,370.0,historian
+651,Q8018,Augustine of Hippo,re_latin,Latin World,354.0,theologian | musicologist | philosopher | historian
+652,Q342416,Arnobius,re_latin,Latin World,255.0,philosopher
+653,Q348408,Martianus Capella,re_latin,Latin World,360.0,musicologist | philosopher
+654,Q261992,Optatus,re_latin,Latin World,400.0,theologian
+655,Q315670,Juba II,re_latin,Latin World,-47.0,historian
+656,Q170512,Apuleius,re_latin,Latin World,125.0,philosopher

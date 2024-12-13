@@ -8,14 +8,18 @@ __pycache__/
 
 old_code
 old_graph
+optimization
+analysis
+old_network_making
 images
-data
 cache
 old_graph
 *.db
 *.DS_Store
 
 *.html
+
+
 
 
 # Distribution / packaging

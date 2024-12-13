@@ -1,0 +1,170 @@
+,wikidata_id,individual_name_x,region_code,region_name,birthyear,meta_occupation,meta_region,individual_name_y,gender
+0,Q50082878,Jess Wade,re_latin,Latin World,2.0,physicist,antiquity,Jess Wade,female
+1,Q50082878,Jess Wade,re_latin,Latin World,2.0,physicist,non_europe,Jess Wade,female
+2,Q239448,Pompeia Plotina,re_latin,Latin World,70.0,philosopher,antiquity,Pompeia Plotina,female
+3,Q239448,Pompeia Plotina,re_latin,Latin World,70.0,philosopher,non_europe,Pompeia Plotina,female
+4,Q443278,Antonia Gordiana,re_latin,Latin World,201.0,historian,antiquity,Antonia Gordiana,female
+5,Q443278,Antonia Gordiana,re_latin,Latin World,201.0,historian,non_europe,Antonia Gordiana,female
+6,Q255448,Porcia,re_latin,Latin World,-100.0,philosopher,antiquity,Porcia,female
+7,Q255448,Porcia,re_latin,Latin World,-100.0,philosopher,non_europe,Porcia,female
+8,Q16932930,Saint Sylvia of Aquitaine,re_latin,Latin World,330.0,historian,antiquity,Saint Sylvia of Aquitaine,female
+9,Q16932930,Saint Sylvia of Aquitaine,re_latin,Latin World,330.0,historian,non_europe,Saint Sylvia of Aquitaine,female
+10,Q228564,Aspasia,re_greek_world,Greek World,-469.0,philosopher,antiquity,Aspasia,female
+11,Q228564,Aspasia,re_greek_world,Greek World,-469.0,philosopher,non_europe,Aspasia,female
+12,Q288467,Lastheneia of Mantinea,re_greek_world,Greek World,-350.0,philosopher,antiquity,Lastheneia of Mantinea,female
+13,Q288467,Lastheneia of Mantinea,re_greek_world,Greek World,-350.0,philosopher,non_europe,Lastheneia of Mantinea,female
+14,Q462582,Pythias,re_greek_world,Greek World,-361.0,zoologist,antiquity,Pythias,female
+15,Q462582,Pythias,re_greek_world,Greek World,-361.0,zoologist,non_europe,Pythias,female
+16,Q444595,Perictione,re_greek_world,Greek World,-500.0,philosopher,antiquity,Perictione,female
+17,Q444595,Perictione,re_greek_world,Greek World,-500.0,philosopher,non_europe,Perictione,female
+18,Q235494,Hipparchia of Maroneia,re_greek_world,Greek World,-349.0,philosopher,antiquity,Hipparchia of Maroneia,female
+19,Q235494,Hipparchia of Maroneia,re_greek_world,Greek World,-349.0,philosopher,non_europe,Hipparchia of Maroneia,female
+20,Q434021,Timycha,re_greek_world,Greek World,-400.0,philosopher,antiquity,Timycha,female
+21,Q434021,Timycha,re_greek_world,Greek World,-400.0,philosopher,non_europe,Timycha,female
+22,Q1227107,Diotima of Mantinea,re_greek_world,Greek World,-450.0,philosopher,antiquity,Diotima of Mantinea,female
+23,Q1227107,Diotima of Mantinea,re_greek_world,Greek World,-450.0,philosopher,non_europe,Diotima of Mantinea,female
+24,Q586050,Asclepigenia,re_greek_world,Greek World,400.0,philosopher,antiquity,Asclepigenia,female
+25,Q586050,Asclepigenia,re_greek_world,Greek World,400.0,philosopher,non_europe,Asclepigenia,female
+26,Q1763617,Nicarete of Megara,re_greek_world,Greek World,-400.0,philosopher,antiquity,Nicarete of Megara,female
+27,Q1763617,Nicarete of Megara,re_greek_world,Greek World,-400.0,philosopher,non_europe,Nicarete of Megara,female
+28,Q291952,Sosipatra,re_greek_world,Greek World,400.0,philosopher,antiquity,Sosipatra,female
+29,Q291952,Sosipatra,re_greek_world,Greek World,400.0,philosopher,non_europe,Sosipatra,female
+30,Q433919,Phintys,re_greek_world,Greek World,-400.0,philosopher,antiquity,Phintys,female
+31,Q433919,Phintys,re_greek_world,Greek World,-400.0,philosopher,non_europe,Phintys,female
+32,Q2637222,Aesara,re_greek_world,Greek World,-400.0,philosopher,antiquity,Aesara,female
+33,Q2637222,Aesara,re_greek_world,Greek World,-400.0,philosopher,non_europe,Aesara,female
+34,Q235426,Theano,re_greek_world,Greek World,-600.0,astronomer | philosopher | mathematician,antiquity,Theano,female
+35,Q235426,Theano,re_greek_world,Greek World,-600.0,astronomer | philosopher | mathematician,non_europe,Theano,female
+36,Q51885,Thecla,re_greek_world,Greek World,100.0,theologian,antiquity,Thecla,female
+37,Q51885,Thecla,re_greek_world,Greek World,100.0,theologian,non_europe,Thecla,female
+38,Q18639389,Abrotelia,re_greek_world,Greek World,-500.0,philosopher,antiquity,Abrotelia,female
+39,Q18639389,Abrotelia,re_greek_world,Greek World,-500.0,philosopher,non_europe,Abrotelia,female
+40,Q63456919,Pandrosion,re_greek_world,Greek World,400.0,mathematician,antiquity,Pandrosion,female
+41,Q63456919,Pandrosion,re_greek_world,Greek World,400.0,mathematician,non_europe,Pandrosion,female
+42,Q229246,Julia Domna,re_greek_world,Greek World,165.0,philosopher,antiquity,Julia Domna,female
+43,Q229246,Julia Domna,re_greek_world,Greek World,165.0,philosopher,non_europe,Julia Domna,female
+44,Q451719,Damo,re_greek_world,Greek World,-600.0,philosopher | mathematician,antiquity,Damo,female
+45,Q451719,Damo,re_greek_world,Greek World,-600.0,philosopher | mathematician,non_europe,Damo,female
+46,Q11903,Hypatia,re_greek_world,Greek World,360.0,astronomer | philosopher | mathematician,antiquity,Hypatia,female
+47,Q11903,Hypatia,re_greek_world,Greek World,360.0,astronomer | philosopher | mathematician,non_europe,Hypatia,female
+48,Q456560,Myia,re_greek_world,Greek World,-600.0,philosopher | mathematician,antiquity,Myia,female
+49,Q456560,Myia,re_greek_world,Greek World,-600.0,philosopher | mathematician,non_europe,Myia,female
+50,Q242640,"Margaret Cavendish, Duchess of Newcastle-upon-Tyne",re_british_islands,British Islands,1623.0,philosopher | physicist,europe,"Margaret Cavendish, Duchess of Newcastle-upon-Tyne",female
+51,Q4836326,Anna Mackenzie,re_british_islands,British Islands,1621.0,historian,europe,Anna Mackenzie,female
+52,Q5363623,Elizabeth Tollet,re_british_islands,British Islands,1694.0,mathematician,europe,Elizabeth Tollet,female
+53,Q6779086,Mary Bonaventure Browne,re_british_islands,British Islands,1610.0,historian,europe,Mary Bonaventure Browne,female
+54,Q1091103,Catharine Trotter,re_british_islands,British Islands,1674.0,philosopher,europe,Catharine Trotter,female
+55,Q331855,"Elizabeth Cary, Lady Falkland",re_british_islands,British Islands,1585.0,historian,europe,"Elizabeth Cary, Lady Falkland",female
+56,Q2332520,Damaris Cudworth Masham,re_british_islands,British Islands,1659.0,philosopher,europe,Damaris Cudworth Masham,female
+57,Q236699,Julian of Norwich,re_british_islands,British Islands,1343.0,theologian,europe,Julian of Norwich,female
+58,Q260404,"Anne Conway, Viscountess Conway",re_british_islands,British Islands,1631.0,philosopher,europe,"Anne Conway, Viscountess Conway",female
+59,Q5362721,Elizabeth Elstob,re_british_islands,British Islands,1683.0,linguist | historian,europe,Elizabeth Elstob,female
+60,Q2359434,Mary Astell,re_british_islands,British Islands,1666.0,philosopher,europe,Mary Astell,female
+61,Q19874628,Jane Squire,re_british_islands,British Islands,1686.0,mathematician,europe,Jane Squire,female
+62,Q4990594,"Cassandra Willoughby, Duchess of Chandos",re_british_islands,British Islands,1670.0,historian,europe,"Cassandra Willoughby, Duchess of Chandos",female
+63,Q59229645,Margaret Flamsteed,re_british_islands,British Islands,1670.0,astronomer,europe,Margaret Flamsteed,female
+64,Q3850445,"Mary Somerset, Duchess of Beaufort",re_british_islands,British Islands,1630.0,botanist,europe,"Mary Somerset, Duchess of Beaufort",female
+65,Q510352,Mary Delany,re_british_islands,British Islands,1700.0,botanist,europe,Mary Delany,female
+66,Q4814842,Eleanor Glanville,re_british_islands,British Islands,1654.0,zoologist,europe,Eleanor Glanville,female
+67,Q640051,Bathsua Makin,re_british_islands,British Islands,1600.0,linguist,europe,Bathsua Makin,female
+68,Q3292880,Marie de Brimeu,re_low_countries,Low countries,1550.0,botanist,europe,Marie de Brimeu,female
+69,Q2391612,Louise-Marie de Lanternât,re_france,France,1663.0,historian,europe,Louise-Marie de Lanternât,female
+70,Q20031812,Anna van Westerstee,re_low_countries,Low countries,1657.0,geographer,europe,Anna van Westerstee,female
+71,Q757841,Agnes Block,re_low_countries,Low countries,1629.0,botanist,europe,Agnes Block,female
+72,Q19986310,Laure Hillerin,re_france,France,949.0,historian,europe,Laure Hillerin,female
+73,Q4981388,Kristina Svantesdotter Sture,re_nordic_countries,Nordic countries,1559.0,historian,europe,Kristina Svantesdotter Sture,female
+74,Q78074497,Esther Elisabeth de Waldkirch,re_german_world,German world,1660.0,philosopher,europe,Esther Elisabeth de Waldkirch,female
+75,Q4955687,Ingeborg i Mjärhult,re_nordic_countries,Nordic countries,1665.0,philosopher,europe,Ingeborg i Mjärhult,female
+76,Q23472598,Élisabeth Ferrand,re_france,France,1700.0,philosopher,europe,Élisabeth Ferrand,female
+77,Q3292129,Marie Madeleine de Rochechouart de Mortemart,re_france,France,1645.0,linguist,europe,Marie Madeleine de Rochechouart de Mortemart,female
+78,Q269687,Mechthild of Magdeburg,re_german_world,German world,1207.0,philosopher,europe,Mechthild of Magdeburg,female
+79,Q13565189,Charlotta Frölich,re_nordic_countries,Nordic countries,1698.0,historian | botanist | physicist,europe,Charlotta Frölich,female
+80,Q3094147,Gabrielle Suchon,re_france,France,1631.0,philosopher,europe,Gabrielle Suchon,female
+81,Q74956,Antonia of Württemberg,re_german_world,German world,1613.0,theologian,europe,Antonia of Württemberg,female
+82,Q2180340,Titia Brongersma,re_low_countries,Low countries,1650.0,archeologist,europe,Titia Brongersma,female
+83,Q77511,Maria Margaretha Kirch,re_german_world,German world,1670.0,astronomer,europe,Maria Margaretha Kirch,female
+84,Q469087,Marie de Gournay,re_france,France,1565.0,philosopher,europe,Marie de Gournay,female
+85,Q56029,Sophia Brahe,re_nordic_countries,Nordic countries,1559.0,astronomer | historian,europe,Sophia Brahe,female
+86,Q94774031,Daniel Friedrich,re_german_world,German world,1607.0,theologian,europe,Daniel Friedrich,female
+87,Q61389,Elisabeth of the Palatinate,re_german_world,German world,1618.0,philosopher,europe,Elisabeth of the Palatinate,female
+88,Q237871,Catherine of Vadstena,re_nordic_countries,Nordic countries,1331.0,philosopher,europe,Catherine of Vadstena,female
+89,Q100918,Christine Kirch,re_german_world,German world,1697.0,astronomer,europe,Christine Kirch,female
+90,Q100330715,Helena Magenbuch,re_german_world,German world,1523.0,pharmacologist | chemist,europe,Helena Magenbuch,female
+91,Q62530,Maria Sibylla Merian,re_low_countries,Low countries,1647.0,botanist | zoologist,europe,Maria Sibylla Merian,female
+92,Q77239,Katharina von Bora,re_german_world,German world,1499.0,theologian,europe,Katharina von Bora,female
+93,Q447170,Marie Dentière,re_france,France,1495.0,theologian,europe,Marie Dentière,female
+94,Q5656,Héloïse d’Argenteuil,re_france,France,1101.0,philosopher,europe,Héloïse d’Argenteuil,female
+95,Q2616658,Jeanne Dumée,re_france,France,1660.0,astronomer,europe,Jeanne Dumée,female
+96,Q56452221,Adrienne-Madeleine Dusillet,re_france,France,1690.0,historian,europe,Adrienne-Madeleine Dusillet,female
+97,Q19756224,Johanna Corleva,re_low_countries,Low countries,1698.0,linguist,europe,Johanna Corleva,female
+98,Q3291621,Marie-Charlotte de Romilley de La Chesnelaye,re_france,France,1671.0,mathematician,europe,Marie-Charlotte de Romilley de La Chesnelaye,female
+99,Q6389108,Louise-Anastasia Serment,re_france,France,1642.0,philosopher,europe,Louise-Anastasia Serment,female
+100,Q255261,Anna Maria van Schurman,re_low_countries,Low countries,1607.0,theologian | philosopher,europe,Anna Maria van Schurman,female
+101,Q2942125,Catherine de Parthenay,re_france,France,1554.0,mathematician,europe,Catherine de Parthenay,female
+102,Q70991,Hildegard of Bingen,re_german_world,German world,1098.0,theologian | philosopher | anatomist,europe,Hildegard of Bingen,female
+103,Q61052450,Hortensia del Prado,re_low_countries,Low countries,1575.0,botanist,europe,Hortensia del Prado,female
+104,Q117075,Marie Huber,re_france,France,1695.0,theologian,europe,Marie Huber,female
+105,Q4894140,Juliana Morell,re_france,France,1594.0,philosopher,europe,Juliana Morell,female
+106,Q237090,Madame de Lafayette,re_france,France,1634.0,historian,europe,Madame de Lafayette,female
+107,Q27921342,Colette van den Keere,re_low_countries,Low countries,1568.0,geographer,europe,Colette van den Keere,female
+108,Q18334973,Ursula Weyda,re_german_world,German world,1504.0,theologian,europe,Ursula Weyda,female
+109,Q98754,Eva von Buttlar,re_german_world,German world,1670.0,theologian,europe,Eva von Buttlar,female
+110,Q257351,Herrad of Landsberg,re_france,France,1125.0,philosopher,europe,Herrad of Landsberg,female
+111,Q3295850,Martine Bertereau,re_france,France,1590.0,geologist,europe,Martine Bertereau,female
+112,Q4940537,Anne Margrethe Bredal,re_nordic_countries,Nordic countries,1655.0,historian,europe,Anne Margrethe Bredal,female
+113,Q2310555,Marie Crous,re_france,France,1700.0,mathematician,europe,Marie Crous,female
+114,Q1895764,Maria Clara Eimmart,re_german_world,German world,1676.0,astronomer,europe,Maria Clara Eimmart,female
+115,Q1475505,Margaret Clement,re_low_countries,Low countries,1508.0,mathematician,europe,Margaret Clement,female
+116,Q1601903,Helena Sibylla Moller,re_german_world,German world,1669.0,zoologist,europe,Helena Sibylla Moller,female
+117,Q3292690,Marie Meurdrac,re_france,France,1610.0,chemist,europe,Marie Meurdrac,female
+118,Q2578595,Anna Åkerhjelm,re_german_world,German world,1642.0,archeologist,europe,Anna Åkerhjelm,female
+119,Q2289542,Catherine de Pallanza,re_italy,Italy,1437.0,philosopher,europe,Catherine de Pallanza,female
+120,Q274484,Tarquinia Molza,re_italy,Italy,1542.0,botanist,europe,Tarquinia Molza,female
+121,Q53101,Ioveta of Bethany,re_spain,Spain,1118.0,theologian,europe,Ioveta of Bethany,female
+122,Q2409668,Alessandra Giliani,re_italy,Italy,1307.0,anatomist,europe,Alessandra Giliani,female
+123,Q21663425,Elisa Oricchio,re_italy,Italy,1111.0,zoologist,europe,Elisa Oricchio,female
+124,Q3350696,Oliva Sabuco,re_spain,Spain,1562.0,philosopher,europe,Oliva Sabuco,female
+125,Q52937,Kristina I of Sweden,re_italy,Italy,1626.0,philosopher,europe,Kristina I of Sweden,female
+126,Q20101075,Zulema the Astrologer,re_spain,Spain,1190.0,astronomer,europe,Zulema the Astrologer,female
+127,Q229190,Catherine of Siena,re_italy,Italy,1347.0,philosopher,europe,Catherine of Siena,female
+128,Q3291053,Maria Selvaggia Borghini,re_italy,Italy,1656.0,linguist,europe,Maria Selvaggia Borghini,female
+129,Q204996,Bridget of Sweden,re_italy,Italy,1303.0,theologian | philosopher,europe,Bridget of Sweden,female
+130,Q466851,Elena Cornaro Piscopia,re_italy,Italy,1646.0,philosopher | mathematician,europe,Elena Cornaro Piscopia,female
+131,Q11934540,Madrona Clarina i Colomer,re_spain,Spain,1688.0,philosopher,europe,Madrona Clarina i Colomer,female
+132,Q4869938,Battistina Vernazza,re_italy,Italy,1497.0,theologian,europe,Battistina Vernazza,female
+133,Q457070,Moderata Fonte,re_italy,Italy,1555.0,philosopher,europe,Moderata Fonte,female
+134,Q10355765,Públia Hortênsia de Castro,re_portugal,Portugal,1548.0,philosopher,europe,Públia Hortênsia de Castro,female
+135,Q3275709,Madeleine Patin,re_italy,Italy,1642.0,philosopher,europe,Madeleine Patin,female
+136,Q572198,Guglielma de Bohême,re_italy,Italy,1210.0,theologian,europe,Guglielma de Bohême,female
+137,Q16826800,Isabella Losa,re_spain,Spain,1473.0,theologian,europe,Isabella Losa,female
+138,Q23770642,Camilla Erculiani,re_italy,Italy,1501.0,philosopher,europe,Camilla Erculiani,female
+139,Q3072158,Luisa Sigea de Velasco,re_spain,Spain,1522.0,philosopher,europe,Luisa Sigea de Velasco,female
+140,Q1873744,Lucrezia Marinella,re_italy,Italy,1571.0,philosopher,europe,Lucrezia Marinella,female
+141,Q11934552,Magdalena Rialp,re_spain,Spain,1668.0,philosopher,europe,Magdalena Rialp,female
+142,Q153024,Tunometecabrasaramambiche,re_italy,Italy,1381.0,philosopher,europe,Tunometecabrasaramambiche,female
+143,Q4940170,Celia Grillo Borromeo,re_italy,Italy,1684.0,philosopher | mathematician,europe,Celia Grillo Borromeo,female
+144,Q174880,Teresa of Ávila,re_spain,Spain,1515.0,philosopher,europe,Teresa of Ávila,female
+145,Q444628,Tullia d'Aragona,re_italy,Italy,1510.0,philosopher,europe,Tullia d'Aragona,female
+146,Q3714363,Dorothea Maria Graff,re_slav_world,Slav world,1678.0,botanist,europe,Dorothea Maria Graff,female
+147,Q63232,Maria Cunitz,re_central_europe,Central Europe,1610.0,astronomer,europe,Maria Cunitz,female
+148,Q1252620,Lea Ráskay,re_central_europe,Central Europe,1401.0,linguist,europe,Lea Ráskay,female
+149,Q27571800,Katerina Vitale,re_balkans,Balkans,1566.0,chemist,europe,Katerina Vitale,female
+150,Q112347624,Ludmila Kubátová,re_central_europe,Central Europe,927.0,historian,europe,Ludmila Kubátová,female
+151,Q466779,Elisabeth Hevelius,re_central_europe,Central Europe,1647.0,astronomer,europe,Elisabeth Hevelius,female
+152,Q469783,Princess Anna of Sweden,re_central_europe,Central Europe,1568.0,botanist,europe,Princess Anna of Sweden,female
+153,Q4814466,Roxana Moslehi,re_persian_world,Persian world,1348.0,epidemiologist | botanist,non_europe,Roxana Moslehi,female
+154,Q445398,Fātima bint Mūsā,re_persian_world,Persian world,790.0,theologian,non_europe,Fātima bint Mūsā,female
+155,Q5946533,Bi Bi Monajemeh Nishaburi,re_persian_world,Persian world,1203.0,astronomer | mathematician,non_europe,Bi Bi Monajemeh Nishaburi,female
+156,Q231603,Sei Shōnagon,re_japan,Japan,966.0,historian,non_europe,Sei Shōnagon,female
+157,Q5433784,Fang Hui,re_chinese_world,Chinese world,1227.0,historian,non_europe,Fang Hui,female
+158,Q8044361,Xie Daoyun,re_chinese_world,Chinese world,349.0,philosopher,non_europe,Xie Daoyun,female
+159,Q177081,Ban Zhao,re_chinese_world,Chinese world,45.0,philosopher | historian,non_europe,Ban Zhao,female
+160,Q2041521,Gulbadan Begum,re_indian_world,Indian world,1523.0,historian,non_europe,Gulbadan Begum,female
+161,Q485131,Queen Seondeok of Silla,re_korea,Korea,606.0,astronomer,non_europe,Queen Seondeok of Silla,female
+162,Q464510,Hwang Jini,re_korea,Korea,1506.0,philosopher,non_europe,Hwang Jini,female
+163,Q287222,Yu Gam-dong,re_korea,Korea,1401.0,philosopher,non_europe,Yu Gam-dong,female
+164,Q491778,Jeong Nan-jeong,re_korea,Korea,1506.0,philosopher,non_europe,Jeong Nan-jeong,female
+165,Q3055709,Uhwudong,re_korea,Korea,1430.0,philosopher,non_europe,Uhwudong,female
+166,Q11944385,Radegunda de Treviño,re_arabic_world,Arabic world,1119.0,philosopher,non_europe,Radegunda de Treviño,female
+167,Q256506,Rabia of Basri,re_arabic_world,Arabic world,710.0,philosopher,non_europe,Rabia of Basri,female
+168,Q12242407,Al-ʻIjliyyah,re_arabic_world,Arabic world,950.0,astronomer,non_europe,Al-ʻIjliyyah,female
