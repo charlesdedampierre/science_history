@@ -16,7 +16,11 @@ cache
 old_graph
 *.db
 *.DS_Store
-
+old_notebook_2
+old_notebooks
+Science
+unused_final_draft
+*old
 *.html
 
 
